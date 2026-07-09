@@ -1,0 +1,3755 @@
+{
+  "productArea": "Standalone Archive",
+  "archive": "PsychonautWiki 2016 static archive",
+  "source": "Internet Archive CDX",
+  "from": "20160101000000",
+  "to": "20171231235959",
+  "pages": 535,
+  "entries": [
+    {
+      "original": "https://psychonautwiki.org/wiki/Main_Page",
+      "timestamp": "20160503015738",
+      "path": "/",
+      "source": "https://web.archive.org/web/20160503015738id_/https://psychonautwiki.org/wiki/Main_Page",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/%CE%91MT",
+      "timestamp": "20160805080244",
+      "path": "/wiki/%CE%91MT/",
+      "source": "https://web.archive.org/web/20160805080244id_/https://psychonautwiki.org/wiki/%CE%91MT",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/%CE%9C-opioid_receptors",
+      "timestamp": "20160818171929",
+      "path": "/wiki/%CE%9C-opioid_receptors/",
+      "source": "https://web.archive.org/web/20160818171929id_/https://psychonautwiki.org/wiki/%CE%9C-opioid_receptors",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/1,4-Butanediol",
+      "timestamp": "20160213161525",
+      "path": "/wiki/1,4-Butanediol/",
+      "source": "https://web.archive.org/web/20160213161525id_/https://psychonautwiki.org/wiki/1,4-Butanediol",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/1,4_Butanediol",
+      "timestamp": "20160224222442",
+      "path": "/wiki/1,4_Butanediol/",
+      "source": "https://web.archive.org/web/20160224222442id_/https://psychonautwiki.org/wiki/1,4_Butanediol",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/1P-LSD",
+      "timestamp": "20160130141740",
+      "path": "/wiki/1P-LSD/",
+      "source": "https://web.archive.org/web/20160130141740id_/https://psychonautwiki.org/wiki/1P-LSD",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/1P-LSD/Summary",
+      "timestamp": "20160805204341",
+      "path": "/wiki/1P-LSD/Summary/",
+      "source": "https://web.archive.org/web/20160805204341id_/https://psychonautwiki.org/wiki/1P-LSD/Summary",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2-AI",
+      "timestamp": "20160225031839",
+      "path": "/wiki/2-AI/",
+      "source": "https://web.archive.org/web/20160225031839id_/https://psychonautwiki.org/wiki/2-AI",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2-Aminoindane",
+      "timestamp": "20160409183927",
+      "path": "/wiki/2-Aminoindane/",
+      "source": "https://web.archive.org/web/20160409183927id_/https://psychonautwiki.org/wiki/2-Aminoindane",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2-FMA",
+      "timestamp": "20160225011819",
+      "path": "/wiki/2-FMA/",
+      "source": "https://web.archive.org/web/20160225011819id_/https://psychonautwiki.org/wiki/2-FMA",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2-Oxo-PCE",
+      "timestamp": "20160804042033",
+      "path": "/wiki/2-Oxo-PCE/",
+      "source": "https://web.archive.org/web/20160804042033id_/https://psychonautwiki.org/wiki/2-Oxo-PCE",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2-methyl-2-butanol",
+      "timestamp": "20160213145856",
+      "path": "/wiki/2-methyl-2-butanol/",
+      "source": "https://web.archive.org/web/20160213145856id_/https://psychonautwiki.org/wiki/2-methyl-2-butanol",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/25B-NBOMe",
+      "timestamp": "20160730144226",
+      "path": "/wiki/25B-NBOMe/",
+      "source": "https://web.archive.org/web/20160730144226id_/https://psychonautwiki.org/wiki/25B-NBOMe",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/25C-NBOMe",
+      "timestamp": "20160730143841",
+      "path": "/wiki/25C-NBOMe/",
+      "source": "https://web.archive.org/web/20160730143841id_/https://psychonautwiki.org/wiki/25C-NBOMe",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/25D-NBOMe",
+      "timestamp": "20160730143815",
+      "path": "/wiki/25D-NBOMe/",
+      "source": "https://web.archive.org/web/20160730143815id_/https://psychonautwiki.org/wiki/25D-NBOMe",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/25I-NBOMe",
+      "timestamp": "20160507004147",
+      "path": "/wiki/25I-NBOMe/",
+      "source": "https://web.archive.org/web/20160507004147id_/https://psychonautwiki.org/wiki/25I-NBOMe",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/25N-NBOMe",
+      "timestamp": "20160424183545",
+      "path": "/wiki/25N-NBOMe/",
+      "source": "https://web.archive.org/web/20160424183545id_/https://psychonautwiki.org/wiki/25N-NBOMe",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/25x-NBOMe",
+      "timestamp": "20160811040304",
+      "path": "/wiki/25x-NBOMe/",
+      "source": "https://web.archive.org/web/20160811040304id_/https://psychonautwiki.org/wiki/25x-NBOMe",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2C-B-FLY",
+      "timestamp": "20160805080503",
+      "path": "/wiki/2C-B-FLY/",
+      "source": "https://web.archive.org/web/20160805080503id_/https://psychonautwiki.org/wiki/2C-B-FLY",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2C-B",
+      "timestamp": "20160730085304",
+      "path": "/wiki/2C-B/",
+      "source": "https://web.archive.org/web/20160730085304id_/https://psychonautwiki.org/wiki/2C-B",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2C-C",
+      "timestamp": "20160225020326",
+      "path": "/wiki/2C-C/",
+      "source": "https://web.archive.org/web/20160225020326id_/https://psychonautwiki.org/wiki/2C-C",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2C-D",
+      "timestamp": "20160730091046",
+      "path": "/wiki/2C-D/",
+      "source": "https://web.archive.org/web/20160730091046id_/https://psychonautwiki.org/wiki/2C-D",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2C-E",
+      "timestamp": "20160604021254",
+      "path": "/wiki/2C-E/",
+      "source": "https://web.archive.org/web/20160604021254id_/https://psychonautwiki.org/wiki/2C-E",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2C-I",
+      "timestamp": "20160804042813",
+      "path": "/wiki/2C-I/",
+      "source": "https://web.archive.org/web/20160804042813id_/https://psychonautwiki.org/wiki/2C-I",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2C-P",
+      "timestamp": "20160730091234",
+      "path": "/wiki/2C-P/",
+      "source": "https://web.archive.org/web/20160730091234id_/https://psychonautwiki.org/wiki/2C-P",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2C-T-2",
+      "timestamp": "20160424204329",
+      "path": "/wiki/2C-T-2/",
+      "source": "https://web.archive.org/web/20160424204329id_/https://psychonautwiki.org/wiki/2C-T-2",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/2C-T-7",
+      "timestamp": "20160730083647",
+      "path": "/wiki/2C-T-7/",
+      "source": "https://web.archive.org/web/20160730083647id_/https://psychonautwiki.org/wiki/2C-T-7",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/3-Dimensional_textures",
+      "timestamp": "20160424213117",
+      "path": "/wiki/3-Dimensional_textures/",
+      "source": "https://web.archive.org/web/20160424213117id_/https://psychonautwiki.org/wiki/3-Dimensional_textures",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/3-FPM",
+      "timestamp": "20160326070951",
+      "path": "/wiki/3-FPM/",
+      "source": "https://web.archive.org/web/20160326070951id_/https://psychonautwiki.org/wiki/3-FPM",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/3-MMC",
+      "timestamp": "20160804042911",
+      "path": "/wiki/3-MMC/",
+      "source": "https://web.archive.org/web/20160804042911id_/https://psychonautwiki.org/wiki/3-MMC",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/3-MeO-PCMo",
+      "timestamp": "20160414115012",
+      "path": "/wiki/3-MeO-PCMo/",
+      "source": "https://web.archive.org/web/20160414115012id_/https://psychonautwiki.org/wiki/3-MeO-PCMo",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/3-MeO-PCP",
+      "timestamp": "20160803222947",
+      "path": "/wiki/3-MeO-PCP/",
+      "source": "https://web.archive.org/web/20160803222947id_/https://psychonautwiki.org/wiki/3-MeO-PCP",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/4-AcO-DMT",
+      "timestamp": "20160804010818",
+      "path": "/wiki/4-AcO-DMT/",
+      "source": "https://web.archive.org/web/20160804010818id_/https://psychonautwiki.org/wiki/4-AcO-DMT",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/4-AcO-DMT/Summary",
+      "timestamp": "20160809234636",
+      "path": "/wiki/4-AcO-DMT/Summary/",
+      "source": "https://web.archive.org/web/20160809234636id_/https://psychonautwiki.org/wiki/4-AcO-DMT/Summary",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/4-AcO-DiPT",
+      "timestamp": "20160804042638",
+      "path": "/wiki/4-AcO-DiPT/",
+      "source": "https://web.archive.org/web/20160804042638id_/https://psychonautwiki.org/wiki/4-AcO-DiPT",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/4-AcO-MET",
+      "timestamp": "20160803233554",
+      "path": "/wiki/4-AcO-MET/",
+      "source": "https://web.archive.org/web/20160803233554id_/https://psychonautwiki.org/wiki/4-AcO-MET",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/4-FA",
+      "timestamp": "20160326101434",
+      "path": "/wiki/4-FA/",
+      "source": "https://web.archive.org/web/20160326101434id_/https://psychonautwiki.org/wiki/4-FA",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/4-Fluoromethylphenidate",
+      "timestamp": "20160804042110",
+      "path": "/wiki/4-Fluoromethylphenidate/",
+      "source": "https://web.archive.org/web/20160804042110id_/https://psychonautwiki.org/wiki/4-Fluoromethylphenidate",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/4-HO-DET",
+      "timestamp": "20160803224714",
+      "path": "/wiki/4-HO-DET/",
+      "source": "https://web.archive.org/web/20160803224714id_/https://psychonautwiki.org/wiki/4-HO-DET",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/4-HO-MET",
+      "timestamp": "20160803221226",
+      "path": "/wiki/4-HO-MET/",
+      "source": "https://web.archive.org/web/20160803221226id_/https://psychonautwiki.org/wiki/4-HO-MET",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/4-HO-MiPT",
+      "timestamp": "20160804042735",
+      "path": "/wiki/4-HO-MiPT/",
+      "source": "https://web.archive.org/web/20160804042735id_/https://psychonautwiki.org/wiki/4-HO-MiPT",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/4-MeO-PCP",
+      "timestamp": "20160803232118",
+      "path": "/wiki/4-MeO-PCP/",
+      "source": "https://web.archive.org/web/20160803232118id_/https://psychonautwiki.org/wiki/4-MeO-PCP",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/5-MeO-DALT",
+      "timestamp": "20160529164638",
+      "path": "/wiki/5-MeO-DALT/",
+      "source": "https://web.archive.org/web/20160529164638id_/https://psychonautwiki.org/wiki/5-MeO-DALT",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/5-MeO-DMT",
+      "timestamp": "20160803225314",
+      "path": "/wiki/5-MeO-DMT/",
+      "source": "https://web.archive.org/web/20160803225314id_/https://psychonautwiki.org/wiki/5-MeO-DMT",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/5-MeO-DiBF",
+      "timestamp": "20160804002757",
+      "path": "/wiki/5-MeO-DiBF/",
+      "source": "https://web.archive.org/web/20160804002757id_/https://psychonautwiki.org/wiki/5-MeO-DiBF",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/5-MeO-MiPT",
+      "timestamp": "20160804042853",
+      "path": "/wiki/5-MeO-MiPT/",
+      "source": "https://web.archive.org/web/20160804042853id_/https://psychonautwiki.org/wiki/5-MeO-MiPT",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/5F-AKB-48",
+      "timestamp": "20160326043312",
+      "path": "/wiki/5F-AKB-48/",
+      "source": "https://web.archive.org/web/20160326043312id_/https://psychonautwiki.org/wiki/5F-AKB-48",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/5F-PB-22",
+      "timestamp": "20160326045346",
+      "path": "/wiki/5F-PB-22/",
+      "source": "https://web.archive.org/web/20160326045346id_/https://psychonautwiki.org/wiki/5F-PB-22",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/8A_Geometry",
+      "timestamp": "20160424122310",
+      "path": "/wiki/8A_Geometry/",
+      "source": "https://web.archive.org/web/20160424122310id_/https://psychonautwiki.org/wiki/8A_Geometry",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/8A_Geometry_-_Exposure_to_semantic_concept_network",
+      "timestamp": "20160507235203",
+      "path": "/wiki/8A_Geometry_-_Exposure_to_semantic_concept_network/",
+      "source": "https://web.archive.org/web/20160507235203id_/https://psychonautwiki.org/wiki/8A_Geometry_-_Exposure_to_semantic_concept_network",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/8B_Geometry",
+      "timestamp": "20160424102550",
+      "path": "/wiki/8B_Geometry/",
+      "source": "https://web.archive.org/web/20160424102550id_/https://psychonautwiki.org/wiki/8B_Geometry",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/8B_Geometry_-_Exposure_to_inner_mechanics_of_consciousness",
+      "timestamp": "20160123155230",
+      "path": "/wiki/8B_Geometry_-_Exposure_to_inner_mechanics_of_consciousness/",
+      "source": "https://web.archive.org/web/20160123155230id_/https://psychonautwiki.org/wiki/8B_Geometry_-_Exposure_to_inner_mechanics_of_consciousness",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/A-PVP",
+      "timestamp": "20160225022121",
+      "path": "/wiki/A-PVP/",
+      "source": "https://web.archive.org/web/20160225022121id_/https://psychonautwiki.org/wiki/A-PVP",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/AB-FUBINACA",
+      "timestamp": "20160326042509",
+      "path": "/wiki/AB-FUBINACA/",
+      "source": "https://web.archive.org/web/20160326042509id_/https://psychonautwiki.org/wiki/AB-FUBINACA",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/AL-LAD",
+      "timestamp": "20160803221753",
+      "path": "/wiki/AL-LAD/",
+      "source": "https://web.archive.org/web/20160803221753id_/https://psychonautwiki.org/wiki/AL-LAD",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/ALD-52",
+      "timestamp": "20160803221508",
+      "path": "/wiki/ALD-52/",
+      "source": "https://web.archive.org/web/20160803221508id_/https://psychonautwiki.org/wiki/ALD-52",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/AMT",
+      "timestamp": "20160803221845",
+      "path": "/wiki/AMT/",
+      "source": "https://web.archive.org/web/20160803221845id_/https://psychonautwiki.org/wiki/AMT",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Abnormal_heartbeat",
+      "timestamp": "20160810002837",
+      "path": "/wiki/Abnormal_heartbeat/",
+      "source": "https://web.archive.org/web/20160810002837id_/https://psychonautwiki.org/wiki/Abnormal_heartbeat",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Acetylcholine",
+      "timestamp": "20160804185935",
+      "path": "/wiki/Acetylcholine/",
+      "source": "https://web.archive.org/web/20160804185935id_/https://psychonautwiki.org/wiki/Acetylcholine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Acid-base_DXM_extraction",
+      "timestamp": "20160122214227",
+      "path": "/wiki/Acid-base_DXM_extraction/",
+      "source": "https://web.archive.org/web/20160122214227id_/https://psychonautwiki.org/wiki/Acid-base_DXM_extraction",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Acuity_enhancement",
+      "timestamp": "20160124140623",
+      "path": "/wiki/Acuity_enhancement/",
+      "source": "https://web.archive.org/web/20160124140623id_/https://psychonautwiki.org/wiki/Acuity_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Acuity_suppression",
+      "timestamp": "20160424223324",
+      "path": "/wiki/Acuity_suppression/",
+      "source": "https://web.archive.org/web/20160424223324id_/https://psychonautwiki.org/wiki/Acuity_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Adrenaline",
+      "timestamp": "20160805080445",
+      "path": "/wiki/Adrenaline/",
+      "source": "https://web.archive.org/web/20160805080445id_/https://psychonautwiki.org/wiki/Adrenaline",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/After_images",
+      "timestamp": "20160424201546",
+      "path": "/wiki/After_images/",
+      "source": "https://web.archive.org/web/20160424201546id_/https://psychonautwiki.org/wiki/After_images",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Agonist",
+      "timestamp": "20160804195210",
+      "path": "/wiki/Agonist/",
+      "source": "https://web.archive.org/web/20160804195210id_/https://psychonautwiki.org/wiki/Agonist",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Agonists",
+      "timestamp": "20160818224811",
+      "path": "/wiki/Agonists/",
+      "source": "https://web.archive.org/web/20160818224811id_/https://psychonautwiki.org/wiki/Agonists",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Alcohol",
+      "timestamp": "20160213213105",
+      "path": "/wiki/Alcohol/",
+      "source": "https://web.archive.org/web/20160213213105id_/https://psychonautwiki.org/wiki/Alcohol",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Alcohol/Summary",
+      "timestamp": "20160808120001",
+      "path": "/wiki/Alcohol/Summary/",
+      "source": "https://web.archive.org/web/20160808120001id_/https://psychonautwiki.org/wiki/Alcohol/Summary",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Allylescaline",
+      "timestamp": "20160804042719",
+      "path": "/wiki/Allylescaline/",
+      "source": "https://web.archive.org/web/20160804042719id_/https://psychonautwiki.org/wiki/Allylescaline",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Alprazolam",
+      "timestamp": "20160213132116",
+      "path": "/wiki/Alprazolam/",
+      "source": "https://web.archive.org/web/20160213132116id_/https://psychonautwiki.org/wiki/Alprazolam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Alterations_in_perspective",
+      "timestamp": "20160424100334",
+      "path": "/wiki/Alterations_in_perspective/",
+      "source": "https://web.archive.org/web/20160424100334id_/https://psychonautwiki.org/wiki/Alterations_in_perspective",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Amnesia",
+      "timestamp": "20160213190248",
+      "path": "/wiki/Amnesia/",
+      "source": "https://web.archive.org/web/20160213190248id_/https://psychonautwiki.org/wiki/Amnesia",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Amphetamine",
+      "timestamp": "20160224214322",
+      "path": "/wiki/Amphetamine/",
+      "source": "https://web.archive.org/web/20160224214322id_/https://psychonautwiki.org/wiki/Amphetamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Amphetamines",
+      "timestamp": "20160805080414",
+      "path": "/wiki/Amphetamines/",
+      "source": "https://web.archive.org/web/20160805080414id_/https://psychonautwiki.org/wiki/Amphetamines",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Analysis_enhancement",
+      "timestamp": "20160424131412",
+      "path": "/wiki/Analysis_enhancement/",
+      "source": "https://web.archive.org/web/20160424131412id_/https://psychonautwiki.org/wiki/Analysis_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Anonymous",
+      "timestamp": "20160805020223",
+      "path": "/wiki/Anonymous/",
+      "source": "https://web.archive.org/web/20160805020223id_/https://psychonautwiki.org/wiki/Anonymous",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Antagonist",
+      "timestamp": "20160805004407",
+      "path": "/wiki/Antagonist/",
+      "source": "https://web.archive.org/web/20160805004407id_/https://psychonautwiki.org/wiki/Antagonist",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Anticonvulsant",
+      "timestamp": "20160213221354",
+      "path": "/wiki/Anticonvulsant/",
+      "source": "https://web.archive.org/web/20160213221354id_/https://psychonautwiki.org/wiki/Anticonvulsant",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Antihistamine",
+      "timestamp": "20160803223949",
+      "path": "/wiki/Antihistamine/",
+      "source": "https://web.archive.org/web/20160803223949id_/https://psychonautwiki.org/wiki/Antihistamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Antipsychotic",
+      "timestamp": "20160804042758",
+      "path": "/wiki/Antipsychotic/",
+      "source": "https://web.archive.org/web/20160804042758id_/https://psychonautwiki.org/wiki/Antipsychotic",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Antipsychotics",
+      "timestamp": "20160823225042",
+      "path": "/wiki/Antipsychotics/",
+      "source": "https://web.archive.org/web/20160823225042id_/https://psychonautwiki.org/wiki/Antipsychotics",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Anxiety",
+      "timestamp": "20160214030721",
+      "path": "/wiki/Anxiety/",
+      "source": "https://web.archive.org/web/20160214030721id_/https://psychonautwiki.org/wiki/Anxiety",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Anxiety_suppression",
+      "timestamp": "20160213232915",
+      "path": "/wiki/Anxiety_suppression/",
+      "source": "https://web.archive.org/web/20160213232915id_/https://psychonautwiki.org/wiki/Anxiety_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Anxiolytic",
+      "timestamp": "20160214005644",
+      "path": "/wiki/Anxiolytic/",
+      "source": "https://web.archive.org/web/20160214005644id_/https://psychonautwiki.org/wiki/Anxiolytic",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Appetite_enhancement",
+      "timestamp": "20160805142057",
+      "path": "/wiki/Appetite_enhancement/",
+      "source": "https://web.archive.org/web/20160805142057id_/https://psychonautwiki.org/wiki/Appetite_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Appetite_suppression",
+      "timestamp": "20160809210303",
+      "path": "/wiki/Appetite_suppression/",
+      "source": "https://web.archive.org/web/20160809210303id_/https://psychonautwiki.org/wiki/Appetite_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Arylcyclohexylamine",
+      "timestamp": "20160803223541",
+      "path": "/wiki/Arylcyclohexylamine/",
+      "source": "https://web.archive.org/web/20160803223541id_/https://psychonautwiki.org/wiki/Arylcyclohexylamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Arylcyclohexylamines",
+      "timestamp": "20160805080219",
+      "path": "/wiki/Arylcyclohexylamines/",
+      "source": "https://web.archive.org/web/20160805080219id_/https://psychonautwiki.org/wiki/Arylcyclohexylamines",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Atropine",
+      "timestamp": "20160804003932",
+      "path": "/wiki/Atropine/",
+      "source": "https://web.archive.org/web/20160804003932id_/https://psychonautwiki.org/wiki/Atropine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Auditory_distortion",
+      "timestamp": "20160414180757",
+      "path": "/wiki/Auditory_distortion/",
+      "source": "https://web.archive.org/web/20160414180757id_/https://psychonautwiki.org/wiki/Auditory_distortion",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Auditory_enhancement",
+      "timestamp": "20160424081125",
+      "path": "/wiki/Auditory_enhancement/",
+      "source": "https://web.archive.org/web/20160424081125id_/https://psychonautwiki.org/wiki/Auditory_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Auditory_hallucination",
+      "timestamp": "20160414071332",
+      "path": "/wiki/Auditory_hallucination/",
+      "source": "https://web.archive.org/web/20160414071332id_/https://psychonautwiki.org/wiki/Auditory_hallucination",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Auditory_hallucinations",
+      "timestamp": "20160424201911",
+      "path": "/wiki/Auditory_hallucinations/",
+      "source": "https://web.archive.org/web/20160424201911id_/https://psychonautwiki.org/wiki/Auditory_hallucinations",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Auditory_suppression",
+      "timestamp": "20160225021632",
+      "path": "/wiki/Auditory_suppression/",
+      "source": "https://web.archive.org/web/20160225021632id_/https://psychonautwiki.org/wiki/Auditory_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Autonomous_entities",
+      "timestamp": "20160330132644",
+      "path": "/wiki/Autonomous_entities/",
+      "source": "https://web.archive.org/web/20160330132644id_/https://psychonautwiki.org/wiki/Autonomous_entities",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Autonomous_entity",
+      "timestamp": "20160805020914",
+      "path": "/wiki/Autonomous_entity/",
+      "source": "https://web.archive.org/web/20160805020914id_/https://psychonautwiki.org/wiki/Autonomous_entity",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ayahuasca",
+      "timestamp": "20160804042727",
+      "path": "/wiki/Ayahuasca/",
+      "source": "https://web.archive.org/web/20160804042727id_/https://psychonautwiki.org/wiki/Ayahuasca",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ayahuasca_Cupcakes",
+      "timestamp": "20160805080425",
+      "path": "/wiki/Ayahuasca_Cupcakes/",
+      "source": "https://web.archive.org/web/20160805080425id_/https://psychonautwiki.org/wiki/Ayahuasca_Cupcakes",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ayahuasca_Sandwich",
+      "timestamp": "20160805080327",
+      "path": "/wiki/Ayahuasca_Sandwich/",
+      "source": "https://web.archive.org/web/20160805080327id_/https://psychonautwiki.org/wiki/Ayahuasca_Sandwich",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ayahuasca_Smoothie",
+      "timestamp": "20160805080431",
+      "path": "/wiki/Ayahuasca_Smoothie/",
+      "source": "https://web.archive.org/web/20160805080431id_/https://psychonautwiki.org/wiki/Ayahuasca_Smoothie",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ayahuasca_brew",
+      "timestamp": "20160805080656",
+      "path": "/wiki/Ayahuasca_brew/",
+      "source": "https://web.archive.org/web/20160805080656id_/https://psychonautwiki.org/wiki/Ayahuasca_brew",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Backup",
+      "timestamp": "20160804042706",
+      "path": "/wiki/Backup/",
+      "source": "https://web.archive.org/web/20160804042706id_/https://psychonautwiki.org/wiki/Backup",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Banisteriopsis_caapi",
+      "timestamp": "20160803233504",
+      "path": "/wiki/Banisteriopsis_caapi/",
+      "source": "https://web.archive.org/web/20160803233504id_/https://psychonautwiki.org/wiki/Banisteriopsis_caapi",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Benzodiazepine",
+      "timestamp": "20160127064254",
+      "path": "/wiki/Benzodiazepine/",
+      "source": "https://web.archive.org/web/20160127064254id_/https://psychonautwiki.org/wiki/Benzodiazepine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Benzodiazepines",
+      "timestamp": "20160213151726",
+      "path": "/wiki/Benzodiazepines/",
+      "source": "https://web.archive.org/web/20160213151726id_/https://psychonautwiki.org/wiki/Benzodiazepines",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Benzydamine",
+      "timestamp": "20160804042652",
+      "path": "/wiki/Benzydamine/",
+      "source": "https://web.archive.org/web/20160804042652id_/https://psychonautwiki.org/wiki/Benzydamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Beta-Carboline",
+      "timestamp": "20160804042647",
+      "path": "/wiki/Beta-Carboline/",
+      "source": "https://web.archive.org/web/20160804042647id_/https://psychonautwiki.org/wiki/Beta-Carboline",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Bk-2C-B",
+      "timestamp": "20160804011210",
+      "path": "/wiki/Bk-2C-B/",
+      "source": "https://web.archive.org/web/20160804011210id_/https://psychonautwiki.org/wiki/Bk-2C-B",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Bodily_control_enhancement",
+      "timestamp": "20160424075819",
+      "path": "/wiki/Bodily_control_enhancement/",
+      "source": "https://web.archive.org/web/20160424075819id_/https://psychonautwiki.org/wiki/Bodily_control_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Bodily_pressures",
+      "timestamp": "20160809215303",
+      "path": "/wiki/Bodily_pressures/",
+      "source": "https://web.archive.org/web/20160809215303id_/https://psychonautwiki.org/wiki/Bodily_pressures",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Brightness_alteration",
+      "timestamp": "20160805080420",
+      "path": "/wiki/Brightness_alteration/",
+      "source": "https://web.archive.org/web/20160805080420id_/https://psychonautwiki.org/wiki/Brightness_alteration",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Bromantane",
+      "timestamp": "20160804042729",
+      "path": "/wiki/Bromantane/",
+      "source": "https://web.archive.org/web/20160804042729id_/https://psychonautwiki.org/wiki/Bromantane",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Bronchodilation",
+      "timestamp": "20160810005926",
+      "path": "/wiki/Bronchodilation/",
+      "source": "https://web.archive.org/web/20160810005926id_/https://psychonautwiki.org/wiki/Bronchodilation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Caffeine",
+      "timestamp": "20160225031846",
+      "path": "/wiki/Caffeine/",
+      "source": "https://web.archive.org/web/20160225031846id_/https://psychonautwiki.org/wiki/Caffeine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cannabinoid",
+      "timestamp": "20160804041531",
+      "path": "/wiki/Cannabinoid/",
+      "source": "https://web.archive.org/web/20160804041531id_/https://psychonautwiki.org/wiki/Cannabinoid",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cannabinoids",
+      "timestamp": "20160805085542",
+      "path": "/wiki/Cannabinoids/",
+      "source": "https://web.archive.org/web/20160805085542id_/https://psychonautwiki.org/wiki/Cannabinoids",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cannabis_butter",
+      "timestamp": "20160805141559",
+      "path": "/wiki/Cannabis_butter/",
+      "source": "https://web.archive.org/web/20160805141559id_/https://psychonautwiki.org/wiki/Cannabis_butter",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cannabis_cookies",
+      "timestamp": "20160805082142",
+      "path": "/wiki/Cannabis_cookies/",
+      "source": "https://web.archive.org/web/20160805082142id_/https://psychonautwiki.org/wiki/Cannabis_cookies",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cathinone",
+      "timestamp": "20160810225915",
+      "path": "/wiki/Cathinone/",
+      "source": "https://web.archive.org/web/20160810225915id_/https://psychonautwiki.org/wiki/Cathinone",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cathinones",
+      "timestamp": "20160805080410",
+      "path": "/wiki/Cathinones/",
+      "source": "https://web.archive.org/web/20160805080410id_/https://psychonautwiki.org/wiki/Cathinones",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Changa_recipe",
+      "timestamp": "20160805080725",
+      "path": "/wiki/Changa_recipe/",
+      "source": "https://web.archive.org/web/20160805080725id_/https://psychonautwiki.org/wiki/Changa_recipe",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Change_log",
+      "timestamp": "20160729010638",
+      "path": "/wiki/Change_log/",
+      "source": "https://web.archive.org/web/20160729010638id_/https://psychonautwiki.org/wiki/Change_log",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Changes_in_felt_bodily_form",
+      "timestamp": "20160810002844",
+      "path": "/wiki/Changes_in_felt_bodily_form/",
+      "source": "https://web.archive.org/web/20160810002844id_/https://psychonautwiki.org/wiki/Changes_in_felt_bodily_form",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Changes_in_gravity",
+      "timestamp": "20160805150004",
+      "path": "/wiki/Changes_in_gravity/",
+      "source": "https://web.archive.org/web/20160805150004id_/https://psychonautwiki.org/wiki/Changes_in_gravity",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Clonazepam",
+      "timestamp": "20160213130629",
+      "path": "/wiki/Clonazepam/",
+      "source": "https://web.archive.org/web/20160213130629id_/https://psychonautwiki.org/wiki/Clonazepam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Clonazolam",
+      "timestamp": "20160127044620",
+      "path": "/wiki/Clonazolam/",
+      "source": "https://web.archive.org/web/20160127044620id_/https://psychonautwiki.org/wiki/Clonazolam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Clonazolam/Summary",
+      "timestamp": "20160213165623",
+      "path": "/wiki/Clonazolam/Summary/",
+      "source": "https://web.archive.org/web/20160213165623id_/https://psychonautwiki.org/wiki/Clonazolam/Summary",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cocaine",
+      "timestamp": "20160225023353",
+      "path": "/wiki/Cocaine/",
+      "source": "https://web.archive.org/web/20160225023353id_/https://psychonautwiki.org/wiki/Cocaine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Codeine",
+      "timestamp": "20160224235247",
+      "path": "/wiki/Codeine/",
+      "source": "https://web.archive.org/web/20160224235247id_/https://psychonautwiki.org/wiki/Codeine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Codiene",
+      "timestamp": "20160804183733",
+      "path": "/wiki/Codiene/",
+      "source": "https://web.archive.org/web/20160804183733id_/https://psychonautwiki.org/wiki/Codiene",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cognitive_dysphoria",
+      "timestamp": "20160810002013",
+      "path": "/wiki/Cognitive_dysphoria/",
+      "source": "https://web.archive.org/web/20160810002013id_/https://psychonautwiki.org/wiki/Cognitive_dysphoria",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cognitive_effects",
+      "timestamp": "20160805021019",
+      "path": "/wiki/Cognitive_effects/",
+      "source": "https://web.archive.org/web/20160805021019id_/https://psychonautwiki.org/wiki/Cognitive_effects",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cognitive_euphoria",
+      "timestamp": "20160213122805",
+      "path": "/wiki/Cognitive_euphoria/",
+      "source": "https://web.archive.org/web/20160213122805id_/https://psychonautwiki.org/wiki/Cognitive_euphoria",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cognitive_fatigue",
+      "timestamp": "20160810002634",
+      "path": "/wiki/Cognitive_fatigue/",
+      "source": "https://web.archive.org/web/20160810002634id_/https://psychonautwiki.org/wiki/Cognitive_fatigue",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Colour_enhancement",
+      "timestamp": "20160424095553",
+      "path": "/wiki/Colour_enhancement/",
+      "source": "https://web.archive.org/web/20160424095553id_/https://psychonautwiki.org/wiki/Colour_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Colour_replacement",
+      "timestamp": "20160810002827",
+      "path": "/wiki/Colour_replacement/",
+      "source": "https://web.archive.org/web/20160810002827id_/https://psychonautwiki.org/wiki/Colour_replacement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Colour_shifting",
+      "timestamp": "20160424125810",
+      "path": "/wiki/Colour_shifting/",
+      "source": "https://web.archive.org/web/20160424125810id_/https://psychonautwiki.org/wiki/Colour_shifting",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Coluracetam",
+      "timestamp": "20160805080359",
+      "path": "/wiki/Coluracetam/",
+      "source": "https://web.archive.org/web/20160805080359id_/https://psychonautwiki.org/wiki/Coluracetam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Comparison_of_darknet_markets",
+      "timestamp": "20160418221633",
+      "path": "/wiki/Comparison_of_darknet_markets/",
+      "source": "https://web.archive.org/web/20160418221633id_/https://psychonautwiki.org/wiki/Comparison_of_darknet_markets",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Component_controllability",
+      "timestamp": "20160805020633",
+      "path": "/wiki/Component_controllability/",
+      "source": "https://web.archive.org/web/20160805020633id_/https://psychonautwiki.org/wiki/Component_controllability",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Compulsive_redosing",
+      "timestamp": "20160213180054",
+      "path": "/wiki/Compulsive_redosing/",
+      "source": "https://web.archive.org/web/20160213180054id_/https://psychonautwiki.org/wiki/Compulsive_redosing",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Conceptual_thinking",
+      "timestamp": "20160414081549",
+      "path": "/wiki/Conceptual_thinking/",
+      "source": "https://web.archive.org/web/20160414081549id_/https://psychonautwiki.org/wiki/Conceptual_thinking",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Consciousness_disconnection",
+      "timestamp": "20160414102021",
+      "path": "/wiki/Consciousness_disconnection/",
+      "source": "https://web.archive.org/web/20160414102021id_/https://psychonautwiki.org/wiki/Consciousness_disconnection",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Constipation",
+      "timestamp": "20160805015629",
+      "path": "/wiki/Constipation/",
+      "source": "https://web.archive.org/web/20160805015629id_/https://psychonautwiki.org/wiki/Constipation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Copyrights",
+      "timestamp": "20160529030608",
+      "path": "/wiki/Copyrights/",
+      "source": "https://web.archive.org/web/20160529030608id_/https://psychonautwiki.org/wiki/Copyrights",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cough_suppression",
+      "timestamp": "20160805015625",
+      "path": "/wiki/Cough_suppression/",
+      "source": "https://web.archive.org/web/20160805015625id_/https://psychonautwiki.org/wiki/Cough_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Creativity_enhancement",
+      "timestamp": "20160805141611",
+      "path": "/wiki/Creativity_enhancement/",
+      "source": "https://web.archive.org/web/20160805141611id_/https://psychonautwiki.org/wiki/Creativity_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Current_mind_state_enhancement",
+      "timestamp": "20160424140622",
+      "path": "/wiki/Current_mind_state_enhancement/",
+      "source": "https://web.archive.org/web/20160424140622id_/https://psychonautwiki.org/wiki/Current_mind_state_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/D%C3%A9j%C3%A0_vu",
+      "timestamp": "20160414165739",
+      "path": "/wiki/D%C3%A9j%C3%A0_vu/",
+      "source": "https://web.archive.org/web/20160414165739id_/https://psychonautwiki.org/wiki/D%C3%A9j%C3%A0_vu",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/D-Limonene_and_Vinegar_DMT_extraction",
+      "timestamp": "20160805080801",
+      "path": "/wiki/D-Limonene_and_Vinegar_DMT_extraction/",
+      "source": "https://web.archive.org/web/20160805080801id_/https://psychonautwiki.org/wiki/D-Limonene_and_Vinegar_DMT_extraction",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/DMT",
+      "timestamp": "20160424075140",
+      "path": "/wiki/DMT/",
+      "source": "https://web.archive.org/web/20160424075140id_/https://psychonautwiki.org/wiki/DMT",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/DMT_extraction_using_sodium_hydroxide_and_naphtha",
+      "timestamp": "20160424105010",
+      "path": "/wiki/DMT_extraction_using_sodium_hydroxide_and_naphtha/",
+      "source": "https://web.archive.org/web/20160424105010id_/https://psychonautwiki.org/wiki/DMT_extraction_using_sodium_hydroxide_and_naphtha",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/DOB",
+      "timestamp": "20160804042702",
+      "path": "/wiki/DOB/",
+      "source": "https://web.archive.org/web/20160804042702id_/https://psychonautwiki.org/wiki/DOB",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/DOC",
+      "timestamp": "20160804042737",
+      "path": "/wiki/DOC/",
+      "source": "https://web.archive.org/web/20160804042737id_/https://psychonautwiki.org/wiki/DOC",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/DOI",
+      "timestamp": "20160804042743",
+      "path": "/wiki/DOI/",
+      "source": "https://web.archive.org/web/20160804042743id_/https://psychonautwiki.org/wiki/DOI",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/DOM",
+      "timestamp": "20160804042704",
+      "path": "/wiki/DOM/",
+      "source": "https://web.archive.org/web/20160804042704id_/https://psychonautwiki.org/wiki/DOM",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/DPT",
+      "timestamp": "20160803223920",
+      "path": "/wiki/DPT/",
+      "source": "https://web.archive.org/web/20160803223920id_/https://psychonautwiki.org/wiki/DPT",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/DXM",
+      "timestamp": "20160804042707",
+      "path": "/wiki/DXM/",
+      "source": "https://web.archive.org/web/20160804042707id_/https://psychonautwiki.org/wiki/DXM",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/DXM_%26_DPH_in_combination",
+      "timestamp": "20160804042829",
+      "path": "/wiki/DXM_%26_DPH_in_combination/",
+      "source": "https://web.archive.org/web/20160804042829id_/https://psychonautwiki.org/wiki/DXM_%26_DPH_in_combination",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Darknet_marketplace_usage_guide",
+      "timestamp": "20160805144139",
+      "path": "/wiki/Darknet_marketplace_usage_guide/",
+      "source": "https://web.archive.org/web/20160805144139id_/https://psychonautwiki.org/wiki/Darknet_marketplace_usage_guide",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Darknet_marketplace_usage_tutorial",
+      "timestamp": "20160422084311",
+      "path": "/wiki/Darknet_marketplace_usage_tutorial/",
+      "source": "https://web.archive.org/web/20160422084311id_/https://psychonautwiki.org/wiki/Darknet_marketplace_usage_tutorial",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Datura",
+      "timestamp": "20160803235831",
+      "path": "/wiki/Datura/",
+      "source": "https://web.archive.org/web/20160803235831id_/https://psychonautwiki.org/wiki/Datura",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Decreased_bodily_weight",
+      "timestamp": "20160225013238",
+      "path": "/wiki/Decreased_bodily_weight/",
+      "source": "https://web.archive.org/web/20160225013238id_/https://psychonautwiki.org/wiki/Decreased_bodily_weight",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Decreased_heart_rate",
+      "timestamp": "20160810010431",
+      "path": "/wiki/Decreased_heart_rate/",
+      "source": "https://web.archive.org/web/20160810010431id_/https://psychonautwiki.org/wiki/Decreased_heart_rate",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Dehydration",
+      "timestamp": "20160805141050",
+      "path": "/wiki/Dehydration/",
+      "source": "https://web.archive.org/web/20160805141050id_/https://psychonautwiki.org/wiki/Dehydration",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Dehydroxyfluorafinil",
+      "timestamp": "20160224221357",
+      "path": "/wiki/Dehydroxyfluorafinil/",
+      "source": "https://web.archive.org/web/20160224221357id_/https://psychonautwiki.org/wiki/Dehydroxyfluorafinil",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Deja-Vu",
+      "timestamp": "20160424120651",
+      "path": "/wiki/Deja-Vu/",
+      "source": "https://web.archive.org/web/20160424120651id_/https://psychonautwiki.org/wiki/Deja-Vu",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Delineation_of_thought",
+      "timestamp": "20160424152822",
+      "path": "/wiki/Delineation_of_thought/",
+      "source": "https://web.archive.org/web/20160424152822id_/https://psychonautwiki.org/wiki/Delineation_of_thought",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Deliriant",
+      "timestamp": "20160804042753",
+      "path": "/wiki/Deliriant/",
+      "source": "https://web.archive.org/web/20160804042753id_/https://psychonautwiki.org/wiki/Deliriant",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Delusions",
+      "timestamp": "20160213201842",
+      "path": "/wiki/Delusions/",
+      "source": "https://web.archive.org/web/20160213201842id_/https://psychonautwiki.org/wiki/Delusions",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Depersonalization",
+      "timestamp": "20160225022143",
+      "path": "/wiki/Depersonalization/",
+      "source": "https://web.archive.org/web/20160225022143id_/https://psychonautwiki.org/wiki/Depersonalization",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Depressant",
+      "timestamp": "20160213174958",
+      "path": "/wiki/Depressant/",
+      "source": "https://web.archive.org/web/20160213174958id_/https://psychonautwiki.org/wiki/Depressant",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Depressants",
+      "timestamp": "20160213171402",
+      "path": "/wiki/Depressants/",
+      "source": "https://web.archive.org/web/20160213171402id_/https://psychonautwiki.org/wiki/Depressants",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Depression",
+      "timestamp": "20160808120751",
+      "path": "/wiki/Depression/",
+      "source": "https://web.archive.org/web/20160808120751id_/https://psychonautwiki.org/wiki/Depression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Depth_perception_distortions",
+      "timestamp": "20160424145837",
+      "path": "/wiki/Depth_perception_distortions/",
+      "source": "https://web.archive.org/web/20160424145837id_/https://psychonautwiki.org/wiki/Depth_perception_distortions",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Derealization",
+      "timestamp": "20160414121422",
+      "path": "/wiki/Derealization/",
+      "source": "https://web.archive.org/web/20160414121422id_/https://psychonautwiki.org/wiki/Derealization",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Deschloroetizolam",
+      "timestamp": "20160326085950",
+      "path": "/wiki/Deschloroetizolam/",
+      "source": "https://web.archive.org/web/20160326085950id_/https://psychonautwiki.org/wiki/Deschloroetizolam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Deschloroketamine",
+      "timestamp": "20160804042835",
+      "path": "/wiki/Deschloroketamine/",
+      "source": "https://web.archive.org/web/20160804042835id_/https://psychonautwiki.org/wiki/Deschloroketamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Detachment_plateaus",
+      "timestamp": "20160805020732",
+      "path": "/wiki/Detachment_plateaus/",
+      "source": "https://web.archive.org/web/20160805020732id_/https://psychonautwiki.org/wiki/Detachment_plateaus",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Dextromethorphan",
+      "timestamp": "20160424170725",
+      "path": "/wiki/Dextromethorphan/",
+      "source": "https://web.archive.org/web/20160424170725id_/https://psychonautwiki.org/wiki/Dextromethorphan",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Dextrorphan",
+      "timestamp": "20160804041913",
+      "path": "/wiki/Dextrorphan/",
+      "source": "https://web.archive.org/web/20160804041913id_/https://psychonautwiki.org/wiki/Dextrorphan",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/DiPT",
+      "timestamp": "20160804041624",
+      "path": "/wiki/DiPT/",
+      "source": "https://web.archive.org/web/20160804041624id_/https://psychonautwiki.org/wiki/DiPT",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Diacetylmorphine",
+      "timestamp": "20160224220443",
+      "path": "/wiki/Diacetylmorphine/",
+      "source": "https://web.archive.org/web/20160224220443id_/https://psychonautwiki.org/wiki/Diacetylmorphine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Diarrhea",
+      "timestamp": "20160809233318",
+      "path": "/wiki/Diarrhea/",
+      "source": "https://web.archive.org/web/20160809233318id_/https://psychonautwiki.org/wiki/Diarrhea",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Diazepam",
+      "timestamp": "20160213194256",
+      "path": "/wiki/Diazepam/",
+      "source": "https://web.archive.org/web/20160213194256id_/https://psychonautwiki.org/wiki/Diazepam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Diclazepam",
+      "timestamp": "20160213222724",
+      "path": "/wiki/Diclazepam/",
+      "source": "https://web.archive.org/web/20160213222724id_/https://psychonautwiki.org/wiki/Diclazepam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Difficulty_urinating",
+      "timestamp": "20160804200145",
+      "path": "/wiki/Difficulty_urinating/",
+      "source": "https://web.archive.org/web/20160804200145id_/https://psychonautwiki.org/wiki/Difficulty_urinating",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Diffraction",
+      "timestamp": "20160811113614",
+      "path": "/wiki/Diffraction/",
+      "source": "https://web.archive.org/web/20160811113614id_/https://psychonautwiki.org/wiki/Diffraction",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Dihydrocodeine",
+      "timestamp": "20160224224347",
+      "path": "/wiki/Dihydrocodeine/",
+      "source": "https://web.archive.org/web/20160224224347id_/https://psychonautwiki.org/wiki/Dihydrocodeine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Diphenhydramine",
+      "timestamp": "20160803224816",
+      "path": "/wiki/Diphenhydramine/",
+      "source": "https://web.archive.org/web/20160803224816id_/https://psychonautwiki.org/wiki/Diphenhydramine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Diphenidine",
+      "timestamp": "20160804003927",
+      "path": "/wiki/Diphenidine/",
+      "source": "https://web.archive.org/web/20160804003927id_/https://psychonautwiki.org/wiki/Diphenidine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Direct_communication_with_the_subconscious",
+      "timestamp": "20160810002719",
+      "path": "/wiki/Direct_communication_with_the_subconscious/",
+      "source": "https://web.archive.org/web/20160810002719id_/https://psychonautwiki.org/wiki/Direct_communication_with_the_subconscious",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Disclaimer",
+      "timestamp": "20160805010759",
+      "path": "/wiki/Disclaimer/",
+      "source": "https://web.archive.org/web/20160805010759id_/https://psychonautwiki.org/wiki/Disclaimer",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Disinhibition",
+      "timestamp": "20160213130002",
+      "path": "/wiki/Disinhibition/",
+      "source": "https://web.archive.org/web/20160213130002id_/https://psychonautwiki.org/wiki/Disinhibition",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Dissociative",
+      "timestamp": "20160216113119",
+      "path": "/wiki/Dissociative/",
+      "source": "https://web.archive.org/web/20160216113119id_/https://psychonautwiki.org/wiki/Dissociative",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Dissociatives",
+      "timestamp": "20160213105531",
+      "path": "/wiki/Dissociatives/",
+      "source": "https://web.archive.org/web/20160213105531id_/https://psychonautwiki.org/wiki/Dissociatives",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Dizziness",
+      "timestamp": "20160213213104",
+      "path": "/wiki/Dizziness/",
+      "source": "https://web.archive.org/web/20160213213104id_/https://psychonautwiki.org/wiki/Dizziness",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Donate",
+      "timestamp": "20160729015727",
+      "path": "/wiki/Donate/",
+      "source": "https://web.archive.org/web/20160729015727id_/https://psychonautwiki.org/wiki/Donate",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Dopamine",
+      "timestamp": "20160805080253",
+      "path": "/wiki/Dopamine/",
+      "source": "https://web.archive.org/web/20160805080253id_/https://psychonautwiki.org/wiki/Dopamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Dosage",
+      "timestamp": "20160213190415",
+      "path": "/wiki/Dosage/",
+      "source": "https://web.archive.org/web/20160213190415id_/https://psychonautwiki.org/wiki/Dosage",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Double_vision",
+      "timestamp": "20160224223636",
+      "path": "/wiki/Double_vision/",
+      "source": "https://web.archive.org/web/20160224223636id_/https://psychonautwiki.org/wiki/Double_vision",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Dream_potentiation",
+      "timestamp": "20160810002605",
+      "path": "/wiki/Dream_potentiation/",
+      "source": "https://web.archive.org/web/20160810002605id_/https://psychonautwiki.org/wiki/Dream_potentiation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Dream_suppression",
+      "timestamp": "20160805150045",
+      "path": "/wiki/Dream_suppression/",
+      "source": "https://web.archive.org/web/20160805150045id_/https://psychonautwiki.org/wiki/Dream_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Drifting",
+      "timestamp": "20160424101845",
+      "path": "/wiki/Drifting/",
+      "source": "https://web.archive.org/web/20160424101845id_/https://psychonautwiki.org/wiki/Drifting",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Duration",
+      "timestamp": "20160213232232",
+      "path": "/wiki/Duration/",
+      "source": "https://web.archive.org/web/20160213232232id_/https://psychonautwiki.org/wiki/Duration",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/ETH-LAD",
+      "timestamp": "20160804042757",
+      "path": "/wiki/ETH-LAD/",
+      "source": "https://web.archive.org/web/20160804042757id_/https://psychonautwiki.org/wiki/ETH-LAD",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ego_death",
+      "timestamp": "20160805204353",
+      "path": "/wiki/Ego_death/",
+      "source": "https://web.archive.org/web/20160805204353id_/https://psychonautwiki.org/wiki/Ego_death",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ego_inflation",
+      "timestamp": "20160808115910",
+      "path": "/wiki/Ego_inflation/",
+      "source": "https://web.archive.org/web/20160808115910id_/https://psychonautwiki.org/wiki/Ego_inflation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ego_suppression,_loss_and_death",
+      "timestamp": "20160424133500",
+      "path": "/wiki/Ego_suppression,_loss_and_death/",
+      "source": "https://web.archive.org/web/20160424133500id_/https://psychonautwiki.org/wiki/Ego_suppression,_loss_and_death",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Emotion_enhancement",
+      "timestamp": "20160508003632",
+      "path": "/wiki/Emotion_enhancement/",
+      "source": "https://web.archive.org/web/20160508003632id_/https://psychonautwiki.org/wiki/Emotion_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Emotion_suppression",
+      "timestamp": "20160809210120",
+      "path": "/wiki/Emotion_suppression/",
+      "source": "https://web.archive.org/web/20160809210120id_/https://psychonautwiki.org/wiki/Emotion_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Empathy,_love,_and_sociability_enhancement",
+      "timestamp": "20160507202722",
+      "path": "/wiki/Empathy,_love,_and_sociability_enhancement/",
+      "source": "https://web.archive.org/web/20160507202722id_/https://psychonautwiki.org/wiki/Empathy,_love,_and_sociability_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Empathy,_love_and_sociability_enhancement",
+      "timestamp": "20160424102335",
+      "path": "/wiki/Empathy,_love_and_sociability_enhancement/",
+      "source": "https://web.archive.org/web/20160424102335id_/https://psychonautwiki.org/wiki/Empathy,_love_and_sociability_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Enhancement_and_suppression_cycles",
+      "timestamp": "20160809172159",
+      "path": "/wiki/Enhancement_and_suppression_cycles/",
+      "source": "https://web.archive.org/web/20160809172159id_/https://psychonautwiki.org/wiki/Enhancement_and_suppression_cycles",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Entactogen",
+      "timestamp": "20160222040415",
+      "path": "/wiki/Entactogen/",
+      "source": "https://web.archive.org/web/20160222040415id_/https://psychonautwiki.org/wiki/Entactogen",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Entactogens",
+      "timestamp": "20160213211248",
+      "path": "/wiki/Entactogens/",
+      "source": "https://web.archive.org/web/20160213211248id_/https://psychonautwiki.org/wiki/Entactogens",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Entheogen",
+      "timestamp": "20160804042640",
+      "path": "/wiki/Entheogen/",
+      "source": "https://web.archive.org/web/20160804042640id_/https://psychonautwiki.org/wiki/Entheogen",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Entheogens",
+      "timestamp": "20160804042939",
+      "path": "/wiki/Entheogens/",
+      "source": "https://web.archive.org/web/20160804042939id_/https://psychonautwiki.org/wiki/Entheogens",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Environmental_cubism",
+      "timestamp": "20160424155432",
+      "path": "/wiki/Environmental_cubism/",
+      "source": "https://web.archive.org/web/20160424155432id_/https://psychonautwiki.org/wiki/Environmental_cubism",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Environmental_orbism",
+      "timestamp": "20160424065244",
+      "path": "/wiki/Environmental_orbism/",
+      "source": "https://web.archive.org/web/20160424065244id_/https://psychonautwiki.org/wiki/Environmental_orbism",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ephenidine",
+      "timestamp": "20160424112900",
+      "path": "/wiki/Ephenidine/",
+      "source": "https://web.archive.org/web/20160424112900id_/https://psychonautwiki.org/wiki/Ephenidine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Escaline",
+      "timestamp": "20160214114530",
+      "path": "/wiki/Escaline/",
+      "source": "https://web.archive.org/web/20160214114530id_/https://psychonautwiki.org/wiki/Escaline",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ethyl-Hexedrone",
+      "timestamp": "20160805021148",
+      "path": "/wiki/Ethyl-Hexedrone/",
+      "source": "https://web.archive.org/web/20160805021148id_/https://psychonautwiki.org/wiki/Ethyl-Hexedrone",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ethylmorphine",
+      "timestamp": "20160225025349",
+      "path": "/wiki/Ethylmorphine/",
+      "source": "https://web.archive.org/web/20160225025349id_/https://psychonautwiki.org/wiki/Ethylmorphine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ethylphenidate",
+      "timestamp": "20160225021551",
+      "path": "/wiki/Ethylphenidate/",
+      "source": "https://web.archive.org/web/20160225021551id_/https://psychonautwiki.org/wiki/Ethylphenidate",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Etizolam",
+      "timestamp": "20160213220545",
+      "path": "/wiki/Etizolam/",
+      "source": "https://web.archive.org/web/20160213220545id_/https://psychonautwiki.org/wiki/Etizolam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Excessive_yawning",
+      "timestamp": "20160809215156",
+      "path": "/wiki/Excessive_yawning/",
+      "source": "https://web.archive.org/web/20160809215156id_/https://psychonautwiki.org/wiki/Excessive_yawning",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Experience_index",
+      "timestamp": "20160803224347",
+      "path": "/wiki/Experience_index/",
+      "source": "https://web.archive.org/web/20160803224347id_/https://psychonautwiki.org/wiki/Experience_index",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Exposure_to_inner_mechanics_of_consciousness",
+      "timestamp": "20160805015705",
+      "path": "/wiki/Exposure_to_inner_mechanics_of_consciousness/",
+      "source": "https://web.archive.org/web/20160805015705id_/https://psychonautwiki.org/wiki/Exposure_to_inner_mechanics_of_consciousness",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/External_hallucinations",
+      "timestamp": "20160424125620",
+      "path": "/wiki/External_hallucinations/",
+      "source": "https://web.archive.org/web/20160424125620id_/https://psychonautwiki.org/wiki/External_hallucinations",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Extraction_of_LSA_tincture",
+      "timestamp": "20160805080303",
+      "path": "/wiki/Extraction_of_LSA_tincture/",
+      "source": "https://web.archive.org/web/20160805080303id_/https://psychonautwiki.org/wiki/Extraction_of_LSA_tincture",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Extraction_of_opioids_from_painkiller_products",
+      "timestamp": "20160805080341",
+      "path": "/wiki/Extraction_of_opioids_from_painkiller_products/",
+      "source": "https://web.archive.org/web/20160805080341id_/https://psychonautwiki.org/wiki/Extraction_of_opioids_from_painkiller_products",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Feelings_of_eternalism",
+      "timestamp": "20160809215227",
+      "path": "/wiki/Feelings_of_eternalism/",
+      "source": "https://web.archive.org/web/20160809215227id_/https://psychonautwiki.org/wiki/Feelings_of_eternalism",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Feelings_of_fascination,_importance_and_awe",
+      "timestamp": "20160424172140",
+      "path": "/wiki/Feelings_of_fascination,_importance_and_awe/",
+      "source": "https://web.archive.org/web/20160424172140id_/https://psychonautwiki.org/wiki/Feelings_of_fascination,_importance_and_awe",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Feelings_of_impending_doom",
+      "timestamp": "20160805143621",
+      "path": "/wiki/Feelings_of_impending_doom/",
+      "source": "https://web.archive.org/web/20160805143621id_/https://psychonautwiki.org/wiki/Feelings_of_impending_doom",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Feelings_of_interdependent_opposites",
+      "timestamp": "20160424125713",
+      "path": "/wiki/Feelings_of_interdependent_opposites/",
+      "source": "https://web.archive.org/web/20160424125713id_/https://psychonautwiki.org/wiki/Feelings_of_interdependent_opposites",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Feelings_of_predeterminism",
+      "timestamp": "20160810000258",
+      "path": "/wiki/Feelings_of_predeterminism/",
+      "source": "https://web.archive.org/web/20160810000258id_/https://psychonautwiki.org/wiki/Feelings_of_predeterminism",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Feelings_of_self-design",
+      "timestamp": "20160424104902",
+      "path": "/wiki/Feelings_of_self-design/",
+      "source": "https://web.archive.org/web/20160424104902id_/https://psychonautwiki.org/wiki/Feelings_of_self-design",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Fentanyl",
+      "timestamp": "20160803235227",
+      "path": "/wiki/Fentanyl/",
+      "source": "https://web.archive.org/web/20160803235227id_/https://psychonautwiki.org/wiki/Fentanyl",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Flubromazepam",
+      "timestamp": "20160213183411",
+      "path": "/wiki/Flubromazepam/",
+      "source": "https://web.archive.org/web/20160213183411id_/https://psychonautwiki.org/wiki/Flubromazepam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Flubromazolam",
+      "timestamp": "20160130030509",
+      "path": "/wiki/Flubromazolam/",
+      "source": "https://web.archive.org/web/20160130030509id_/https://psychonautwiki.org/wiki/Flubromazolam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Flubromazolam/Summary",
+      "timestamp": "20160214124417",
+      "path": "/wiki/Flubromazolam/Summary/",
+      "source": "https://web.archive.org/web/20160214124417id_/https://psychonautwiki.org/wiki/Flubromazolam/Summary",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Fluorafinil",
+      "timestamp": "20160803222509",
+      "path": "/wiki/Fluorafinil/",
+      "source": "https://web.archive.org/web/20160803222509id_/https://psychonautwiki.org/wiki/Fluorafinil",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Focus_enhancement",
+      "timestamp": "20160810002853",
+      "path": "/wiki/Focus_enhancement/",
+      "source": "https://web.archive.org/web/20160810002853id_/https://psychonautwiki.org/wiki/Focus_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Fractal",
+      "timestamp": "20160805021133",
+      "path": "/wiki/Fractal/",
+      "source": "https://web.archive.org/web/20160805021133id_/https://psychonautwiki.org/wiki/Fractal",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Fractals",
+      "timestamp": "20160805020512",
+      "path": "/wiki/Fractals/",
+      "source": "https://web.archive.org/web/20160805020512id_/https://psychonautwiki.org/wiki/Fractals",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Frame_rate_suppression",
+      "timestamp": "20160811114428",
+      "path": "/wiki/Frame_rate_suppression/",
+      "source": "https://web.archive.org/web/20160811114428id_/https://psychonautwiki.org/wiki/Frame_rate_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Frequent_urination",
+      "timestamp": "20160808091513",
+      "path": "/wiki/Frequent_urination/",
+      "source": "https://web.archive.org/web/20160808091513id_/https://psychonautwiki.org/wiki/Frequent_urination",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/GABA",
+      "timestamp": "20160213131759",
+      "path": "/wiki/GABA/",
+      "source": "https://web.archive.org/web/20160213131759id_/https://psychonautwiki.org/wiki/GABA",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/GABAergic",
+      "timestamp": "20160808060002",
+      "path": "/wiki/GABAergic/",
+      "source": "https://web.archive.org/web/20160808060002id_/https://psychonautwiki.org/wiki/GABAergic",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/GBL",
+      "timestamp": "20160213112658",
+      "path": "/wiki/GBL/",
+      "source": "https://web.archive.org/web/20160213112658id_/https://psychonautwiki.org/wiki/GBL",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/GHB",
+      "timestamp": "20160213181929",
+      "path": "/wiki/GHB/",
+      "source": "https://web.archive.org/web/20160213181929id_/https://psychonautwiki.org/wiki/GHB",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Gabapentin",
+      "timestamp": "20160224201734",
+      "path": "/wiki/Gabapentin/",
+      "source": "https://web.archive.org/web/20160224201734id_/https://psychonautwiki.org/wiki/Gabapentin",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Games",
+      "timestamp": "20160213105044",
+      "path": "/wiki/Games/",
+      "source": "https://web.archive.org/web/20160213105044id_/https://psychonautwiki.org/wiki/Games",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Gamma-amino-butyric_acid",
+      "timestamp": "20160213204955",
+      "path": "/wiki/Gamma-amino-butyric_acid/",
+      "source": "https://web.archive.org/web/20160213204955id_/https://psychonautwiki.org/wiki/Gamma-amino-butyric_acid",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/General_disclaimer",
+      "timestamp": "20160805020343",
+      "path": "/wiki/General_disclaimer/",
+      "source": "https://web.archive.org/web/20160805020343id_/https://psychonautwiki.org/wiki/General_disclaimer",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Geometry",
+      "timestamp": "20160225031911",
+      "path": "/wiki/Geometry/",
+      "source": "https://web.archive.org/web/20160225031911id_/https://psychonautwiki.org/wiki/Geometry",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Glutamate",
+      "timestamp": "20160805080207",
+      "path": "/wiki/Glutamate/",
+      "source": "https://web.archive.org/web/20160805080207id_/https://psychonautwiki.org/wiki/Glutamate",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Good_vibes",
+      "timestamp": "20160804042813",
+      "path": "/wiki/Good_vibes/",
+      "source": "https://web.archive.org/web/20160804042813id_/https://psychonautwiki.org/wiki/Good_vibes",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Green_dragon_tek",
+      "timestamp": "20160805082429",
+      "path": "/wiki/Green_dragon_tek/",
+      "source": "https://web.archive.org/web/20160805082429id_/https://psychonautwiki.org/wiki/Green_dragon_tek",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Guidelines",
+      "timestamp": "20160804042712",
+      "path": "/wiki/Guidelines/",
+      "source": "https://web.archive.org/web/20160804042712id_/https://psychonautwiki.org/wiki/Guidelines",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Hallucinogen",
+      "timestamp": "20160805020237",
+      "path": "/wiki/Hallucinogen/",
+      "source": "https://web.archive.org/web/20160805020237id_/https://psychonautwiki.org/wiki/Hallucinogen",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Hallucinogenic",
+      "timestamp": "20160806000427",
+      "path": "/wiki/Hallucinogenic/",
+      "source": "https://web.archive.org/web/20160806000427id_/https://psychonautwiki.org/wiki/Hallucinogenic",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Hallucinogens",
+      "timestamp": "20160213193226",
+      "path": "/wiki/Hallucinogens/",
+      "source": "https://web.archive.org/web/20160213193226id_/https://psychonautwiki.org/wiki/Hallucinogens",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Harmala_alkaloid",
+      "timestamp": "20160803223059",
+      "path": "/wiki/Harmala_alkaloid/",
+      "source": "https://web.archive.org/web/20160803223059id_/https://psychonautwiki.org/wiki/Harmala_alkaloid",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Harmaline",
+      "timestamp": "20160803224526",
+      "path": "/wiki/Harmaline/",
+      "source": "https://web.archive.org/web/20160803224526id_/https://psychonautwiki.org/wiki/Harmaline",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Harmine",
+      "timestamp": "20160803230413",
+      "path": "/wiki/Harmine/",
+      "source": "https://web.archive.org/web/20160803230413id_/https://psychonautwiki.org/wiki/Harmine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Headaches",
+      "timestamp": "20160808115918",
+      "path": "/wiki/Headaches/",
+      "source": "https://web.archive.org/web/20160808115918id_/https://psychonautwiki.org/wiki/Headaches",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Heroin",
+      "timestamp": "20160409093315",
+      "path": "/wiki/Heroin/",
+      "source": "https://web.archive.org/web/20160409093315id_/https://psychonautwiki.org/wiki/Heroin",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Heroin/Summary",
+      "timestamp": "20160818225401",
+      "path": "/wiki/Heroin/Summary/",
+      "source": "https://web.archive.org/web/20160818225401id_/https://psychonautwiki.org/wiki/Heroin/Summary",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Hormone",
+      "timestamp": "20160805080529",
+      "path": "/wiki/Hormone/",
+      "source": "https://web.archive.org/web/20160805080529id_/https://psychonautwiki.org/wiki/Hormone",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Hydrocodone",
+      "timestamp": "20160804001602",
+      "path": "/wiki/Hydrocodone/",
+      "source": "https://web.archive.org/web/20160804001602id_/https://psychonautwiki.org/wiki/Hydrocodone",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Hyoscyamine",
+      "timestamp": "20160804042743",
+      "path": "/wiki/Hyoscyamine/",
+      "source": "https://web.archive.org/web/20160804042743id_/https://psychonautwiki.org/wiki/Hyoscyamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/IRC",
+      "timestamp": "20160303190904",
+      "path": "/wiki/IRC/",
+      "source": "https://web.archive.org/web/20160303190904id_/https://psychonautwiki.org/wiki/IRC",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Immersion_enhancement",
+      "timestamp": "20160414111535",
+      "path": "/wiki/Immersion_enhancement/",
+      "source": "https://web.archive.org/web/20160414111535id_/https://psychonautwiki.org/wiki/Immersion_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Increased_blood_pressure",
+      "timestamp": "20160808091032",
+      "path": "/wiki/Increased_blood_pressure/",
+      "source": "https://web.archive.org/web/20160808091032id_/https://psychonautwiki.org/wiki/Increased_blood_pressure",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Increased_heart_rate",
+      "timestamp": "20160424104900",
+      "path": "/wiki/Increased_heart_rate/",
+      "source": "https://web.archive.org/web/20160424104900id_/https://psychonautwiki.org/wiki/Increased_heart_rate",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Increased_perspiration",
+      "timestamp": "20160809220432",
+      "path": "/wiki/Increased_perspiration/",
+      "source": "https://web.archive.org/web/20160809220432id_/https://psychonautwiki.org/wiki/Increased_perspiration",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Information_processing_suppression",
+      "timestamp": "20160213174652",
+      "path": "/wiki/Information_processing_suppression/",
+      "source": "https://web.archive.org/web/20160213174652id_/https://psychonautwiki.org/wiki/Information_processing_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Insomnia",
+      "timestamp": "20160214062142",
+      "path": "/wiki/Insomnia/",
+      "source": "https://web.archive.org/web/20160214062142id_/https://psychonautwiki.org/wiki/Insomnia",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Insufflation",
+      "timestamp": "20160810063113",
+      "path": "/wiki/Insufflation/",
+      "source": "https://web.archive.org/web/20160810063113id_/https://psychonautwiki.org/wiki/Insufflation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Internal_hallucinations",
+      "timestamp": "20160424084254",
+      "path": "/wiki/Internal_hallucinations/",
+      "source": "https://web.archive.org/web/20160424084254id_/https://psychonautwiki.org/wiki/Internal_hallucinations",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Introspection",
+      "timestamp": "20160225021639",
+      "path": "/wiki/Introspection/",
+      "source": "https://web.archive.org/web/20160225021639id_/https://psychonautwiki.org/wiki/Introspection",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Irritability",
+      "timestamp": "20160810011313",
+      "path": "/wiki/Irritability/",
+      "source": "https://web.archive.org/web/20160810011313id_/https://psychonautwiki.org/wiki/Irritability",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Isomer",
+      "timestamp": "20160805080704",
+      "path": "/wiki/Isomer/",
+      "source": "https://web.archive.org/web/20160805080704id_/https://psychonautwiki.org/wiki/Isomer",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Isopropyl_extraction_of_crude_cannabis_oil",
+      "timestamp": "20160805142033",
+      "path": "/wiki/Isopropyl_extraction_of_crude_cannabis_oil/",
+      "source": "https://web.archive.org/web/20160805142033id_/https://psychonautwiki.org/wiki/Isopropyl_extraction_of_crude_cannabis_oil",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Isopropylphenidate",
+      "timestamp": "20160224204208",
+      "path": "/wiki/Isopropylphenidate/",
+      "source": "https://web.archive.org/web/20160224204208id_/https://psychonautwiki.org/wiki/Isopropylphenidate",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Itchiness",
+      "timestamp": "20160805010755",
+      "path": "/wiki/Itchiness/",
+      "source": "https://web.archive.org/web/20160805010755id_/https://psychonautwiki.org/wiki/Itchiness",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/JWH-018",
+      "timestamp": "20160326101135",
+      "path": "/wiki/JWH-018/",
+      "source": "https://web.archive.org/web/20160326101135id_/https://psychonautwiki.org/wiki/JWH-018",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/JWH-073",
+      "timestamp": "20160326023616",
+      "path": "/wiki/JWH-073/",
+      "source": "https://web.archive.org/web/20160326023616id_/https://psychonautwiki.org/wiki/JWH-073",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Ketamine",
+      "timestamp": "20160506205617",
+      "path": "/wiki/Ketamine/",
+      "source": "https://web.archive.org/web/20160506205617id_/https://psychonautwiki.org/wiki/Ketamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Kratom",
+      "timestamp": "20160225031635",
+      "path": "/wiki/Kratom/",
+      "source": "https://web.archive.org/web/20160225031635id_/https://psychonautwiki.org/wiki/Kratom",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Kratom/Summary",
+      "timestamp": "20160809215234",
+      "path": "/wiki/Kratom/Summary/",
+      "source": "https://web.archive.org/web/20160809215234id_/https://psychonautwiki.org/wiki/Kratom/Summary",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Kratom_resin/extraction_tek",
+      "timestamp": "20160805080614",
+      "path": "/wiki/Kratom_resin/extraction_tek/",
+      "source": "https://web.archive.org/web/20160805080614id_/https://psychonautwiki.org/wiki/Kratom_resin/extraction_tek",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/LSA",
+      "timestamp": "20160804003150",
+      "path": "/wiki/LSA/",
+      "source": "https://web.archive.org/web/20160804003150id_/https://psychonautwiki.org/wiki/LSA",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/LSZ",
+      "timestamp": "20160804002426",
+      "path": "/wiki/LSZ/",
+      "source": "https://web.archive.org/web/20160804002426id_/https://psychonautwiki.org/wiki/LSZ",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Language_suppression",
+      "timestamp": "20160808115956",
+      "path": "/wiki/Language_suppression/",
+      "source": "https://web.archive.org/web/20160808115956id_/https://psychonautwiki.org/wiki/Language_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Laughter",
+      "timestamp": "20160424170723",
+      "path": "/wiki/Laughter/",
+      "source": "https://web.archive.org/web/20160424170723id_/https://psychonautwiki.org/wiki/Laughter",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Level_8A",
+      "timestamp": "20160424200202",
+      "path": "/wiki/Level_8A/",
+      "source": "https://web.archive.org/web/20160424200202id_/https://psychonautwiki.org/wiki/Level_8A",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Level_8B",
+      "timestamp": "20160424180237",
+      "path": "/wiki/Level_8B/",
+      "source": "https://web.archive.org/web/20160424180237id_/https://psychonautwiki.org/wiki/Level_8B",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Lorazepam",
+      "timestamp": "20160213153504",
+      "path": "/wiki/Lorazepam/",
+      "source": "https://web.archive.org/web/20160213153504id_/https://psychonautwiki.org/wiki/Lorazepam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Lsd",
+      "timestamp": "20160402150245",
+      "path": "/wiki/Lsd/",
+      "source": "https://web.archive.org/web/20160402150245id_/https://psychonautwiki.org/wiki/Lsd",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Lucid_dreaming",
+      "timestamp": "20160805020400",
+      "path": "/wiki/Lucid_dreaming/",
+      "source": "https://web.archive.org/web/20160805020400id_/https://psychonautwiki.org/wiki/Lucid_dreaming",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Lysergamide",
+      "timestamp": "20160804042734",
+      "path": "/wiki/Lysergamide/",
+      "source": "https://web.archive.org/web/20160804042734id_/https://psychonautwiki.org/wiki/Lysergamide",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Lysergamides",
+      "timestamp": "20160805080203",
+      "path": "/wiki/Lysergamides/",
+      "source": "https://web.archive.org/web/20160805080203id_/https://psychonautwiki.org/wiki/Lysergamides",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/MAOI",
+      "timestamp": "20160805080720",
+      "path": "/wiki/MAOI/",
+      "source": "https://web.archive.org/web/20160805080720id_/https://psychonautwiki.org/wiki/MAOI",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/MAOIs",
+      "timestamp": "20160811021940",
+      "path": "/wiki/MAOIs/",
+      "source": "https://web.archive.org/web/20160811021940id_/https://psychonautwiki.org/wiki/MAOIs",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/MDA",
+      "timestamp": "20160804042728",
+      "path": "/wiki/MDA/",
+      "source": "https://web.archive.org/web/20160804042728id_/https://psychonautwiki.org/wiki/MDA",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/MDAI",
+      "timestamp": "20160803224310",
+      "path": "/wiki/MDAI/",
+      "source": "https://web.archive.org/web/20160803224310id_/https://psychonautwiki.org/wiki/MDAI",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/MDMA",
+      "timestamp": "20160225013418",
+      "path": "/wiki/MDMA/",
+      "source": "https://web.archive.org/web/20160225013418id_/https://psychonautwiki.org/wiki/MDMA",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/MXE",
+      "timestamp": "20160810223115",
+      "path": "/wiki/MXE/",
+      "source": "https://web.archive.org/web/20160810223115id_/https://psychonautwiki.org/wiki/MXE",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Machinescapes",
+      "timestamp": "20160424113635",
+      "path": "/wiki/Machinescapes/",
+      "source": "https://web.archive.org/web/20160424113635id_/https://psychonautwiki.org/wiki/Machinescapes",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Magnification",
+      "timestamp": "20160805021224",
+      "path": "/wiki/Magnification/",
+      "source": "https://web.archive.org/web/20160805021224id_/https://psychonautwiki.org/wiki/Magnification",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Mailing_list",
+      "timestamp": "20160304023950",
+      "path": "/wiki/Mailing_list/",
+      "source": "https://web.archive.org/web/20160304023950id_/https://psychonautwiki.org/wiki/Mailing_list",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Meditation",
+      "timestamp": "20160225022834",
+      "path": "/wiki/Meditation/",
+      "source": "https://web.archive.org/web/20160225022834id_/https://psychonautwiki.org/wiki/Meditation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Meetups",
+      "timestamp": "20160213164641",
+      "path": "/wiki/Meetups/",
+      "source": "https://web.archive.org/web/20160213164641id_/https://psychonautwiki.org/wiki/Meetups",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Melatonin",
+      "timestamp": "20160805080320",
+      "path": "/wiki/Melatonin/",
+      "source": "https://web.archive.org/web/20160805080320id_/https://psychonautwiki.org/wiki/Melatonin",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Memory_enhancement",
+      "timestamp": "20160809234158",
+      "path": "/wiki/Memory_enhancement/",
+      "source": "https://web.archive.org/web/20160809234158id_/https://psychonautwiki.org/wiki/Memory_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Memory_suppression",
+      "timestamp": "20160224214332",
+      "path": "/wiki/Memory_suppression/",
+      "source": "https://web.archive.org/web/20160224214332id_/https://psychonautwiki.org/wiki/Memory_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Mephedrone",
+      "timestamp": "20160225013937",
+      "path": "/wiki/Mephedrone/",
+      "source": "https://web.archive.org/web/20160225013937id_/https://psychonautwiki.org/wiki/Mephedrone",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Mephedrone/Summary",
+      "timestamp": "20160811040309",
+      "path": "/wiki/Mephedrone/Summary/",
+      "source": "https://web.archive.org/web/20160811040309id_/https://psychonautwiki.org/wiki/Mephedrone/Summary",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Mescaline",
+      "timestamp": "20160214222453",
+      "path": "/wiki/Mescaline/",
+      "source": "https://web.archive.org/web/20160214222453id_/https://psychonautwiki.org/wiki/Mescaline",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Methallylescaline",
+      "timestamp": "20160804041639",
+      "path": "/wiki/Methallylescaline/",
+      "source": "https://web.archive.org/web/20160804041639id_/https://psychonautwiki.org/wiki/Methallylescaline",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Methamphetamine",
+      "timestamp": "20160326073846",
+      "path": "/wiki/Methamphetamine/",
+      "source": "https://web.archive.org/web/20160326073846id_/https://psychonautwiki.org/wiki/Methamphetamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Methaqualone",
+      "timestamp": "20160213133129",
+      "path": "/wiki/Methaqualone/",
+      "source": "https://web.archive.org/web/20160213133129id_/https://psychonautwiki.org/wiki/Methaqualone",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Methiopropamine",
+      "timestamp": "20160225021023",
+      "path": "/wiki/Methiopropamine/",
+      "source": "https://web.archive.org/web/20160225021023id_/https://psychonautwiki.org/wiki/Methiopropamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Methoxetamine",
+      "timestamp": "20160804042115",
+      "path": "/wiki/Methoxetamine/",
+      "source": "https://web.archive.org/web/20160804042115id_/https://psychonautwiki.org/wiki/Methoxetamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Methoxphenidine",
+      "timestamp": "20160803222813",
+      "path": "/wiki/Methoxphenidine/",
+      "source": "https://web.archive.org/web/20160803222813id_/https://psychonautwiki.org/wiki/Methoxphenidine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Methylone",
+      "timestamp": "20160804041608",
+      "path": "/wiki/Methylone/",
+      "source": "https://web.archive.org/web/20160804041608id_/https://psychonautwiki.org/wiki/Methylone",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Methylphenidate",
+      "timestamp": "20160225022345",
+      "path": "/wiki/Methylphenidate/",
+      "source": "https://web.archive.org/web/20160225022345id_/https://psychonautwiki.org/wiki/Methylphenidate",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Metizolam",
+      "timestamp": "20160803221735",
+      "path": "/wiki/Metizolam/",
+      "source": "https://web.archive.org/web/20160803221735id_/https://psychonautwiki.org/wiki/Metizolam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Mexedrone",
+      "timestamp": "20160804042744",
+      "path": "/wiki/Mexedrone/",
+      "source": "https://web.archive.org/web/20160804042744id_/https://psychonautwiki.org/wiki/Mexedrone",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Mindfulness",
+      "timestamp": "20160805015531",
+      "path": "/wiki/Mindfulness/",
+      "source": "https://web.archive.org/web/20160805015531id_/https://psychonautwiki.org/wiki/Mindfulness",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Mirtazapine",
+      "timestamp": "20160804042801",
+      "path": "/wiki/Mirtazapine/",
+      "source": "https://web.archive.org/web/20160804042801id_/https://psychonautwiki.org/wiki/Mirtazapine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Modafinil",
+      "timestamp": "20160225012238",
+      "path": "/wiki/Modafinil/",
+      "source": "https://web.archive.org/web/20160225012238id_/https://psychonautwiki.org/wiki/Modafinil",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Morphinan",
+      "timestamp": "20160804041743",
+      "path": "/wiki/Morphinan/",
+      "source": "https://web.archive.org/web/20160804041743id_/https://psychonautwiki.org/wiki/Morphinan",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Morphinans",
+      "timestamp": "20160805080240",
+      "path": "/wiki/Morphinans/",
+      "source": "https://web.archive.org/web/20160805080240id_/https://psychonautwiki.org/wiki/Morphinans",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Morphine",
+      "timestamp": "20160804042738",
+      "path": "/wiki/Morphine/",
+      "source": "https://web.archive.org/web/20160804042738id_/https://psychonautwiki.org/wiki/Morphine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Motivation_enhancement",
+      "timestamp": "20160809210204",
+      "path": "/wiki/Motivation_enhancement/",
+      "source": "https://web.archive.org/web/20160809210204id_/https://psychonautwiki.org/wiki/Motivation_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Motor_control_loss",
+      "timestamp": "20160213133131",
+      "path": "/wiki/Motor_control_loss/",
+      "source": "https://web.archive.org/web/20160213133131id_/https://psychonautwiki.org/wiki/Motor_control_loss",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Multiple_thought_streams",
+      "timestamp": "20160809201634",
+      "path": "/wiki/Multiple_thought_streams/",
+      "source": "https://web.archive.org/web/20160809201634id_/https://psychonautwiki.org/wiki/Multiple_thought_streams",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Muscle_cramps",
+      "timestamp": "20160809201630",
+      "path": "/wiki/Muscle_cramps/",
+      "source": "https://web.archive.org/web/20160809201630id_/https://psychonautwiki.org/wiki/Muscle_cramps",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Muscle_relaxant",
+      "timestamp": "20160214182746",
+      "path": "/wiki/Muscle_relaxant/",
+      "source": "https://web.archive.org/web/20160214182746id_/https://psychonautwiki.org/wiki/Muscle_relaxant",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Muscle_relaxation",
+      "timestamp": "20160213122423",
+      "path": "/wiki/Muscle_relaxation/",
+      "source": "https://web.archive.org/web/20160213122423id_/https://psychonautwiki.org/wiki/Muscle_relaxation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Muscle_spasms",
+      "timestamp": "20160805204720",
+      "path": "/wiki/Muscle_spasms/",
+      "source": "https://web.archive.org/web/20160805204720id_/https://psychonautwiki.org/wiki/Muscle_spasms",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/N-Acetylcysteine",
+      "timestamp": "20160805080807",
+      "path": "/wiki/N-Acetylcysteine/",
+      "source": "https://web.archive.org/web/20160805080807id_/https://psychonautwiki.org/wiki/N-Acetylcysteine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/NM-2-AI",
+      "timestamp": "20160805080736",
+      "path": "/wiki/NM-2-AI/",
+      "source": "https://web.archive.org/web/20160805080736id_/https://psychonautwiki.org/wiki/NM-2-AI",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/NM2AI",
+      "timestamp": "20160224214329",
+      "path": "/wiki/NM2AI/",
+      "source": "https://web.archive.org/web/20160224214329id_/https://psychonautwiki.org/wiki/NM2AI",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/NMDA_antagonist",
+      "timestamp": "20160810064021",
+      "path": "/wiki/NMDA_antagonist/",
+      "source": "https://web.archive.org/web/20160810064021id_/https://psychonautwiki.org/wiki/NMDA_antagonist",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/NMDA_receptor_antagonist",
+      "timestamp": "20160805015606",
+      "path": "/wiki/NMDA_receptor_antagonist/",
+      "source": "https://web.archive.org/web/20160805015606id_/https://psychonautwiki.org/wiki/NMDA_receptor_antagonist",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Nausea",
+      "timestamp": "20160225012619",
+      "path": "/wiki/Nausea/",
+      "source": "https://web.archive.org/web/20160225012619id_/https://psychonautwiki.org/wiki/Nausea",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Nausea_suppression",
+      "timestamp": "20160214193808",
+      "path": "/wiki/Nausea_suppression/",
+      "source": "https://web.archive.org/web/20160214193808id_/https://psychonautwiki.org/wiki/Nausea_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Network",
+      "timestamp": "20160803222838",
+      "path": "/wiki/Network/",
+      "source": "https://web.archive.org/web/20160803222838id_/https://psychonautwiki.org/wiki/Network",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Neurone",
+      "timestamp": "20160805080826",
+      "path": "/wiki/Neurone/",
+      "source": "https://web.archive.org/web/20160805080826id_/https://psychonautwiki.org/wiki/Neurone",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Neurones",
+      "timestamp": "20160810001700",
+      "path": "/wiki/Neurones/",
+      "source": "https://web.archive.org/web/20160810001700id_/https://psychonautwiki.org/wiki/Neurones",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Neurotransmitter",
+      "timestamp": "20160805080303",
+      "path": "/wiki/Neurotransmitter/",
+      "source": "https://web.archive.org/web/20160805080303id_/https://psychonautwiki.org/wiki/Neurotransmitter",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Neurotransmitters",
+      "timestamp": "20160811012553",
+      "path": "/wiki/Neurotransmitters/",
+      "source": "https://web.archive.org/web/20160811012553id_/https://psychonautwiki.org/wiki/Neurotransmitters",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Nicotine",
+      "timestamp": "20160326132307",
+      "path": "/wiki/Nicotine/",
+      "source": "https://web.archive.org/web/20160326132307id_/https://psychonautwiki.org/wiki/Nicotine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Nifoxipam",
+      "timestamp": "20160213110918",
+      "path": "/wiki/Nifoxipam/",
+      "source": "https://web.archive.org/web/20160213110918id_/https://psychonautwiki.org/wiki/Nifoxipam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Nitrous_oxide",
+      "timestamp": "20160804042819",
+      "path": "/wiki/Nitrous_oxide/",
+      "source": "https://web.archive.org/web/20160804042819id_/https://psychonautwiki.org/wiki/Nitrous_oxide",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Noopept",
+      "timestamp": "20160225022111",
+      "path": "/wiki/Noopept/",
+      "source": "https://web.archive.org/web/20160225022111id_/https://psychonautwiki.org/wiki/Noopept",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Nootropics",
+      "timestamp": "20160804042738",
+      "path": "/wiki/Nootropics/",
+      "source": "https://web.archive.org/web/20160804042738id_/https://psychonautwiki.org/wiki/Nootropics",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Noradrenaline",
+      "timestamp": "20160805080439",
+      "path": "/wiki/Noradrenaline/",
+      "source": "https://web.archive.org/web/20160805080439id_/https://psychonautwiki.org/wiki/Noradrenaline",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Norepinephrine",
+      "timestamp": "20160804200336",
+      "path": "/wiki/Norepinephrine/",
+      "source": "https://web.archive.org/web/20160804200336id_/https://psychonautwiki.org/wiki/Norepinephrine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Novelty_enhancement",
+      "timestamp": "20160424153823",
+      "path": "/wiki/Novelty_enhancement/",
+      "source": "https://web.archive.org/web/20160424153823id_/https://psychonautwiki.org/wiki/Novelty_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/O-Desmethyltramadol",
+      "timestamp": "20160224230717",
+      "path": "/wiki/O-Desmethyltramadol/",
+      "source": "https://web.archive.org/web/20160224230717id_/https://psychonautwiki.org/wiki/O-Desmethyltramadol",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Offset",
+      "timestamp": "20160811040233",
+      "path": "/wiki/Offset/",
+      "source": "https://web.archive.org/web/20160811040233id_/https://psychonautwiki.org/wiki/Offset",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Oneirogen",
+      "timestamp": "20160805015806",
+      "path": "/wiki/Oneirogen/",
+      "source": "https://web.archive.org/web/20160805015806id_/https://psychonautwiki.org/wiki/Oneirogen",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Opiates",
+      "timestamp": "20160213224739",
+      "path": "/wiki/Opiates/",
+      "source": "https://web.archive.org/web/20160213224739id_/https://psychonautwiki.org/wiki/Opiates",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Opioid",
+      "timestamp": "20160217040059",
+      "path": "/wiki/Opioid/",
+      "source": "https://web.archive.org/web/20160217040059id_/https://psychonautwiki.org/wiki/Opioid",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Opioids",
+      "timestamp": "20160213194955",
+      "path": "/wiki/Opioids/",
+      "source": "https://web.archive.org/web/20160213194955id_/https://psychonautwiki.org/wiki/Opioids",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Outrospection",
+      "timestamp": "20160810002602",
+      "path": "/wiki/Outrospection/",
+      "source": "https://web.archive.org/web/20160810002602id_/https://psychonautwiki.org/wiki/Outrospection",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Oxycodone",
+      "timestamp": "20160326014139",
+      "path": "/wiki/Oxycodone/",
+      "source": "https://web.archive.org/web/20160326014139id_/https://psychonautwiki.org/wiki/Oxycodone",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/PCP",
+      "timestamp": "20160805080645",
+      "path": "/wiki/PCP/",
+      "source": "https://web.archive.org/web/20160805080645id_/https://psychonautwiki.org/wiki/PCP",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/PRO-LAD",
+      "timestamp": "20160804010453",
+      "path": "/wiki/PRO-LAD/",
+      "source": "https://web.archive.org/web/20160804010453id_/https://psychonautwiki.org/wiki/PRO-LAD",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Pain_relief",
+      "timestamp": "20160805005702",
+      "path": "/wiki/Pain_relief/",
+      "source": "https://web.archive.org/web/20160805005702id_/https://psychonautwiki.org/wiki/Pain_relief",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Paranoia",
+      "timestamp": "20160805143610",
+      "path": "/wiki/Paranoia/",
+      "source": "https://web.archive.org/web/20160805143610id_/https://psychonautwiki.org/wiki/Paranoia",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Pattern_recognition_enhancement",
+      "timestamp": "20160424130218",
+      "path": "/wiki/Pattern_recognition_enhancement/",
+      "source": "https://web.archive.org/web/20160424130218id_/https://psychonautwiki.org/wiki/Pattern_recognition_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Pattern_recognition_suppression",
+      "timestamp": "20160224235144",
+      "path": "/wiki/Pattern_recognition_suppression/",
+      "source": "https://web.archive.org/web/20160224235144id_/https://psychonautwiki.org/wiki/Pattern_recognition_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Peak",
+      "timestamp": "20160810204209",
+      "path": "/wiki/Peak/",
+      "source": "https://web.archive.org/web/20160810204209id_/https://psychonautwiki.org/wiki/Peak",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Perception_of_decreased_weight",
+      "timestamp": "20160424223111",
+      "path": "/wiki/Perception_of_decreased_weight/",
+      "source": "https://web.archive.org/web/20160424223111id_/https://psychonautwiki.org/wiki/Perception_of_decreased_weight",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Perception_of_increased_weight",
+      "timestamp": "20160805103617",
+      "path": "/wiki/Perception_of_increased_weight/",
+      "source": "https://web.archive.org/web/20160805103617id_/https://psychonautwiki.org/wiki/Perception_of_increased_weight",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Peripheral_information_misinterpretation",
+      "timestamp": "20160810005406",
+      "path": "/wiki/Peripheral_information_misinterpretation/",
+      "source": "https://web.archive.org/web/20160810005406id_/https://psychonautwiki.org/wiki/Peripheral_information_misinterpretation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Personal_bias_suppression",
+      "timestamp": "20160424104120",
+      "path": "/wiki/Personal_bias_suppression/",
+      "source": "https://web.archive.org/web/20160424104120id_/https://psychonautwiki.org/wiki/Personal_bias_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Personality_regression",
+      "timestamp": "20160809204711",
+      "path": "/wiki/Personality_regression/",
+      "source": "https://web.archive.org/web/20160809204711id_/https://psychonautwiki.org/wiki/Personality_regression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Perspective_alterations",
+      "timestamp": "20160123193631",
+      "path": "/wiki/Perspective_alterations/",
+      "source": "https://web.archive.org/web/20160123193631id_/https://psychonautwiki.org/wiki/Perspective_alterations",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Perspective_distortions",
+      "timestamp": "20160225030326",
+      "path": "/wiki/Perspective_distortions/",
+      "source": "https://web.archive.org/web/20160225030326id_/https://psychonautwiki.org/wiki/Perspective_distortions",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Phencyclidine",
+      "timestamp": "20160804042058",
+      "path": "/wiki/Phencyclidine/",
+      "source": "https://web.archive.org/web/20160804042058id_/https://psychonautwiki.org/wiki/Phencyclidine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Phenethylamine",
+      "timestamp": "20160803222201",
+      "path": "/wiki/Phenethylamine/",
+      "source": "https://web.archive.org/web/20160803222201id_/https://psychonautwiki.org/wiki/Phenethylamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Phenethylamines",
+      "timestamp": "20160805080324",
+      "path": "/wiki/Phenethylamines/",
+      "source": "https://web.archive.org/web/20160805080324id_/https://psychonautwiki.org/wiki/Phenethylamines",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Phenibut",
+      "timestamp": "20160804042826",
+      "path": "/wiki/Phenibut/",
+      "source": "https://web.archive.org/web/20160804042826id_/https://psychonautwiki.org/wiki/Phenibut",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Photophobia",
+      "timestamp": "20160810005649",
+      "path": "/wiki/Photophobia/",
+      "source": "https://web.archive.org/web/20160810005649id_/https://psychonautwiki.org/wiki/Photophobia",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Physical_autonomy",
+      "timestamp": "20160225014011",
+      "path": "/wiki/Physical_autonomy/",
+      "source": "https://web.archive.org/web/20160225014011id_/https://psychonautwiki.org/wiki/Physical_autonomy",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Physical_euphoria",
+      "timestamp": "20160213141602",
+      "path": "/wiki/Physical_euphoria/",
+      "source": "https://web.archive.org/web/20160213141602id_/https://psychonautwiki.org/wiki/Physical_euphoria",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Physical_fatigue",
+      "timestamp": "20160810002620",
+      "path": "/wiki/Physical_fatigue/",
+      "source": "https://web.archive.org/web/20160810002620id_/https://psychonautwiki.org/wiki/Physical_fatigue",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Piperidine",
+      "timestamp": "20160804042752",
+      "path": "/wiki/Piperidine/",
+      "source": "https://web.archive.org/web/20160804042752id_/https://psychonautwiki.org/wiki/Piperidine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Poppers",
+      "timestamp": "20160224225335",
+      "path": "/wiki/Poppers/",
+      "source": "https://web.archive.org/web/20160224225335id_/https://psychonautwiki.org/wiki/Poppers",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Pregabalin",
+      "timestamp": "20160225022348",
+      "path": "/wiki/Pregabalin/",
+      "source": "https://web.archive.org/web/20160225022348id_/https://psychonautwiki.org/wiki/Pregabalin",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Preparation",
+      "timestamp": "20160804042730",
+      "path": "/wiki/Preparation/",
+      "source": "https://web.archive.org/web/20160804042730id_/https://psychonautwiki.org/wiki/Preparation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Preparation_index",
+      "timestamp": "20160213185527",
+      "path": "/wiki/Preparation_index/",
+      "source": "https://web.archive.org/web/20160213185527id_/https://psychonautwiki.org/wiki/Preparation_index",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Preparation_of_changa",
+      "timestamp": "20170924224528",
+      "path": "/wiki/Preparation_of_changa/",
+      "source": "https://web.archive.org/web/20170924224528id_/https://psychonautwiki.org/wiki/Preparation_of_changa",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Prochlorperazine",
+      "timestamp": "20160225013027",
+      "path": "/wiki/Prochlorperazine/",
+      "source": "https://web.archive.org/web/20160225013027id_/https://psychonautwiki.org/wiki/Prochlorperazine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Prodrug",
+      "timestamp": "20160805204346",
+      "path": "/wiki/Prodrug/",
+      "source": "https://web.archive.org/web/20160805204346id_/https://psychonautwiki.org/wiki/Prodrug",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psilacetin",
+      "timestamp": "20160325201856",
+      "path": "/wiki/Psilacetin/",
+      "source": "https://web.archive.org/web/20160325201856id_/https://psychonautwiki.org/wiki/Psilacetin",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psilocin",
+      "timestamp": "20160803230210",
+      "path": "/wiki/Psilocin/",
+      "source": "https://web.archive.org/web/20160803230210id_/https://psychonautwiki.org/wiki/Psilocin",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psilocybin",
+      "timestamp": "20160804042824",
+      "path": "/wiki/Psilocybin/",
+      "source": "https://web.archive.org/web/20160804042824id_/https://psychonautwiki.org/wiki/Psilocybin",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psilocybin_mushrooms",
+      "timestamp": "20160809162820",
+      "path": "/wiki/Psilocybin_mushrooms/",
+      "source": "https://web.archive.org/web/20160809162820id_/https://psychonautwiki.org/wiki/Psilocybin_mushrooms",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psychedelic",
+      "timestamp": "20160805020949",
+      "path": "/wiki/Psychedelic/",
+      "source": "https://web.archive.org/web/20160805020949id_/https://psychonautwiki.org/wiki/Psychedelic",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psychedelic_art",
+      "timestamp": "20160805021015",
+      "path": "/wiki/Psychedelic_art/",
+      "source": "https://web.archive.org/web/20160805021015id_/https://psychonautwiki.org/wiki/Psychedelic_art",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psychedelics",
+      "timestamp": "20160803221250",
+      "path": "/wiki/Psychedelics/",
+      "source": "https://web.archive.org/web/20160803221250id_/https://psychonautwiki.org/wiki/Psychedelics",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psychoactive",
+      "timestamp": "20160213143343",
+      "path": "/wiki/Psychoactive/",
+      "source": "https://web.archive.org/web/20160213143343id_/https://psychonautwiki.org/wiki/Psychoactive",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psychoactive_substance",
+      "timestamp": "20160805020325",
+      "path": "/wiki/Psychoactive_substance/",
+      "source": "https://web.archive.org/web/20160805020325id_/https://psychonautwiki.org/wiki/Psychoactive_substance",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psychoactive_substance_index",
+      "timestamp": "20160209171159",
+      "path": "/wiki/Psychoactive_substance_index/",
+      "source": "https://web.archive.org/web/20160209171159id_/https://psychonautwiki.org/wiki/Psychoactive_substance_index",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psychoactive_substances",
+      "timestamp": "20160326081337",
+      "path": "/wiki/Psychoactive_substances/",
+      "source": "https://web.archive.org/web/20160326081337id_/https://psychonautwiki.org/wiki/Psychoactive_substances",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/PsychonautWiki",
+      "timestamp": "20160224215609",
+      "path": "/wiki/PsychonautWiki/",
+      "source": "https://web.archive.org/web/20160224215609id_/https://psychonautwiki.org/wiki/PsychonautWiki",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psychonautics",
+      "timestamp": "20160803224210",
+      "path": "/wiki/Psychonautics/",
+      "source": "https://web.archive.org/web/20160803224210id_/https://psychonautwiki.org/wiki/Psychonautics",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Psychosis",
+      "timestamp": "20160805141117",
+      "path": "/wiki/Psychosis/",
+      "source": "https://web.archive.org/web/20160805141117id_/https://psychonautwiki.org/wiki/Psychosis",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Pupil_constriction",
+      "timestamp": "20160805010803",
+      "path": "/wiki/Pupil_constriction/",
+      "source": "https://web.archive.org/web/20160805010803id_/https://psychonautwiki.org/wiki/Pupil_constriction",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Pupil_dilation",
+      "timestamp": "20160424125428",
+      "path": "/wiki/Pupil_dilation/",
+      "source": "https://web.archive.org/web/20160424125428id_/https://psychonautwiki.org/wiki/Pupil_dilation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Pyrazolam",
+      "timestamp": "20160213222541",
+      "path": "/wiki/Pyrazolam/",
+      "source": "https://web.archive.org/web/20160213222541id_/https://psychonautwiki.org/wiki/Pyrazolam",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Quetiapine",
+      "timestamp": "20160326054735",
+      "path": "/wiki/Quetiapine/",
+      "source": "https://web.archive.org/web/20160326054735id_/https://psychonautwiki.org/wiki/Quetiapine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Quetiapine/Summary",
+      "timestamp": "20160824014930",
+      "path": "/wiki/Quetiapine/Summary/",
+      "source": "https://web.archive.org/web/20160824014930id_/https://psychonautwiki.org/wiki/Quetiapine/Summary",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/RIMA",
+      "timestamp": "20160805080434",
+      "path": "/wiki/RIMA/",
+      "source": "https://web.archive.org/web/20160805080434id_/https://psychonautwiki.org/wiki/RIMA",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Receptor",
+      "timestamp": "20160213181136",
+      "path": "/wiki/Receptor/",
+      "source": "https://web.archive.org/web/20160213181136id_/https://psychonautwiki.org/wiki/Receptor",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Rejuvenation",
+      "timestamp": "20160810002416",
+      "path": "/wiki/Rejuvenation/",
+      "source": "https://web.archive.org/web/20160810002416id_/https://psychonautwiki.org/wiki/Rejuvenation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Releasing_agent",
+      "timestamp": "20160805015413",
+      "path": "/wiki/Releasing_agent/",
+      "source": "https://web.archive.org/web/20160805015413id_/https://psychonautwiki.org/wiki/Releasing_agent",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Replication_index",
+      "timestamp": "20160804041816",
+      "path": "/wiki/Replication_index/",
+      "source": "https://web.archive.org/web/20160804041816id_/https://psychonautwiki.org/wiki/Replication_index",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Research_chemical",
+      "timestamp": "20160806000504",
+      "path": "/wiki/Research_chemical/",
+      "source": "https://web.archive.org/web/20160806000504id_/https://psychonautwiki.org/wiki/Research_chemical",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Research_chemicals",
+      "timestamp": "20160805021251",
+      "path": "/wiki/Research_chemicals/",
+      "source": "https://web.archive.org/web/20160805021251id_/https://psychonautwiki.org/wiki/Research_chemicals",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Respiratory_depression",
+      "timestamp": "20160213100246",
+      "path": "/wiki/Respiratory_depression/",
+      "source": "https://web.archive.org/web/20160213100246id_/https://psychonautwiki.org/wiki/Respiratory_depression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Responsible_drug_use",
+      "timestamp": "20160805015745",
+      "path": "/wiki/Responsible_drug_use/",
+      "source": "https://web.archive.org/web/20160805015745id_/https://psychonautwiki.org/wiki/Responsible_drug_use",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Responsible_use",
+      "timestamp": "20160804042715",
+      "path": "/wiki/Responsible_use/",
+      "source": "https://web.archive.org/web/20160804042715id_/https://psychonautwiki.org/wiki/Responsible_use",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Restless_leg_syndrome",
+      "timestamp": "20160810002612",
+      "path": "/wiki/Restless_leg_syndrome/",
+      "source": "https://web.archive.org/web/20160810002612id_/https://psychonautwiki.org/wiki/Restless_leg_syndrome",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Reuptake_inhibitor",
+      "timestamp": "20160805015620",
+      "path": "/wiki/Reuptake_inhibitor/",
+      "source": "https://web.archive.org/web/20160805015620id_/https://psychonautwiki.org/wiki/Reuptake_inhibitor",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Routes_of_Administration",
+      "timestamp": "20160213121526",
+      "path": "/wiki/Routes_of_Administration/",
+      "source": "https://web.archive.org/web/20160213121526id_/https://psychonautwiki.org/wiki/Routes_of_Administration",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Runny_nose",
+      "timestamp": "20160424161959",
+      "path": "/wiki/Runny_nose/",
+      "source": "https://web.archive.org/web/20160424161959id_/https://psychonautwiki.org/wiki/Runny_nose",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/STS-135",
+      "timestamp": "20160224230033",
+      "path": "/wiki/STS-135/",
+      "source": "https://web.archive.org/web/20160224230033id_/https://psychonautwiki.org/wiki/STS-135",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Safer_injection_guide",
+      "timestamp": "20171207012416",
+      "path": "/wiki/Safer_injection_guide/",
+      "source": "https://web.archive.org/web/20171207012416id_/https://psychonautwiki.org/wiki/Safer_injection_guide",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Salivation",
+      "timestamp": "20160424100523",
+      "path": "/wiki/Salivation/",
+      "source": "https://web.archive.org/web/20160424100523id_/https://psychonautwiki.org/wiki/Salivation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Salvia_divinorum",
+      "timestamp": "20160507024814",
+      "path": "/wiki/Salvia_divinorum/",
+      "source": "https://web.archive.org/web/20160507024814id_/https://psychonautwiki.org/wiki/Salvia_divinorum",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Salvinorin_A",
+      "timestamp": "20160617021547",
+      "path": "/wiki/Salvinorin_A/",
+      "source": "https://web.archive.org/web/20160617021547id_/https://psychonautwiki.org/wiki/Salvinorin_A",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Scenarios_and_plots",
+      "timestamp": "20160424120753",
+      "path": "/wiki/Scenarios_and_plots/",
+      "source": "https://web.archive.org/web/20160424120753id_/https://psychonautwiki.org/wiki/Scenarios_and_plots",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Scenery_slicing",
+      "timestamp": "20160424124325",
+      "path": "/wiki/Scenery_slicing/",
+      "source": "https://web.archive.org/web/20160424124325id_/https://psychonautwiki.org/wiki/Scenery_slicing",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Scientific_Information",
+      "timestamp": "20160805080402",
+      "path": "/wiki/Scientific_Information/",
+      "source": "https://web.archive.org/web/20160805080402id_/https://psychonautwiki.org/wiki/Scientific_Information",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Scopolamine",
+      "timestamp": "20160804042657",
+      "path": "/wiki/Scopolamine/",
+      "source": "https://web.archive.org/web/20160804042657id_/https://psychonautwiki.org/wiki/Scopolamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Sedating",
+      "timestamp": "20160214083410",
+      "path": "/wiki/Sedating/",
+      "source": "https://web.archive.org/web/20160214083410id_/https://psychonautwiki.org/wiki/Sedating",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Sedation",
+      "timestamp": "20160213163931",
+      "path": "/wiki/Sedation/",
+      "source": "https://web.archive.org/web/20160213163931id_/https://psychonautwiki.org/wiki/Sedation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Sedative",
+      "timestamp": "20160214025652",
+      "path": "/wiki/Sedative/",
+      "source": "https://web.archive.org/web/20160214025652id_/https://psychonautwiki.org/wiki/Sedative",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Seizure",
+      "timestamp": "20160223111900",
+      "path": "/wiki/Seizure/",
+      "source": "https://web.archive.org/web/20160223111900id_/https://psychonautwiki.org/wiki/Seizure",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Seizure_suppression",
+      "timestamp": "20160213100519",
+      "path": "/wiki/Seizure_suppression/",
+      "source": "https://web.archive.org/web/20160213100519id_/https://psychonautwiki.org/wiki/Seizure_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Seizures",
+      "timestamp": "20160214214332",
+      "path": "/wiki/Seizures/",
+      "source": "https://web.archive.org/web/20160214214332id_/https://psychonautwiki.org/wiki/Seizures",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Serotonergic_psychedelic",
+      "timestamp": "20160805204705",
+      "path": "/wiki/Serotonergic_psychedelic/",
+      "source": "https://web.archive.org/web/20160805204705id_/https://psychonautwiki.org/wiki/Serotonergic_psychedelic",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Serotonin",
+      "timestamp": "20160804223928",
+      "path": "/wiki/Serotonin/",
+      "source": "https://web.archive.org/web/20160804223928id_/https://psychonautwiki.org/wiki/Serotonin",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Serotonin_Syndrome",
+      "timestamp": "20160805080441",
+      "path": "/wiki/Serotonin_Syndrome/",
+      "source": "https://web.archive.org/web/20160805080441id_/https://psychonautwiki.org/wiki/Serotonin_Syndrome",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Settings,_sceneries,_and_landscapes",
+      "timestamp": "20160424141436",
+      "path": "/wiki/Settings,_sceneries,_and_landscapes/",
+      "source": "https://web.archive.org/web/20160424141436id_/https://psychonautwiki.org/wiki/Settings,_sceneries,_and_landscapes",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Sexual_arousal",
+      "timestamp": "20160424074313",
+      "path": "/wiki/Sexual_arousal/",
+      "source": "https://web.archive.org/web/20160424074313id_/https://psychonautwiki.org/wiki/Sexual_arousal",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Shadow_people",
+      "timestamp": "20160805021111",
+      "path": "/wiki/Shadow_people/",
+      "source": "https://web.archive.org/web/20160805021111id_/https://psychonautwiki.org/wiki/Shadow_people",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Simultaneous_emotions",
+      "timestamp": "20160809203227",
+      "path": "/wiki/Simultaneous_emotions/",
+      "source": "https://web.archive.org/web/20160809203227id_/https://psychonautwiki.org/wiki/Simultaneous_emotions",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Site_map",
+      "timestamp": "20160729012130",
+      "path": "/wiki/Site_map/",
+      "source": "https://web.archive.org/web/20160729012130id_/https://psychonautwiki.org/wiki/Site_map",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Skin_flushing",
+      "timestamp": "20160810003140",
+      "path": "/wiki/Skin_flushing/",
+      "source": "https://web.archive.org/web/20160810003140id_/https://psychonautwiki.org/wiki/Skin_flushing",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Spirituality_enhancement",
+      "timestamp": "20160424125225",
+      "path": "/wiki/Spirituality_enhancement/",
+      "source": "https://web.archive.org/web/20160424125225id_/https://psychonautwiki.org/wiki/Spirituality_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Spokespeople",
+      "timestamp": "20160805015920",
+      "path": "/wiki/Spokespeople/",
+      "source": "https://web.archive.org/web/20160805015920id_/https://psychonautwiki.org/wiki/Spokespeople",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Spontaneous_tactile_sensations",
+      "timestamp": "20160414113218",
+      "path": "/wiki/Spontaneous_tactile_sensations/",
+      "source": "https://web.archive.org/web/20160414113218id_/https://psychonautwiki.org/wiki/Spontaneous_tactile_sensations",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Stamina_enhancement",
+      "timestamp": "20160810010204",
+      "path": "/wiki/Stamina_enhancement/",
+      "source": "https://web.archive.org/web/20160810010204id_/https://psychonautwiki.org/wiki/Stamina_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Stimulant",
+      "timestamp": "20160216114304",
+      "path": "/wiki/Stimulant/",
+      "source": "https://web.archive.org/web/20160216114304id_/https://psychonautwiki.org/wiki/Stimulant",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Stimulants",
+      "timestamp": "20160213103225",
+      "path": "/wiki/Stimulants/",
+      "source": "https://web.archive.org/web/20160213103225id_/https://psychonautwiki.org/wiki/Stimulants",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Stimulation",
+      "timestamp": "20160424083323",
+      "path": "/wiki/Stimulation/",
+      "source": "https://web.archive.org/web/20160424083323id_/https://psychonautwiki.org/wiki/Stimulation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Stomach_cramps",
+      "timestamp": "20160424211510",
+      "path": "/wiki/Stomach_cramps/",
+      "source": "https://web.archive.org/web/20160424211510id_/https://psychonautwiki.org/wiki/Stomach_cramps",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Stub",
+      "timestamp": "20160809195157",
+      "path": "/wiki/Stub/",
+      "source": "https://web.archive.org/web/20160809195157id_/https://psychonautwiki.org/wiki/Stub",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Subconscious_communication",
+      "timestamp": "20160805021036",
+      "path": "/wiki/Subconscious_communication/",
+      "source": "https://web.archive.org/web/20160805021036id_/https://psychonautwiki.org/wiki/Subconscious_communication",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Subjective_effect_index",
+      "timestamp": "20160729021413",
+      "path": "/wiki/Subjective_effect_index/",
+      "source": "https://web.archive.org/web/20160729021413id_/https://psychonautwiki.org/wiki/Subjective_effect_index",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Subjective_effects_index",
+      "timestamp": "20160213234131",
+      "path": "/wiki/Subjective_effects_index/",
+      "source": "https://web.archive.org/web/20160213234131id_/https://psychonautwiki.org/wiki/Subjective_effects_index",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Sublingual_numbing",
+      "timestamp": "20160810002627",
+      "path": "/wiki/Sublingual_numbing/",
+      "source": "https://web.archive.org/web/20160810002627id_/https://psychonautwiki.org/wiki/Sublingual_numbing",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Substance_P",
+      "timestamp": "20160805080730",
+      "path": "/wiki/Substance_P/",
+      "source": "https://web.archive.org/web/20160805080730id_/https://psychonautwiki.org/wiki/Substance_P",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Substance_index",
+      "timestamp": "20160506222452",
+      "path": "/wiki/Substance_index/",
+      "source": "https://web.archive.org/web/20160506222452id_/https://psychonautwiki.org/wiki/Substance_index",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Substituted_Cathinones",
+      "timestamp": "20160810204333",
+      "path": "/wiki/Substituted_Cathinones/",
+      "source": "https://web.archive.org/web/20160810204333id_/https://psychonautwiki.org/wiki/Substituted_Cathinones",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Substituted_amphetamine",
+      "timestamp": "20160803231722",
+      "path": "/wiki/Substituted_amphetamine/",
+      "source": "https://web.archive.org/web/20160803231722id_/https://psychonautwiki.org/wiki/Substituted_amphetamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Substituted_cathinone",
+      "timestamp": "20160804042801",
+      "path": "/wiki/Substituted_cathinone/",
+      "source": "https://web.archive.org/web/20160804042801id_/https://psychonautwiki.org/wiki/Substituted_cathinone",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Substituted_thienodiazepine",
+      "timestamp": "20160804042719",
+      "path": "/wiki/Substituted_thienodiazepine/",
+      "source": "https://web.archive.org/web/20160804042719id_/https://psychonautwiki.org/wiki/Substituted_thienodiazepine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Substituted_xanthine",
+      "timestamp": "20160804011205",
+      "path": "/wiki/Substituted_xanthine/",
+      "source": "https://web.archive.org/web/20160804011205id_/https://psychonautwiki.org/wiki/Substituted_xanthine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Suggestibility_enhancement",
+      "timestamp": "20160805141103",
+      "path": "/wiki/Suggestibility_enhancement/",
+      "source": "https://web.archive.org/web/20160805141103id_/https://psychonautwiki.org/wiki/Suggestibility_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Suicidal_ideation",
+      "timestamp": "20160810002849",
+      "path": "/wiki/Suicidal_ideation/",
+      "source": "https://web.archive.org/web/20160810002849id_/https://psychonautwiki.org/wiki/Suicidal_ideation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Symmetrical_texture_repetition",
+      "timestamp": "20160424095055",
+      "path": "/wiki/Symmetrical_texture_repetition/",
+      "source": "https://web.archive.org/web/20160424095055id_/https://psychonautwiki.org/wiki/Symmetrical_texture_repetition",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Synaesthesia",
+      "timestamp": "20160805080434",
+      "path": "/wiki/Synaesthesia/",
+      "source": "https://web.archive.org/web/20160805080434id_/https://psychonautwiki.org/wiki/Synaesthesia",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Synapse",
+      "timestamp": "20160805080307",
+      "path": "/wiki/Synapse/",
+      "source": "https://web.archive.org/web/20160805080307id_/https://psychonautwiki.org/wiki/Synapse",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Syrian_rue",
+      "timestamp": "20160805015407",
+      "path": "/wiki/Syrian_rue/",
+      "source": "https://web.archive.org/web/20160805015407id_/https://psychonautwiki.org/wiki/Syrian_rue",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/THC",
+      "timestamp": "20160805083857",
+      "path": "/wiki/THC/",
+      "source": "https://web.archive.org/web/20160805083857id_/https://psychonautwiki.org/wiki/THC",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/THJ-018",
+      "timestamp": "20160225022157",
+      "path": "/wiki/THJ-018/",
+      "source": "https://web.archive.org/web/20160225022157id_/https://psychonautwiki.org/wiki/THJ-018",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/THJ-2201",
+      "timestamp": "20160803221400",
+      "path": "/wiki/THJ-2201/",
+      "source": "https://web.archive.org/web/20160803221400id_/https://psychonautwiki.org/wiki/THJ-2201",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tactile_disconnection",
+      "timestamp": "20160224214326",
+      "path": "/wiki/Tactile_disconnection/",
+      "source": "https://web.archive.org/web/20160224214326id_/https://psychonautwiki.org/wiki/Tactile_disconnection",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tactile_enhancement",
+      "timestamp": "20160424103013",
+      "path": "/wiki/Tactile_enhancement/",
+      "source": "https://web.archive.org/web/20160424103013id_/https://psychonautwiki.org/wiki/Tactile_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tactile_hallucinations",
+      "timestamp": "20160810063103",
+      "path": "/wiki/Tactile_hallucinations/",
+      "source": "https://web.archive.org/web/20160810063103id_/https://psychonautwiki.org/wiki/Tactile_hallucinations",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tactile_suppression",
+      "timestamp": "20160225021913",
+      "path": "/wiki/Tactile_suppression/",
+      "source": "https://web.archive.org/web/20160225021913id_/https://psychonautwiki.org/wiki/Tactile_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Temperature_regulation_loss",
+      "timestamp": "20160424133942",
+      "path": "/wiki/Temperature_regulation_loss/",
+      "source": "https://web.archive.org/web/20160424133942id_/https://psychonautwiki.org/wiki/Temperature_regulation_loss",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Temperature_regulation_suppression",
+      "timestamp": "20160508013814",
+      "path": "/wiki/Temperature_regulation_suppression/",
+      "source": "https://web.archive.org/web/20160508013814id_/https://psychonautwiki.org/wiki/Temperature_regulation_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Temporary_erectile_dysfunction",
+      "timestamp": "20160808120743",
+      "path": "/wiki/Temporary_erectile_dysfunction/",
+      "source": "https://web.archive.org/web/20160808120743id_/https://psychonautwiki.org/wiki/Temporary_erectile_dysfunction",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Thought_acceleration",
+      "timestamp": "20160424110208",
+      "path": "/wiki/Thought_acceleration/",
+      "source": "https://web.archive.org/web/20160424110208id_/https://psychonautwiki.org/wiki/Thought_acceleration",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Thought_connectivity",
+      "timestamp": "20160424134624",
+      "path": "/wiki/Thought_connectivity/",
+      "source": "https://web.archive.org/web/20160424134624id_/https://psychonautwiki.org/wiki/Thought_connectivity",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Thought_deceleration",
+      "timestamp": "20160213145620",
+      "path": "/wiki/Thought_deceleration/",
+      "source": "https://web.archive.org/web/20160213145620id_/https://psychonautwiki.org/wiki/Thought_deceleration",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Thought_disorganization",
+      "timestamp": "20160508015259",
+      "path": "/wiki/Thought_disorganization/",
+      "source": "https://web.archive.org/web/20160508015259id_/https://psychonautwiki.org/wiki/Thought_disorganization",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Thought_loops",
+      "timestamp": "20160424134111",
+      "path": "/wiki/Thought_loops/",
+      "source": "https://web.archive.org/web/20160424134111id_/https://psychonautwiki.org/wiki/Thought_loops",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tianeptine",
+      "timestamp": "20160630094409",
+      "path": "/wiki/Tianeptine/",
+      "source": "https://web.archive.org/web/20160630094409id_/https://psychonautwiki.org/wiki/Tianeptine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Time_distortion",
+      "timestamp": "20160224234410",
+      "path": "/wiki/Time_distortion/",
+      "source": "https://web.archive.org/web/20160224234410id_/https://psychonautwiki.org/wiki/Time_distortion",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/To-do_list",
+      "timestamp": "20160729022244",
+      "path": "/wiki/To-do_list/",
+      "source": "https://web.archive.org/web/20160729022244id_/https://psychonautwiki.org/wiki/To-do_list",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tobacco",
+      "timestamp": "20160507021014",
+      "path": "/wiki/Tobacco/",
+      "source": "https://web.archive.org/web/20160507021014id_/https://psychonautwiki.org/wiki/Tobacco",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tracers",
+      "timestamp": "20160424075236",
+      "path": "/wiki/Tracers/",
+      "source": "https://web.archive.org/web/20160424075236id_/https://psychonautwiki.org/wiki/Tracers",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tramadol",
+      "timestamp": "20160213154340",
+      "path": "/wiki/Tramadol/",
+      "source": "https://web.archive.org/web/20160213154340id_/https://psychonautwiki.org/wiki/Tramadol",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tramadol/Summary",
+      "timestamp": "20160805005707",
+      "path": "/wiki/Tramadol/Summary/",
+      "source": "https://web.archive.org/web/20160805005707id_/https://psychonautwiki.org/wiki/Tramadol/Summary",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Transformations",
+      "timestamp": "20160424120649",
+      "path": "/wiki/Transformations/",
+      "source": "https://web.archive.org/web/20160424120649id_/https://psychonautwiki.org/wiki/Transformations",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Trip_sitter",
+      "timestamp": "20160805020521",
+      "path": "/wiki/Trip_sitter/",
+      "source": "https://web.archive.org/web/20160805020521id_/https://psychonautwiki.org/wiki/Trip_sitter",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tropane_alkaloid",
+      "timestamp": "20160803232357",
+      "path": "/wiki/Tropane_alkaloid/",
+      "source": "https://web.archive.org/web/20160803232357id_/https://psychonautwiki.org/wiki/Tropane_alkaloid",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tryptamine",
+      "timestamp": "20160804042643",
+      "path": "/wiki/Tryptamine/",
+      "source": "https://web.archive.org/web/20160804042643id_/https://psychonautwiki.org/wiki/Tryptamine",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tryptamines",
+      "timestamp": "20160805080142",
+      "path": "/wiki/Tryptamines/",
+      "source": "https://web.archive.org/web/20160805080142id_/https://psychonautwiki.org/wiki/Tryptamines",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tulpa",
+      "timestamp": "20160225014445",
+      "path": "/wiki/Tulpa/",
+      "source": "https://web.archive.org/web/20160225014445id_/https://psychonautwiki.org/wiki/Tulpa",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Tunneling",
+      "timestamp": "20160805020959",
+      "path": "/wiki/Tunneling/",
+      "source": "https://web.archive.org/web/20160805020959id_/https://psychonautwiki.org/wiki/Tunneling",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Unity_and_interconnectedness",
+      "timestamp": "20160424084932",
+      "path": "/wiki/Unity_and_interconnectedness/",
+      "source": "https://web.archive.org/web/20160424084932id_/https://psychonautwiki.org/wiki/Unity_and_interconnectedness",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Unspeakable_horrors",
+      "timestamp": "20160328124955",
+      "path": "/wiki/Unspeakable_horrors/",
+      "source": "https://web.archive.org/web/20160328124955id_/https://psychonautwiki.org/wiki/Unspeakable_horrors",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Vasoconstriction",
+      "timestamp": "20160424141932",
+      "path": "/wiki/Vasoconstriction/",
+      "source": "https://web.archive.org/web/20160424141932id_/https://psychonautwiki.org/wiki/Vasoconstriction",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Vasodilation",
+      "timestamp": "20160805082658",
+      "path": "/wiki/Vasodilation/",
+      "source": "https://web.archive.org/web/20160805082658id_/https://psychonautwiki.org/wiki/Vasodilation",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Vibrating_vision",
+      "timestamp": "20160809232445",
+      "path": "/wiki/Vibrating_vision/",
+      "source": "https://web.archive.org/web/20160809232445id_/https://psychonautwiki.org/wiki/Vibrating_vision",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Visual_acuity_enhancement",
+      "timestamp": "20160424103430",
+      "path": "/wiki/Visual_acuity_enhancement/",
+      "source": "https://web.archive.org/web/20160424103430id_/https://psychonautwiki.org/wiki/Visual_acuity_enhancement",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Visual_acuity_suppression",
+      "timestamp": "20160414123938",
+      "path": "/wiki/Visual_acuity_suppression/",
+      "source": "https://web.archive.org/web/20160414123938id_/https://psychonautwiki.org/wiki/Visual_acuity_suppression",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Visual_disconnection",
+      "timestamp": "20160225022134",
+      "path": "/wiki/Visual_disconnection/",
+      "source": "https://web.archive.org/web/20160225022134id_/https://psychonautwiki.org/wiki/Visual_disconnection",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Visual_drifting",
+      "timestamp": "20160424121345",
+      "path": "/wiki/Visual_drifting/",
+      "source": "https://web.archive.org/web/20160424121345id_/https://psychonautwiki.org/wiki/Visual_drifting",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Visual_effects",
+      "timestamp": "20160805020852",
+      "path": "/wiki/Visual_effects/",
+      "source": "https://web.archive.org/web/20160805020852id_/https://psychonautwiki.org/wiki/Visual_effects",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Visual_effects_-_Psychedelics",
+      "timestamp": "20160424163016",
+      "path": "/wiki/Visual_effects_-_Psychedelics/",
+      "source": "https://web.archive.org/web/20160424163016id_/https://psychonautwiki.org/wiki/Visual_effects_-_Psychedelics",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Visual_haze",
+      "timestamp": "20160809215247",
+      "path": "/wiki/Visual_haze/",
+      "source": "https://web.archive.org/web/20160809215247id_/https://psychonautwiki.org/wiki/Visual_haze",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Visual_sliding",
+      "timestamp": "20160809210813",
+      "path": "/wiki/Visual_sliding/",
+      "source": "https://web.archive.org/web/20160809210813id_/https://psychonautwiki.org/wiki/Visual_sliding",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Volumetric_liquid_dosing",
+      "timestamp": "20160213135549",
+      "path": "/wiki/Volumetric_liquid_dosing/",
+      "source": "https://web.archive.org/web/20160213135549id_/https://psychonautwiki.org/wiki/Volumetric_liquid_dosing",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Wakefulness",
+      "timestamp": "20160222153610",
+      "path": "/wiki/Wakefulness/",
+      "source": "https://web.archive.org/web/20160222153610id_/https://psychonautwiki.org/wiki/Wakefulness",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Watery_eyes",
+      "timestamp": "20160809234955",
+      "path": "/wiki/Watery_eyes/",
+      "source": "https://web.archive.org/web/20160809234955id_/https://psychonautwiki.org/wiki/Watery_eyes",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Zopiclone",
+      "timestamp": "20160213204542",
+      "path": "/wiki/Zopiclone/",
+      "source": "https://web.archive.org/web/20160213204542id_/https://psychonautwiki.org/wiki/Zopiclone",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/anti-histamines",
+      "timestamp": "20160331134145",
+      "path": "/wiki/anti-histamines/",
+      "source": "https://web.archive.org/web/20160331134145id_/https://psychonautwiki.org/wiki/anti-histamines",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/cannabis",
+      "timestamp": "20160325003254",
+      "path": "/wiki/cannabis/",
+      "source": "https://web.archive.org/web/20160325003254id_/https://psychonautwiki.org/wiki/cannabis",
+      "cached": true
+    },
+    {
+      "original": "https://psychonautwiki.org/wiki/Cannabis/Summary",
+      "timestamp": "20160805142102",
+      "path": "/wiki/cannabis/Summary/",
+      "source": "https://web.archive.org/web/20160805142102id_/https://psychonautwiki.org/wiki/Cannabis/Summary",
+      "cached": true
+    }
+  ]
+}

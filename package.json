@@ -1,0 +1,16 @@
+{
+  "name": "psychonautwiki-2016-archive",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Static archive of PsychonautWiki pages from Internet Archive captures no later than 2017.",
+  "scripts": {
+    "archive:build": "python3 scripts/mirror-psychonautwiki-archive.py",
+    "archive:check": "python3 scripts/check-psychonautwiki-archive-links.py",
+    "archive:standardize": "python3 scripts/standardize-skin.py --in-place",
+    "archive:vendor": "python3 scripts/vendor-assets.py",
+    "archive:normalize-assets": "python3 scripts/normalize-asset-extensions.py",
+    "archive:enhance": "python3 scripts/enhance-pages.py",
+    "archive:webp": "python3 scripts/convert-webp.py",
+    "serve": "python3 -m http.server 8765 -d public"
+  }
+}

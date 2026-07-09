@@ -1,0 +1,13 @@
+.DS_Store
+.vercel/
+output/
+.audit-screenshots/
+*.log
+__pycache__/
+*.pyc
+
+# Unused images (no references in any HTML page)
+public/assets/thumbs/117px-Kief_(yellow).jpg
+public/assets/thumbs/226px-Don't_worry,_be_happy.jpg
+public/assets/thumbs/250px-Namaste_(Trifoliata_Mystica)_by_Luke_Brown.jpg
+public/assets/thumbs/251px-Namaste_(Trifoliata_Mystica)_by_Luke_Brown.jpg

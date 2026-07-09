@@ -1,0 +1,523 @@
+/*
+ * Mobile compatibility layer for the preserved 2016 Vector skin.
+ * Everything that changes the historical layout is scoped below 768px.
+ */
+.archive-mobile-header,
+.archive-mobile-backdrop,
+.archive-mobile-close {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    --archive-mobile-accent: #158cba;
+    --archive-mobile-border: #a7d7f9;
+    --archive-mobile-surface: #f6f6f6;
+    --archive-mobile-ink: #252525;
+    --archive-mobile-muted: #54595d;
+    --archive-mobile-space-xs: 4px;
+    --archive-mobile-space-sm: 8px;
+    --archive-mobile-space-md: 12px;
+    --archive-mobile-space-lg: 16px;
+    --archive-mobile-space-xl: 24px;
+    --archive-mobile-header-height: 48px;
+    --archive-mobile-drawer-width: min(86vw, 320px);
+    --archive-mobile-z-backdrop: 10010;
+    --archive-mobile-z-drawer: 10020;
+  }
+
+  html {
+    min-width: 0;
+    overflow-x: clip;
+    scroll-padding-top: calc(var(--archive-mobile-header-height) + var(--archive-mobile-space-md));
+  }
+
+  body.skin-vector {
+    min-width: 0;
+    color: var(--archive-mobile-ink);
+    overflow-wrap: break-word;
+  }
+
+  body.skin-vector.archive-mobile-menu-open {
+    overflow: hidden;
+  }
+
+  body.skin-vector #mw-page-base,
+  body.skin-vector #mw-head-base,
+  body.skin-vector #mw-head {
+    display: none;
+  }
+
+  .archive-mobile-header {
+    align-items: center;
+    background: var(--archive-mobile-surface);
+    border-bottom: 1px solid var(--archive-mobile-border);
+    box-sizing: border-box;
+    color: var(--archive-mobile-ink);
+    display: flex;
+    height: var(--archive-mobile-header-height);
+    padding: 0 var(--archive-mobile-space-sm);
+    position: sticky;
+    top: 0;
+    z-index: 200;
+  }
+
+  .archive-mobile-menu-button,
+  .archive-mobile-close {
+    align-items: center;
+    appearance: none;
+    background: transparent;
+    border: 1px solid transparent;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: var(--archive-mobile-ink);
+    cursor: pointer;
+    display: inline-flex;
+    font: 600 0.875rem/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    gap: var(--archive-mobile-space-sm);
+    justify-content: center;
+    min-height: 44px;
+    padding: 0 var(--archive-mobile-space-sm);
+  }
+
+  .archive-mobile-menu-button:hover,
+  .archive-mobile-close:hover {
+    background: #eaecf0;
+    border-color: #c8ccd1;
+  }
+
+  .archive-mobile-menu-button:active,
+  .archive-mobile-close:active {
+    background: #d8dadd;
+  }
+
+  .archive-mobile-menu-button:focus-visible,
+  .archive-mobile-close:focus-visible,
+  body.skin-vector #mw-panel a:focus-visible,
+  body.skin-vector #mw-panel input:focus-visible {
+    outline: 2px solid #0645ad;
+    outline-offset: 2px;
+  }
+
+  .archive-mobile-menu-icon {
+    display: grid;
+    gap: 4px;
+    width: 20px;
+  }
+
+  .archive-mobile-menu-icon span {
+    background: currentColor;
+    display: block;
+    height: 2px;
+    width: 20px;
+  }
+
+  .archive-mobile-backdrop {
+    background: rgba(0, 0, 0, 0.42);
+    border: 0;
+    display: block;
+    inset: 0;
+    opacity: 0;
+    padding: 0;
+    pointer-events: none;
+    position: fixed;
+    transition: opacity 160ms cubic-bezier(0.22, 1, 0.36, 1);
+    visibility: hidden;
+    z-index: var(--archive-mobile-z-backdrop);
+  }
+
+  body.skin-vector #mw-panel {
+    background: var(--archive-mobile-surface);
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.24);
+    box-sizing: border-box;
+    display: block;
+    height: 100vh;
+    height: 100dvh;
+    left: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: max(var(--archive-mobile-space-sm), env(safe-area-inset-top)) var(--archive-mobile-space-md) max(var(--archive-mobile-space-lg), env(safe-area-inset-bottom));
+    position: fixed;
+    top: 0 !important;
+    transform: translateX(-105%);
+    transition: transform 180ms cubic-bezier(0.22, 1, 0.36, 1), visibility 0s linear 180ms;
+    visibility: hidden;
+    width: var(--archive-mobile-drawer-width);
+    z-index: var(--archive-mobile-z-drawer);
+  }
+
+  body.skin-vector.archive-mobile-menu-open #mw-panel {
+    transform: translateX(0);
+    transition: transform 180ms cubic-bezier(0.22, 1, 0.36, 1);
+    visibility: visible;
+  }
+
+  body.skin-vector.archive-mobile-menu-open .archive-mobile-backdrop {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+  }
+
+  body.skin-vector #mw-panel .archive-mobile-close {
+    display: inline-flex;
+    font-size: 1.5rem;
+    margin-left: auto;
+    position: absolute;
+    right: var(--archive-mobile-space-sm);
+    top: max(var(--archive-mobile-space-sm), env(safe-area-inset-top));
+    width: 44px;
+  }
+
+  body.skin-vector #mw-panel #p-logo {
+    display: none;
+  }
+
+  body.skin-vector #mw-panel #p-search {
+    float: none;
+    margin: 48px 0 var(--archive-mobile-space-md);
+    padding: 0;
+    position: static;
+    width: 100%;
+  }
+
+  body.skin-vector #mw-panel #p-search h3 {
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+  }
+
+  body.skin-vector #mw-panel #simpleSearch {
+    background: #fff;
+    border: 1px solid #a2a9b1;
+    box-sizing: border-box;
+    height: 44px;
+    max-width: none;
+    width: 100%;
+  }
+
+  body.skin-vector #mw-panel #searchInput {
+    box-sizing: border-box;
+    font-size: 1rem;
+    height: 42px;
+    padding: 8px 40px 8px 10px;
+    width: 100%;
+  }
+
+  body.skin-vector #mw-panel .searchButton {
+    height: 42px;
+    min-width: 42px;
+  }
+
+  body.skin-vector #mw-panel div.portal {
+    margin-bottom: var(--archive-mobile-space-sm);
+    padding-bottom: 0;
+  }
+
+  body.skin-vector #mw-panel div.portal h3 {
+    color: var(--archive-mobile-muted);
+    font-size: 0.875rem !important;
+    margin: var(--archive-mobile-space-md) var(--archive-mobile-space-xs) var(--archive-mobile-space-xs) !important;
+  }
+
+  body.skin-vector #mw-panel div.portal div.body,
+  body.skin-vector #mw-panel div.portal div.body ul {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  body.skin-vector #mw-panel div.portal div.body ul li {
+    box-sizing: border-box;
+    margin-bottom: 0 !important;
+    min-height: 44px;
+    padding-top: 0 !important;
+  }
+
+  body.skin-vector #mw-panel div.portal div.body ul li a {
+    align-items: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    min-height: 44px;
+    line-height: 1.25;
+    padding: var(--archive-mobile-space-xs) 0;
+  }
+
+  body.skin-vector #mw-panel #p-Navigation li,
+  body.skin-vector #mw-panel #p-Development li,
+  body.skin-vector #mw-panel #p-Community li {
+    background-position: var(--archive-mobile-space-xs) center !important;
+    background-size: 18px auto !important;
+  }
+
+  body.skin-vector #mw-panel #p-Navigation li a,
+  body.skin-vector #mw-panel #p-Development li a,
+  body.skin-vector #mw-panel #p-Community li a {
+    margin-left: 32px !important;
+  }
+
+  body.skin-vector #mw-panel #p-support .body {
+    padding: 0 0 var(--archive-mobile-space-sm) !important;
+  }
+
+  body.skin-vector #mw-panel #p-support .body ul li a {
+    align-items: center;
+    box-sizing: border-box;
+    display: inline-flex;
+    justify-content: center;
+    min-height: 44px;
+  }
+
+  body.skin-vector #content.mw-body {
+    border-left: 0;
+    border-right: 0;
+    box-sizing: border-box;
+    margin: 0;
+    max-width: 100%;
+    min-width: 0;
+    padding: var(--archive-mobile-space-lg) var(--archive-mobile-space-md) var(--archive-mobile-space-xl);
+    width: 100%;
+  }
+
+  body.skin-vector #firstHeading.mp_header {
+    display: table;
+    margin-bottom: var(--archive-mobile-space-lg);
+    overflow: visible;
+    width: 100%;
+  }
+
+  /* The archive's desktop main page intentionally suppresses this technical
+   * page title; its welcome panel is the visible homepage heading. */
+  body.skin-vector.page-Main_Page #firstHeading.mp_header {
+    display: none;
+  }
+
+  body.skin-vector #firstHeading h1,
+  body.skin-vector h1.firstHeading,
+  body.skin-vector h1.firstheading {
+    font-size: 1.75rem !important;
+    overflow-wrap: anywhere;
+  }
+
+  body.skin-vector #mw-content-text {
+    color: #555 !important;
+    font-size: 1rem !important;
+    line-height: 1.55;
+    max-width: 100%;
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  body.skin-vector #mw-content-text h2 {
+    font-size: 1.5rem !important;
+  }
+
+  body.skin-vector #mw-content-text h3 {
+    font-size: 1.25rem !important;
+  }
+
+  body.skin-vector #mw-content-text img,
+  body.skin-vector #mw-content-text video,
+  body.skin-vector #mw-content-text iframe,
+  body.skin-vector #mw-content-text object,
+  body.skin-vector #mw-content-text embed {
+    height: auto !important;
+    max-width: 100% !important;
+  }
+
+  body.skin-vector #mw-content-text div.tright,
+  body.skin-vector #mw-content-text div.tleft,
+  body.skin-vector #mw-content-text div.floatright,
+  body.skin-vector #mw-content-text div.floatleft {
+    clear: both;
+    float: none;
+    margin: var(--archive-mobile-space-lg) auto;
+    max-width: 100%;
+  }
+
+  body.skin-vector #mw-content-text .thumbinner,
+  body.skin-vector #mw-content-text .thumbcaption {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  body.skin-vector #mw-content-text table {
+    display: block;
+    float: none !important;
+    max-width: 100% !important;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    width: 100% !important;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /*
+   * Archive index and landing pages often use presentation tables to arrange
+   * `.panel` cards in two or three desktop columns. A scrollable table keeps
+   * the page technically in bounds, but makes whole panels inaccessible on a
+   * phone. Reflow just those panel grids into a single reading column; data
+   * tables retain the scroll behavior above.
+   */
+  body.skin-vector #mw-content-text table:has(> tbody > tr > td > .panel) {
+    overflow: visible;
+  }
+
+  body.skin-vector #mw-content-text table:has(> tbody > tr > td > .panel) > tbody,
+  body.skin-vector #mw-content-text table:has(> tbody > tr > td > .panel) > tbody > tr,
+  body.skin-vector #mw-content-text table:has(> tbody > tr > td > .panel) > tbody > tr > td {
+    box-sizing: border-box;
+    display: block;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  body.skin-vector #mw-content-text table:has(> tbody > tr > td > .panel) > tbody > tr > td + td {
+    margin-top: var(--archive-mobile-space-lg);
+  }
+
+  /* The main page places its welcome copy and social links in the first row
+   * of the same table as the panel grid. Stack them above the panels so the
+   * table cannot reserve a narrow second column for the social links. */
+  body.skin-vector.page-Main_Page #mw-content-text > table:has(> tbody > tr > td > .panel) > tbody > tr:first-child > td {
+    display: block;
+    width: 100% !important;
+  }
+
+  body.skin-vector.page-Main_Page .mp-welcome-logged-out {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 var(--archive-mobile-space-md);
+    padding: 0;
+  }
+
+  body.skin-vector.page-Main_Page .mp-welcome-logged-out li {
+    clear: none;
+    float: none;
+  }
+
+  /* The general float reset above is right for article figures, but panel
+   * title icons are metadata and belong in the header's top-right corner. */
+  body.skin-vector #mw-content-text .panel .panel-header {
+    padding-right: 48px;
+    position: relative;
+  }
+
+  body.skin-vector #mw-content-text .panel .panel-header .floatright {
+    clear: none;
+    float: none;
+    margin: 0 !important;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+
+  /* Article and summary pages also use the skin's flex-panel utility for
+   * multi-column effect, category, and reference panels. Its desktop column
+   * minimums are too wide for a phone, so give each column the full reading
+   * width at the same breakpoint as the table-based panel grids. */
+  body.skin-vector #mw-content-text .flex-panel {
+    display: block;
+  }
+
+  body.skin-vector #mw-content-text .flex-panel > .flex-column {
+    box-sizing: border-box;
+    min-width: 0 !important;
+    width: 100%;
+  }
+
+  body.skin-vector #mw-content-text .flex-panel > .flex-column > .panel {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  body.skin-vector #mw-content-text #InfoTable {
+    clear: both;
+    display: table;
+    float: none !important;
+    margin: 0 0 var(--archive-mobile-space-xl) !important;
+    max-width: 100% !important;
+    table-layout: fixed;
+    width: 100% !important;
+  }
+
+  body.skin-vector #mw-content-text #InfoTable table {
+    display: table;
+    max-width: 100% !important;
+    table-layout: fixed;
+    width: 100% !important;
+  }
+
+  body.skin-vector #mw-content-text #InfoTable th,
+  body.skin-vector #mw-content-text #InfoTable td {
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+  }
+
+  body.skin-vector #mw-content-text pre,
+  body.skin-vector #mw-content-text code,
+  body.skin-vector #mw-content-text .mw-code {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+
+  body.skin-vector #toc,
+  body.skin-vector .toc {
+    box-sizing: border-box;
+    margin: var(--archive-mobile-space-lg) 0;
+    max-width: 100%;
+  }
+
+  body.skin-vector #catlinks {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  body.skin-vector #footer {
+    box-sizing: border-box;
+    margin: 0;
+    padding: var(--archive-mobile-space-xl) var(--archive-mobile-space-md) max(var(--archive-mobile-space-xl), env(safe-area-inset-bottom));
+    width: 100%;
+  }
+
+  body.skin-vector #footer ul,
+  body.skin-vector #footer li {
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+
+  body.skin-vector #footer-icons {
+    float: none;
+  }
+
+  body.skin-vector #footer-icons li {
+    float: none;
+    margin: var(--archive-mobile-space-sm) 0;
+  }
+
+  .archive-suggest {
+    box-sizing: border-box;
+    left: 0 !important;
+    max-width: 100%;
+    min-width: 100% !important;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) and (prefers-reduced-motion: reduce) {
+  .archive-mobile-backdrop,
+  body.skin-vector #mw-panel,
+  body.skin-vector.archive-mobile-menu-open #mw-panel {
+    transition: none;
+  }
+}
+
+@media print {
+  .archive-mobile-header,
+  .archive-mobile-backdrop,
+  .archive-mobile-close {
+    display: none !important;
+  }
+}
