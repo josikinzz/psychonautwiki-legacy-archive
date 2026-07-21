@@ -69,6 +69,16 @@ REDLINK_RE = re.compile(
     re.DOTALL,
 )
 
+# Vector's namespace tabs require an anchor-shaped child for their historical
+# positioning and background styles. Red-link conversion otherwise leaves the
+# unavailable Discussion tab as a nested span, which renders above the tab.
+BROKEN_TALK_TAB_RE = re.compile(
+    r'(<li id="ca-talk"[^>]*>\s*<span>)'
+    r'<span class="new" title="page not archived">(.*?)</span>'
+    r'(</span>\s*</li>)',
+    re.DOTALL,
+)
+
 # Sidebar "Random article" link, pointed at the web.archive.org mirror of
 # Special:Random (which is not something a static archive can serve).
 RANDOM_LINK_RE = re.compile(
@@ -96,6 +106,7 @@ class Stats:
         self.links_removed = 0
         self.meta_removed = 0
         self.redlinks_converted = 0
+        self.talk_tabs_repaired = 0
         self.search_hook_injected = 0
         self.viewport_meta_injected = 0
         self.mobile_css_injected = 0
@@ -138,6 +149,17 @@ def _convert_redlinks(text: str, stats: Stats) -> str:
         return f'<span class="new" title="page not archived">{match.group(1)}</span>'
 
     return REDLINK_RE.sub(_replace, text)
+
+
+def _repair_talk_tabs(text: str, stats: Stats) -> str:
+    def _replace(match: "re.Match[str]") -> str:
+        stats.talk_tabs_repaired += 1
+        return (
+            f'{match.group(1)}<a class="new" title="page not archived" '
+            f'aria-disabled="true">{match.group(2)}</a>{match.group(3)}'
+        )
+
+    return BROKEN_TALK_TAB_RE.sub(_replace, text)
 
 
 def _inject_search_hook(text: str, stats: Stats) -> str:
@@ -192,6 +214,7 @@ def enhance_html(text: str, stats: Stats) -> str:
     text = _strip_inline_mw_scripts(text, stats)
     text = _strip_dead_links(text, stats)
     text = _convert_redlinks(text, stats)
+    text = _repair_talk_tabs(text, stats)
     text = _inject_mobile_layer(text, stats)
     text = _inject_search_hook(text, stats)
     text = _rewire_random_link(text, stats)
