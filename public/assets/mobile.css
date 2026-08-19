@@ -62,6 +62,27 @@
     z-index: 200;
   }
 
+  body.skin-vector .archive-mobile-header .archive-mobile-brand {
+    /*
+     * The brand also carries `mw-wiki-logo`, whose shared rule paints the full
+     * seeing-eye logotype. In a 36px sticky header only the eye is legible, so
+     * this override has to outrank that `!important` background.
+     */
+    background-image: url("/assets/archive-eye-logo.webp") !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-sizing: border-box;
+    height: 44px;
+    left: 50%;
+    padding: 0;
+    position: absolute;
+    top: 2px;
+    transform: translateX(-50%);
+    width: 36px;
+  }
+
+
   .archive-mobile-menu-button,
   .archive-mobile-close {
     align-items: center;
@@ -93,6 +114,7 @@
 
   .archive-mobile-menu-button:focus-visible,
   .archive-mobile-close:focus-visible,
+  .archive-mobile-brand:focus-visible,
   body.skin-vector #mw-panel a:focus-visible,
   body.skin-vector #mw-panel input:focus-visible {
     outline: 2px solid #0645ad;
@@ -503,6 +525,54 @@
     max-width: 100%;
     min-width: 100% !important;
     right: 0;
+  }
+
+  /*
+   * Captured external pages (`/official-profiles/...`, `/external-links/...`)
+   * publish foreign desktop documents inside
+   * `body.josiekins-external-capture` > `.josiekins-external-capture-page`.
+   * No wiki page carries either class, so nothing below can reach the Vector
+   * skin. What pushes these documents past a phone viewport is unbreakable
+   * inline content -- link lists emitted with no whitespace between anchors,
+   * bare URLs, tracking redirects -- plus replaced elements and tables that
+   * keep their captured desktop measurements. Reflow them; hide nothing.
+   */
+  body.josiekins-external-capture {
+    min-width: 0;
+  }
+
+  body.josiekins-external-capture .josiekins-archive-banner,
+  body.josiekins-external-capture .josiekins-external-capture-page {
+    overflow-wrap: anywhere;
+  }
+
+  body.josiekins-external-capture .josiekins-external-capture-page :is(div, header, footer, section, article, aside, nav, form, fieldset, ul, ol, dl, p, blockquote) {
+    box-sizing: border-box;
+    max-width: 100%;
+    min-width: 0;
+  }
+
+  body.josiekins-external-capture .josiekins-external-capture-page :is(img, svg, video, canvas, iframe, object, embed) {
+    height: auto;
+    max-width: 100%;
+  }
+
+  /* Captured tables scroll inside their own box rather than widening the
+   * document, matching how the wiki side handles data tables. */
+  body.josiekins-external-capture .josiekins-external-capture-page table {
+    display: block;
+    float: none;
+    max-width: 100%;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    width: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  body.josiekins-external-capture .josiekins-external-capture-page :is(pre, code) {
+    max-width: 100%;
+    overflow-x: auto;
+    white-space: pre-wrap;
   }
 }
 

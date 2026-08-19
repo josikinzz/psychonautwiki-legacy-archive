@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="client-nojs">
+<head><base href="/"><meta name="robots" content="noindex"><style>:root{--josiekins-archive-banner-height:48px;--josiekins-archive-banner-gap:12px;--josiekins-archive-page-offset:calc(var(--josiekins-archive-banner-height) + var(--josiekins-archive-banner-gap));}body.mediawiki{padding-top:var(--josiekins-archive-page-offset)!important;}body.skin-vector #mw-head{top:var(--josiekins-archive-page-offset)!important;}body.skin-vector #mw-panel{top:calc(160px + var(--josiekins-archive-page-offset))!important;}.josiekins-archive-banner{box-sizing:border-box;min-height:var(--josiekins-archive-banner-height);position:absolute;top:0;left:0;right:0;z-index:10000;display:flex;align-items:center;gap:.45rem;flex-wrap:wrap;background:linear-gradient(180deg,#1d1a20 0%,#141216 55%,#100e12 100%);color:#f4eee5;font:14px/1.45 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:12px 18px;border-bottom:1px solid #3a343d;box-shadow:0 1px 0 rgba(255,255,255,.06);}.josiekins-archive-banner strong{font-weight:650;color:#fff8ef;}.josiekins-archive-banner span{display:inline;}.josiekins-archive-banner a{color:#92d7ff;text-decoration-thickness:1px;text-underline-offset:3px;}.josiekins-archive-banner a:hover,.josiekins-archive-banner a:focus{color:#c4ebff;}.josiekins-archive-banner a:focus{outline:2px solid #c4ebff;outline-offset:3px;}@media(max-width:700px){:root{--josiekins-archive-banner-height:96px;--josiekins-archive-banner-gap:8px;}.josiekins-archive-banner{align-content:center;padding:10px 12px;}}</style>
+<meta charset="UTF-8" />
+<title>Geometry</title>
+<meta name="generator" content="MediaWiki 1.24.2" />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="shortcut icon" href="/assets/favicon.ico" />
+<link rel="alternate" hreflang="x-default" href="/wiki/Special%3ABrowse/Geometry/" />
+<link rel="copyright" href="/wiki/PsychonautWiki%3ACopyright/" />
+<link rel="stylesheet" href="/assets/css/89afb0b292f3.css" />
+<link rel="stylesheet" href="/assets/css/49955993ca19.css" />
+<style>a:lang(ar),a:lang(kk-arab),a:lang(mzn),a:lang(ps),a:lang(ur){text-decoration:none}
+/* cache key: xjr4emn3_cosmos-pw_:resourceloader:filter:minify-css:7:4b5f1027429c675d1fe83f4be7a91ad8 */</style>
+<script>if(window.mw){
+mw.loader.implement("user.options",function($,jQuery){mw.user.options.set({"ccmeonemails":0,"cols":80,"date":"default","diffonly":0,"disablemail":0,"editfont":"default","editondblclick":0,"editsectiononrightclick":0,"enotifminoredits":0,"enotifrevealaddr":0,"enotifusertalkpages":1,"enotifwatchlistpages":1,"extendwatchlist":0,"fancysig":0,"forceeditsummary":0,"gender":"unknown","hideminor":0,"hidepatrolled":0,"imagesize":2,"math":1,"minordefault":0,"newpageshidepatrolled":0,"nickname":"","norollbackdiff":0,"numberheadings":0,"previewonfirst":0,"previewontop":1,"rcdays":7,"rclimit":50,"rows":25,"showhiddencats":0,"shownumberswatching":1,"showtoolbar":1,"skin":"vector","stubthreshold":0,"thumbsize":5,"underline":2,"uselivepreview":0,"usenewrc":1,"watchcreations":1,"watchdefault":1,"watchdeletion":0,"watchlistdays":3,"watchlisthideanons":0,"watchlisthidebots":0,"watchlisthideliu":0,"watchlisthideminor":0,"watchlisthideown":0,"watchlisthidepatrolled":0,"watchmoves":0,"watchrollback":0,
+"wllimit":250,"useeditwarning":1,"prefershttps":1,"usebetatoolbar":1,"usebetatoolbar-cgd":1,"wikieditor-preview":1,"wikieditor-publish":0,"echo-notify-show-link":true,"echo-show-alert":true,"echo-email-frequency":0,"echo-email-format":"plain-text","echo-subscriptions-email-system":true,"echo-subscriptions-web-system":true,"echo-subscriptions-email-user-rights":true,"echo-subscriptions-web-user-rights":true,"echo-subscriptions-email-other":false,"echo-subscriptions-web-other":true,"echo-subscriptions-email-edit-user-talk":false,"echo-subscriptions-web-edit-user-talk":true,"echo-subscriptions-email-reverted":false,"echo-subscriptions-web-reverted":true,"echo-subscriptions-email-article-linked":false,"echo-subscriptions-web-article-linked":false,"echo-subscriptions-email-mention":false,"echo-subscriptions-web-mention":true,"echo-subscriptions-web-edit-thank":true,"echo-subscriptions-email-edit-thank":false,"visualeditor-enable":1,"visualeditor-enable-experimental":1,"translate":0,
+"translate-editlangs":"default","translate-recent-groups":"","translate-sandbox":"","wikilove-enabled":1,"multimediaviewer-enable":true,"language":"en","variant-gan":"gan","variant-iu":"iu","variant-kk":"kk","variant-ku":"ku","variant-shi":"shi","variant-sr":"sr","variant-tg":"tg","variant-uz":"uz","variant-zh":"zh","searchNs0":true,"searchNs1":false,"searchNs2":false,"searchNs3":false,"searchNs4":false,"searchNs5":false,"searchNs6":false,"searchNs7":false,"searchNs8":false,"searchNs9":false,"searchNs10":false,"searchNs11":false,"searchNs12":false,"searchNs13":false,"searchNs14":false,"searchNs15":false,"searchNs102":false,"searchNs103":false,"searchNs104":false,"searchNs105":false,"searchNs106":false,"searchNs107":false,"searchNs108":false,"searchNs109":false,"searchNs170":false,"searchNs171":false,"searchNs200":false,"searchNs201":false,"searchNs202":false,"searchNs203":false,"searchNs274":false,"searchNs275":false,"searchNs828":false,"searchNs829":false,"searchNs1198":false,
+"searchNs1199":false,"variant":"en"});},{},{});mw.loader.implement("user.tokens",function($,jQuery){mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\"});},{},{});
+/* cache key: xjr4emn3_cosmos-pw_:resourceloader:filter:minify-js:7:582d455ecc9987fb1c8514256d7c2269 */
+}</script>
+
+<!--[if lt IE 7]><style type="text/css">body{behavior:url("/w/skins/Vector/csshover.min.htc")}</style><![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<link rel="stylesheet" href="/assets/mobile.css" />
+<script defer src="/assets/archive.js"></script>
+<link rel="stylesheet" href="/assets/archive-vector.css" />
+</head>
+<body class="mediawiki ltr sitedir-ltr ns--1 ns-special mw-special-Browse page-Special_Browse_Geometry skin-vector action-view vector-animateLayout"><div class="josiekins-archive-banner"><span><strong>PsychonautWiki static archive.</strong></span> <span>Selected April 24, 2015 from an older fallback capture: <a href="https://web.archive.org/web/20150424023813id_/http://psychonautwiki.org/wiki/Special:Browse/Geometry" data-archive-provenance="manifest-source">Internet Archive capture</a>.</span> <span><a href="/archive-about/" data-archive-banner-link>What is this?</a></span></div>
+		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+			
+            <!--<h1 id="firstHeading" class="firstHeading" lang="en"><span dir="auto">Browse wiki</span></h1>-->
+
+            <table id="firstHeading" class="mp_header firstHeading" lang="en">
+                <tbody><tr>
+                    <td class=""><span dir="auto">Browse wiki</span>
+                        <div class="mp_title_underline"></div>
+                    </td>
+                </tr></tbody>
+            </table>
+
+						<div id="bodyContent" class="mw-body-content">
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-navigation">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text">
+<table class="smwb-factbox" cellpadding="0" cellspacing="0">
+<tr class="smwb-title"><td colspan="2">
+<a href="/wiki/Geometry/" title="Geometry">Geometry</a>
+</td></tr>
+</table>
+<table class="smwb-factbox" cellpadding="0" cellspacing="0">
+<tr class="smwb-propvalue">
+<th><a title="Property:Belongs to" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=47054eed1890e0813c47">Belongs to</a>
+</th>
+<td>
+<span class="smwb-value">Visual effects&#160;&#160;<span class="smwsearch"><a title="Special:SearchByProperty/Belongs-20to/Visual-20effects" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=97f159c60f781cd31293">+</a></span></span>
+</td>
+</tr>
+<tr class="smwb-propvalue">
+<th><a title="Property:Featured" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=1aad05bb93f08a499d83">Featured</a>
+</th>
+<td>
+<span class="smwb-value">true&#160;&#160;<span class="smwsearch"><a title="Special:SearchByProperty/Featured/true" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=8eb4415887002a0acb48">+</a></span></span>
+</td>
+</tr>
+<tr class="smwb-propvalue">
+<th><span class="smw-highlighter" data-type="1" data-state="inline" data-title="Property"><span class="smwbuiltin"><a title="Property:Has query" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=f0c85d5aa930d54f4aa9">Has query</a></span><div class="smwttcontent">This property is a special property in this wiki.</div></span>
+</th>
+<td>
+<span class="smwb-value"><a href="/wiki/Geometry/#_QUERY9dfd17c1bde6fee2ca58eb343ea3c6f9" title="Geometry">Geometry</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Geometry-23 QUERY9dfd17c1bde6fee2ca58eb343ea3c6f9" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=09faca3ffa932e9bcee5">+</a></span></span>
+, <span class="smwb-value"><a href="/wiki/Geometry/#_QUERYecee56e3aca9ded840b5d51ce5122b61" title="Geometry">Geometry</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Geometry-23 QUERYecee56e3aca9ded840b5d51ce5122b61" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=8c58254f50a13e960597">+</a></span></span>
+, <span class="smwb-value"><a href="/wiki/Geometry/#_QUERY1c7ade62f9ef73b46926c213f70a221d" title="Geometry">Geometry</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Geometry-23 QUERY1c7ade62f9ef73b46926c213f70a221d" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=c93ca30843ecf0da324e">+</a></span></span>
+, <span class="smwb-value"><a href="/wiki/Geometry/#_QUERYb6fc59587473df003b1e942c94e79d08" title="Geometry">Geometry</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Geometry-23 QUERYb6fc59587473df003b1e942c94e79d08" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=b971b582b95c88935292">+</a></span></span>
+, <span class="smwb-value"><a href="/wiki/Geometry/#_QUERY9bd3f9d6ad230eb26e69d2e03bbe8bb0" title="Geometry">Geometry</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Geometry-23 QUERY9bd3f9d6ad230eb26e69d2e03bbe8bb0" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=0ce8b06a12e34eebf028">+</a></span></span>
+</td>
+</tr>
+<tr class="smwb-propvalue">
+<th><a href="/wiki/Special%3ACategories/" title="Special:Categories">Categories</a></th>
+<td>
+<span class="smwb-value"><span class="new" title="page not archived">Visual</span></span>
+, <span class="smwb-value"><span class="new" title="page not archived">Novel</span></span>
+, <span class="smwb-value"><span class="new" title="page not archived">Effect</span></span>
+, <span class="smwb-value"><a href="/wiki/Category%3AProofread/" title="Category:Proofread">Proofread</a></span>
+</td>
+</tr>
+<tr class="smwb-propvalue">
+<th><span class="smw-highlighter" data-type="1" data-state="inline" data-title="Property"><span class="smwbuiltin"><a href="/wiki/Property%3AModification_date/" title="Property:Modification date">Modification date</a></span><div class="smwttcontent">This property is a special property in this wiki.</div></span>
+</th>
+<td>
+<span class="smwb-value">22 March 2015 21:32:15&#160;&#160;<span class="smwsearch"><a title="Special:SearchByProperty/Modification-20date/22-20March-202015-2021:32:15" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=a4bffff196e88ada2107">+</a></span></span>
+</td>
+</tr>
+</table>
+<a name="smw_browse_incoming"></a>
+<table class="smwb-factbox" cellpadding="0" cellspacing="0">
+<tr class="smwb-center"><td colspan="2">
+<a aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=d794486b1b3164405d2d">hide properties that link here</a>&#160;
+</td></tr>
+</table>
+<table class="smwb-ifactbox" cellpadding="0" cellspacing="0">
+<tr class="smwb-ipropvalue">
+<td>
+<span class="smwb-ivalue"><a href="/wiki/File%3A0zisA.jpg/" title="File:0zisA.jpg">File:0zisA.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:0zisA.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=c7107e550b13f320c4d1">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3A1299752566162.png/" title="File:1299752566162.png">File:1299752566162.png</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:1299752566162.png" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=cfb1bbc7bf9eb7856608">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3A6VV07.jpg/" title="File:6VV07.jpg">File:6VV07.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:6VV07.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=48814080a750b8815903">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3A8D3CFh.jpg/" title="File:8D3CFh.jpg">File:8D3CFh.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:8D3CFh.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=0d946ad054a4557b1878">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3AAbstract_by_Matt_W._Moore.jpg/" title="File:Abstract by Matt W. Moore.jpg">File:Abstract by Matt W. Moore.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:Abstract-20by-20Matt-20W.-20Moore.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=e334bb9a05b23d0c37d3">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3AAlien_by_013a.jpg/" title="File:Alien by 013a.jpg">File:Alien by 013a.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:Alien-20by-20013a.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=20ea3fb2490b4f9317a5">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3AAycWmh.jpg/" title="File:AycWmh.jpg">File:AycWmh.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:AycWmh.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=b7e32b31a3eb622bf5af">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3ABlack_light_fo_Samual.jpg/" title="File:Black light fo Samual.jpg">File:Black light fo Samual.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:Black-20light-20fo-20Samual.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=b9024a42b992e58e9bfe">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3ABreakthrough_by_Larry_Carlson.jpg/" title="File:Breakthrough by Larry Carlson.jpg">File:Breakthrough by Larry Carlson.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:Breakthrough-20by-20Larry-20Carlson.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=e68ee1795b24a352f0d3">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3ADHOOC.jpg/" title="File:DHOOC.jpg">File:DHOOC.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:DHOOC.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=e8e35c03c720e1f8ab00">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3ADVhvP.jpg/" title="File:DVhvP.jpg">File:DVhvP.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:DVhvP.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=746f76a91dc0b231c926">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3AFractals4.jpg/" title="File:Fractals4.jpg">File:Fractals4.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:Fractals4.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=c66fb904385770e8ae69">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3AGeometric.jpg/" title="File:Geometric.jpg">File:Geometric.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:Geometric.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=e0cb453f690c8253a373">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3AGeometry1.jpg/" title="File:Geometry1.jpg">File:Geometry1.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:Geometry1.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=ecef9b002a0e94d1ee0d">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3AGeometry2.jpg/" title="File:Geometry2.jpg">File:Geometry2.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:Geometry2.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=5d2183dec905466df330">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3AGeometry3.jpg/" title="File:Geometry3.jpg">File:Geometry3.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:Geometry3.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=6b6ab52774784d7b6c79">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3AHOGGK.jpg/" title="File:HOGGK.jpg">File:HOGGK.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:HOGGK.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=bb946c1e16e9eb7c5a12">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3AHallucinationary_states1.jpg/" title="File:Hallucinationary states1.jpg">File:Hallucinationary states1.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:Hallucinationary-20states1.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=21a4e4c8366c37275af0">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3AIn_the_tree_by_Eddie_calz.jpg/" title="File:In the tree by Eddie calz.jpg">File:In the tree by Eddie calz.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:In-20the-20tree-20by-20Eddie-20calz.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=bde8ea750e2d8b03d294">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3AIzZWE.jpg/" title="File:IzZWE.jpg">File:IzZWE.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:IzZWE.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=4824dccbd6b1a5758ef0">+</a></span></span>
+<a aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=424be37a118f1aaf4278">...</a></td>
+<th><a title="Property:Component" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=7db4537f75d60e052890">Component</a>
+</th>
+</tr>
+<tr class="smwb-ipropvalue">
+<td>
+<span class="smwb-ivalue"><a href="/wiki/File%3A0zisA.jpg/" title="File:0zisA.jpg">File:0zisA.jpg</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:0zisA.jpg" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=c7107e550b13f320c4d1">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/File%3A1299752566162.png/" title="File:1299752566162.png">File:1299752566162.png</a>&#160;<span class="smwbrowse"><a title="Special:Browse/File:1299752566162.png" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=cfb1bbc7bf9eb7856608">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/1P-LSD/" title="1P-LSD">1P-LSD</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/1P-2DLSD/" title="Special:Browse/1P-2DLSD">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/25B-NBOMe/" title="25B-NBOMe">25B-NBOMe</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/25B-2DNBOMe/" title="Special:Browse/25B-2DNBOMe">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/25C-NBOMe/" title="25C-NBOMe">25C-NBOMe</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/25C-2DNBOMe/" title="Special:Browse/25C-2DNBOMe">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/25I-NBOMe/" title="25I-NBOMe">25I-NBOMe</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/25I-2DNBOMe/" title="Special:Browse/25I-2DNBOMe">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/25N-NBOMe/" title="25N-NBOMe">25N-NBOMe</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/25N-2DNBOMe/" title="Special:Browse/25N-2DNBOMe">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/2C-B/" title="2C-B">2C-B</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/2C-2DB/" title="Special:Browse/2C-2DB">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/2C-C/" title="2C-C">2C-C</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/2C-2DC/" title="Special:Browse/2C-2DC">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/2C-E/" title="2C-E">2C-E</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/2C-2DE/" title="Special:Browse/2C-2DE">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/2C-I/" title="2C-I">2C-I</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/2C-2DI/" title="Special:Browse/2C-2DI">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/2C-P/" title="2C-P">2C-P</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/2C-2DP/" title="Special:Browse/2C-2DP">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/2C-T-2/" title="2C-T-2">2C-T-2</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/2C-2DT-2D2/" title="Special:Browse/2C-2DT-2D2">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/2C-T-7/" title="2C-T-7">2C-T-7</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/2C-2DT-2D7/" title="Special:Browse/2C-2DT-2D7">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/4-AcO-DMT/" title="4-AcO-DMT">4-AcO-DMT</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/4-2DAcO-2DDMT/" title="Special:Browse/4-2DAcO-2DDMT">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/4-AcO-MET/" title="4-AcO-MET">4-AcO-MET</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/4-2DAcO-2DMET/" title="Special:Browse/4-2DAcO-2DMET">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/4-HO-MiPT/" title="4-HO-MiPT">4-HO-MiPT</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/4-2DHO-2DMiPT/" title="Special:Browse/4-2DHO-2DMiPT">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/5-MeO-DMT/" title="5-MeO-DMT">5-MeO-DMT</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/5-2DMeO-2DDMT/" title="Special:Browse/5-2DMeO-2DDMT">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/5-MeO-MiPT/" title="5-MeO-MiPT">5-MeO-MiPT</a>&#160;<span class="smwbrowse"><a href="/wiki/Special%3ABrowse/5-2DMeO-2DMiPT/" title="Special:Browse/5-2DMeO-2DMiPT">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/50mg_(approx.)/_Marijuana_-_Geometric_Angels/" title="50mg (approx.)/ Marijuana - Geometric Angels">50mg (approx.)/ Marijuana - Geometric Angels</a>&#160;<span class="smwbrowse"><a title="Special:Browse/50mg-20(approx.)-2F-20Marijuana-20-2D-20Geometric-20Angels" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=3a5c021eabc036406ec8">+</a></span></span>
+<a aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=deb19bfb329a6f245535">...</a></td>
+<th><a title="Property:Effect" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=6535d80ce08a0a6b50b5">Effect</a>
+</th>
+</tr>
+<tr class="smwb-ipropvalue">
+<td>
+<span class="smwb-ivalue"><a class="mw-redirect" title="Property:Geometry" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=051936f29d9c87b885d1">Property:Geometry</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Property:Geometry" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=d168704ea0bc4b463dbd">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/Level_7A/" class="mw-redirect" title="Level 7A">Level 7A</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Level-207A" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=47834410765aae34c41c">+</a></span></span>
+, <span class="smwb-ivalue"><a class="mw-redirect" title="Level 7B" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=8aeb3b835a5858a1e341">Level 7B</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Level-207B" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=928f1e3fd5f701007a8b">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/Level_8A/" class="mw-redirect" title="Level 8A">Level 8A</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Level-208A" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=ece30c7994e2b0c442aa">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/Level_8B/" class="mw-redirect" title="Level 8B">Level 8B</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Level-208B" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=c4b26838e6fddf8ce3cb">+</a></span></span>
+, <span class="smwb-ivalue"><a class="mw-redirect" title="Property:Psychedelic geometry" href="/wiki/Geometry/" data-archive-link-behavior="redirect">Property:Psychedelic geometry</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Property:Psychedelic-20geometry" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=00a779aa0ee9ceffad5b">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/Visual_effects%3A_Geometry/" class="mw-redirect" title="Visual effects: Geometry">Visual effects: Geometry</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Visual-20effects:-20Geometry" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=627d46d2cd0f4e3b2ac0">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/Visual_effects%3A_geometry_(psychedelic)/" class="mw-redirect" title="Visual effects: Geometry (psychedelic)">Visual effects: Geometry (psychedelic)</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Visual-20effects:-20Geometry-20(psychedelic)" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=2387d06cb1977796ca6f">+</a></span></span>
+, <span class="smwb-ivalue"><a href="/wiki/Visual_effects%3A_geometry_(psychedelic)/" class="mw-redirect" title="Visual effects: geometry (psychedelic)">Visual effects: geometry (psychedelic)</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Visual-20effects:-20geometry-20(psychedelic)" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=3d287125002724116126">+</a></span></span>
+, <span class="smwb-ivalue"><a class="mw-redirect" title="Property:Visual geometry" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=4923061abd26f8b9d6ad">Property:Visual geometry</a>&#160;<span class="smwbrowse"><a title="Special:Browse/Property:Visual-20geometry" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=8691b0f00c779ea18d99">+</a></span></span>
+</td>
+<th><a title="Special:ListRedirects" aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=28e9ee49ea18386146a2">redirect page</a></th>
+</tr>
+</table>
+<table class="smwb-factbox" cellpadding="0" cellspacing="0">
+<tr class="smwb-center"><td colspan="2">
+&#160;
+</td></tr>
+</table>
+<p> &#160; </p>
+  <form name="smwbrowse" method="get" action="#" onsubmit="return false" aria-disabled="true">
+    <input type="hidden" name="title" value="Special:Browse" />Enter the name of the page to start browsing from.<br />
+    <input type="text" name="article" id="page_input_box" value="Geometry" />
+    <input type="submit" value="Go" />
+  </form>
+</div>									<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="/wiki/Special%3ABrowse/Geometry/">http://psychonautwiki.org/wiki/Special:Browse/Geometry</a>"					</div>
+													<div id="catlinks" class="catlinks catlinks-allhidden"></div>												<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage"><a href="/wiki/User%3A207.241.237.220/" class="new" title="The user page for the IP address you are editing as [.]" accesskey=".">207.241.237.220</a></li><li id="pt-anontalk"><a href="/wiki/User_talk%3A207.241.237.220/" class="new" title="Discussion about edits from this IP address [n]" accesskey="n">Talk for this IP address</a></li><li id="pt-createaccount"><span aria-disabled="true" title="Unavailable in the static archive">Create account</span></li><li id="pt-login"><span title="You are encouraged to log in; however, it is not mandatory [o]" accesskey="o" aria-disabled="true" title="Unavailable in the static archive">Log in</span></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li id="ca-nstab-special" class="selected"><span><a href="/wiki/Special%3ABrowse/Geometry/" title="This is a special page, you cannot edit the page itself">Special page</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label"><span>Variants</span><a aria-disabled="true" data-archive-inert="control"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs emptyPortlet" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a aria-disabled="true" data-archive-inert="control"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form id="searchform" action="#" onsubmit="return false" aria-disabled="true">
+														<div id="simpleSearch">
+															<input type="search" name="search" placeholder="Search" title="Search PsychonautWiki [f]" accesskey="f" id="searchInput" /><input type="hidden" value="Special:Search" name="title" /><input type="submit" name="fulltext" value="Search" title="Search the pages for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton" /><input type="submit" name="go" value="Go" title="Go to a page with this exact name if exists" id="searchButton" class="searchButton" />								</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a style="background-image: none;" href="/" title="Visit the main page" class="mw-wiki-logo"></a></div>
+
+                <!-- Donation haxx -->
+                <div class="generated-sidebar portlet top-button" id="p-support">
+                    <h5>Support</h5>
+                    <div class="body">
+                        <ul>
+                            <li id="n-button-Donate">
+                                <a aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=8c90c36e984fdcefd35a">Donate</a>
+                            </li>
+                            <li id="n-button-IRC">
+                                <a href="/wiki/IRC/">IRC</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+						<div class="portal" role="navigation" id="p-Navigation" aria-labelledby="p-Navigation-label">
+			<h3 id="p-Navigation-label">Navigation</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Main-page"><a href="/">Main page</a></li>
+													<li id="n-Site-map"><a href="/wiki/Site_map/">Site map</a></li>
+													<li id="n-Effects"><a href="/wiki/Subjective_effect_index/">Effects</a></li>
+													<li id="n-Substances"><a href="/wiki/Psychoactive_substance_index/">Substances</a></li>
+													<li id="n-Experiences"><a href="/wiki/Experience_index/">Experiences</a></li>
+													<li id="n-Preparation"><a href="/wiki/Preparation/">Preparation</a></li>
+													<li id="n-Replications"><a href="/wiki/Replication_index/">Replications</a></li>
+													<li id="n-Random-article"><a aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=ba7f1584aa9f935fe140">Random article</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Development" aria-labelledby="p-Development-label">
+			<h3 id="p-Development-label">Development</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Recent-changes"><a href="/wiki/Special%3ARecentChanges/">Recent changes</a></li>
+													<li id="n-Change-log"><a href="/wiki/Change_log/">Change log</a></li>
+													<li id="n-Guidelines"><a href="/wiki/Guidelines/">Guidelines</a></li>
+													<li id="n-To-do-list"><a href="/wiki/To-do_list/">To-do list</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-Community" aria-labelledby="p-Community-label">
+			<h3 id="p-Community-label">Community</h3>
+
+			<div class="body">
+									<ul>
+													<li id="n-Blog"><a href="/external-links/deis-blog/" data-archive-link-behavior="archive">Blog</a></li>
+													<li id="n-Forum"><a aria-disabled="true" data-archive-link-behavior="unresolved" data-archive-unavailable-route="/archive-unavailable/?target=35e69600c7b98e32ac6e">Forum</a></li>
+													<li id="n-Twitter"><a href="/official-profiles/twitter/" data-archive-link-behavior="archive">Twitter</a></li>
+													<li id="n-Facebook"><a rel="nofollow" target="_blank" aria-disabled="true" data-archive-inert="external" title="Not archived in this static archive">Facebook</a></li>
+													<li id="n-Subreddit"><a href="/external-links/reddit-replications/" data-archive-link-behavior="archive">Subreddit</a></li>
+													<li id="n-High-scores"><a href="/wiki/Special%3ATopUsers/">High scores</a></li>
+													<li id="n-Good-vibes"><a href="/wiki/Good_vibes/">Good vibes</a></li>
+													<li id="n-Statistics"><a href="/external-links/seethestats/" data-archive-link-behavior="archive">Statistics</a></li>
+													<li id="n-Network"><a href="/wiki/Network/">Network</a></li>
+											</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Tools</h3>
+
+			<div class="body">
+									<ul>
+													<li id="t-specialpages"><a href="/wiki/Special%3ASpecialPages/" title="A list of all special pages [q]" accesskey="q">Special pages</a></li>
+													<li id="t-print"><span rel="alternate" title="Printable version of this page [p]" accesskey="p" aria-disabled="true" title="Unavailable in the static archive">Printable version</span></li>
+											</ul>
+							</div>
+		</div>
+	
+			</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="/wiki/PsychonautWiki%3APrivacy_policy/" title="PsychonautWiki:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/PsychonautWiki%3AAbout/" title="PsychonautWiki:About">About PsychonautWiki</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/PsychonautWiki%3AGeneral_disclaimer/" title="PsychonautWiki:General disclaimer">Disclaimers</a></li>
+									</ul>
+			
+                        <ul id="footer-random-quotes" style="clear:left;"><li id="footer-random-quote">"Don’t forget the vastness of space."</li></ul>
+
+							<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+															<a href="http://creativecommons.org/licenses/by-sa/4.0/"><img src="/assets/w/images/4/4e/Ccsa4.0.webp" alt="Creative Commons Attribution-ShareAlike 4.0 International" width="88" height="31" decoding="async" /></a>
+													</li>
+											<li id="footer-poweredbyico">
+															<a href="http://www.mediawiki.org/"><img src="/assets/w/resources/assets/poweredby_mediawiki_88x31.webp" alt="Powered by MediaWiki" width="88" height="31" decoding="async" /></a>
+															<a href="https://www.semantic-mediawiki.org/wiki/Semantic_MediaWiki"><img src="/assets/w/extensions/SemanticMediaWiki/resources/images/smw_button.webp" alt="Powered by Semantic MediaWiki" width="88" height="31" loading="lazy" decoding="async" /></a>
+													</li>
+											<li id="footer-monitoredbyico">
+															<a href="https://wikiapiary.com/wiki/PsychonautWiki"><img src="/assets/w/images/2/21/WikiApiary.webp" alt="Monitored by WikiApiary" width="88" height="31" loading="lazy" decoding="async" /></a>
+													</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>/*<![CDATA[*/window.jQuery && jQuery.ready();/*]]>*/</script><script>if(window.mw){
+mw.loader.state({"site":"loading","user":"ready","user.groups":"ready"});
+}</script>
+
+
+
+
+	</body>
+</html>
+	

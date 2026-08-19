@@ -1,0 +1,42 @@
+# Deploy only what a reader needs to browse the archive.
+#
+# The scrape and build pipeline, its scratch trees, and the preservation
+# evidence it produces all stay local: none of it is fetched by any published
+# page, so serving it would only publish infrastructure.
+.archive-mirror-staging/
+cleanup/
+config/
+content/
+docs/
+scripts/
+tests/
+output/
+playwright/
+.audit-screenshots/
+__pycache__/
+/*.png
+/*.webp
+package.json
+AGENTS.md
+CLAUDE.md
+README.md
+.impeccable.md
+
+# Preservation evidence and build ledgers. Every one of these is an audit
+# artifact for the checkers in scripts/, and no published page or script
+# served to a reader references any of them.
+public/manifest.json
+public/link-classifications.json
+public/archive-expansion-ledger.json
+public/archive-cdx-inventory.json
+public/archive-query-cdx-inventory.json
+public/archive-query-manifest.json
+public/archive-failures.json
+public/external-capture-manifest.json
+public/archive-redactions.json
+public/assets/vendor-failures.json
+public/assets/static-dependency-failures.json
+
+# Repository housekeeping that ended up inside the output directory.
+public/AGENTS.md
+public/.gitignore

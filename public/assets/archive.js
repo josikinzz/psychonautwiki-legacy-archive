@@ -10,6 +10,7 @@
   var INDEX_URL = '/assets/search-index.json';
   var STYLE_ID = 'archive-search-style';
   var MAX_RESULTS = 10;
+  var SLIDESHOW_DELAY = 6000;
 
   function injectStyle() {
     if (document.getElementById(STYLE_ID)) {
@@ -102,6 +103,12 @@
     menuButton.appendChild(document.createTextNode('Menu'));
 
     header.appendChild(menuButton);
+
+    var brandLink = document.createElement('a');
+    brandLink.className = 'archive-mobile-brand mw-wiki-logo';
+    brandLink.href = '/';
+    brandLink.setAttribute('aria-label', 'PsychonautWiki home');
+    header.appendChild(brandLink);
 
     var closeButton = document.createElement('button');
     closeButton.className = 'archive-mobile-close';
@@ -228,8 +235,385 @@
     syncLayout();
   }
 
+  function initSlideshows() {
+    var galleries = document.getElementsByTagName('ul');
+    var viewportMedia = window.matchMedia ?
+      window.matchMedia('screen and (max-width: 767px)') : null;
+    var reducedMotionMedia = window.matchMedia ?
+      window.matchMedia('(prefers-reduced-motion: reduce)') : null;
+
+    function setup(gallery, mode) {
+      var wrapper = gallery.parentNode;
+      var nodes = gallery.childNodes;
+      var items = [];
+      var controls;
+      var previousButton;
+      var pauseButton = null;
+      var nextButton;
+      var status;
+      var reducedMotion = mode === 'auto' ? reducedMotionMedia : null;
+      var pageSize = mode === 'auto' ? 1 :
+        ((viewportMedia ? viewportMedia.matches :
+          document.documentElement.clientWidth <= 767) ? 1 : 3);
+      var index = 0;
+      var timer = null;
+      var hovered = false;
+      var focused = false;
+      var autoEnabled = !(reducedMotion && reducedMotion.matches);
+      var motionPaused = !autoEnabled;
+
+      if (!wrapper) {
+        return;
+      }
+
+      for (var i = 0; i < nodes.length; i++) {
+        if (nodes[i].nodeType === 1 && nodes[i].tagName.toLowerCase() === 'li') {
+          items.push(nodes[i]);
+        }
+      }
+
+      function makeButton(label, className) {
+        var button = document.createElement('button');
+        button.type = 'button';
+        button.className = 'archive-slideshow-button ' + className;
+        button.appendChild(document.createTextNode(label));
+        return button;
+      }
+
+      function setText(element, text) {
+        if (element.firstChild &&
+            element.firstChild.nodeType === 3 &&
+            !element.firstChild.nextSibling) {
+          element.firstChild.nodeValue = text;
+          return;
+        }
+        while (element.firstChild) {
+          element.removeChild(element.firstChild);
+        }
+        element.appendChild(document.createTextNode(text));
+      }
+
+      function clearTimer() {
+        if (timer !== null) {
+          window.clearTimeout(timer);
+          timer = null;
+        }
+      }
+
+      function canAdvanceAutomatically() {
+        return mode === 'auto' && autoEnabled && !hovered && !focused && items.length > 1;
+      }
+
+      function scheduleTimer() {
+        clearTimer();
+        if (canAdvanceAutomatically()) {
+          primeUpcomingSlide();
+          timer = window.setTimeout(function () {
+            timer = null;
+            if (canAdvanceAutomatically()) {
+              index = (index + 1) % items.length;
+              render();
+              scheduleTimer();
+            }
+          }, SLIDESHOW_DELAY);
+        }
+      }
+
+      function updatePauseButton() {
+        if (!pauseButton) {
+          return;
+        }
+        setText(pauseButton, autoEnabled ? 'Pause' : 'Resume');
+        pauseButton.setAttribute(
+          'aria-label',
+          autoEnabled ? 'Pause slideshow' : 'Resume slideshow'
+        );
+        pauseButton.disabled = items.length < 2;
+      }
+
+      function primeSlide(item) {
+        var imgs = item.getElementsByTagName('img');
+        for (var i = 0; i < imgs.length; i++) {
+          if (imgs[i].getAttribute('loading') === 'lazy') {
+            imgs[i].setAttribute('loading', 'eager');
+          }
+        }
+      }
+
+      function primeUpcomingSlide() {
+        // A slide that is not current is display:none, so a native lazy image
+        // inside it never starts loading. Only the auto mode advances without
+        // user input, so only its next slide needs warming; every other slide
+        // becomes visible before it is needed and loads from the viewport.
+        var count = items.length;
+        if (count > 1) {
+          primeSlide(items[(index + 1) % count]);
+        }
+      }
+
+      function render() {
+        var count = items.length;
+        var lastStart;
+        var visible;
+
+        if (mode === 'pager') {
+          lastStart = count ? Math.floor((count - 1) / pageSize) * pageSize : 0;
+          index = Math.max(0, Math.min(index, lastStart));
+        } else if (count) {
+          index = (index + count) % count;
+        } else {
+          index = 0;
+        }
+
+        for (var i = 0; i < count; i++) {
+          visible = mode === 'pager' ?
+            i >= index && i < index + pageSize :
+            i === index;
+          if (visible) {
+            addClass(items[i], 'archive-slideshow-visible');
+            items[i].removeAttribute('aria-hidden');
+          } else {
+            removeClass(items[i], 'archive-slideshow-visible');
+            items[i].setAttribute('aria-hidden', 'true');
+          }
+        }
+
+        if (!count) {
+          setText(status, 'No slides');
+        } else if (mode === 'pager') {
+          setText(
+            status,
+            'Page ' + (Math.floor(index / pageSize) + 1) +
+              ' of ' + Math.ceil(count / pageSize)
+          );
+        } else {
+          setText(status, 'Slide ' + (index + 1) + ' of ' + count);
+        }
+
+        if (mode === 'pager') {
+          previousButton.disabled = index === 0;
+          nextButton.disabled = index + pageSize >= count;
+        } else {
+          previousButton.disabled = count < 2;
+          nextButton.disabled = count < 2;
+        }
+        updatePauseButton();
+      }
+
+      addClass(wrapper, 'archive-slideshow');
+
+      for (var i = wrapper.childNodes.length - 1; i >= 0; i--) {
+        if (wrapper.childNodes[i].nodeType === 1 &&
+            hasClass(wrapper.childNodes[i], 'srf-spinner')) {
+          wrapper.removeChild(wrapper.childNodes[i]);
+          break;
+        }
+      }
+
+      controls = document.createElement('div');
+      controls.className = 'archive-slideshow-controls noprint';
+      controls.setAttribute('role', 'group');
+      controls.setAttribute('aria-label', 'Slideshow controls');
+
+      previousButton = makeButton(
+        'Previous',
+        'archive-slideshow-previous'
+      );
+      previousButton.setAttribute(
+        'aria-label',
+        mode === 'pager' ? 'Previous page' : 'Previous slide'
+      );
+      controls.appendChild(previousButton);
+
+      if (mode === 'auto') {
+        pauseButton = makeButton('Pause', 'archive-slideshow-pause');
+        controls.appendChild(pauseButton);
+      }
+
+      nextButton = makeButton('Next', 'archive-slideshow-next');
+      nextButton.setAttribute(
+        'aria-label',
+        mode === 'pager' ? 'Next page' : 'Next slide'
+      );
+      controls.appendChild(nextButton);
+
+      status = document.createElement('span');
+      status.className = 'archive-slideshow-status';
+      status.setAttribute('role', 'status');
+      status.setAttribute('aria-live', 'polite');
+      status.setAttribute('aria-atomic', 'true');
+      controls.appendChild(status);
+
+      wrapper.insertBefore(controls, gallery.nextSibling);
+      gallery.style.display = 'block';
+      addClass(gallery, 'archive-slideshow-ready');
+
+      on(previousButton, 'click', function () {
+        if (mode === 'pager') {
+          index = Math.max(0, index - pageSize);
+        } else if (items.length) {
+          index = (index - 1 + items.length) % items.length;
+        }
+        render();
+        scheduleTimer();
+      });
+
+      on(nextButton, 'click', function () {
+        if (mode === 'pager') {
+          index = Math.min(index + pageSize, Math.max(0, items.length - 1));
+        } else if (items.length) {
+          index = (index + 1) % items.length;
+        }
+        render();
+        scheduleTimer();
+      });
+
+      if (pauseButton) {
+        on(pauseButton, 'click', function () {
+          autoEnabled = !autoEnabled;
+          motionPaused = false;
+          updatePauseButton();
+          scheduleTimer();
+        });
+
+        on(wrapper, 'mouseenter', function () {
+          hovered = true;
+          clearTimer();
+        });
+        on(wrapper, 'mouseleave', function () {
+          hovered = false;
+          scheduleTimer();
+        });
+        on(wrapper, 'focusin', function () {
+          focused = true;
+          clearTimer();
+        });
+        on(wrapper, 'focusout', function () {
+          window.setTimeout(function () {
+            focused = wrapper.contains ?
+              wrapper.contains(document.activeElement) :
+              false;
+            scheduleTimer();
+          }, 0);
+        });
+      }
+
+      if (mode === 'pager') {
+        var syncPageSize = function () {
+          var firstItem = index;
+          var nextPageSize = viewportMedia ?
+            (viewportMedia.matches ? 1 : 3) :
+            (document.documentElement.clientWidth <= 767 ? 1 : 3);
+          if (nextPageSize !== pageSize) {
+            pageSize = nextPageSize;
+            index = Math.floor(firstItem / pageSize) * pageSize;
+            render();
+          }
+        };
+        if (viewportMedia) {
+          if (viewportMedia.addEventListener) {
+            viewportMedia.addEventListener('change', syncPageSize);
+          } else if (viewportMedia.addListener) {
+            viewportMedia.addListener(syncPageSize);
+          }
+        } else {
+          on(window, 'resize', syncPageSize);
+        }
+      }
+
+      if (reducedMotion) {
+        var syncMotion = function (event) {
+          if (event.matches) {
+            if (autoEnabled) {
+              autoEnabled = false;
+              motionPaused = true;
+            }
+          } else if (motionPaused) {
+            autoEnabled = true;
+            motionPaused = false;
+          }
+          updatePauseButton();
+          scheduleTimer();
+        };
+        if (reducedMotion.addEventListener) {
+          reducedMotion.addEventListener('change', syncMotion);
+        } else if (reducedMotion.addListener) {
+          reducedMotion.addListener(syncMotion);
+        }
+      }
+
+      render();
+      scheduleTimer();
+    }
+
+    for (var i = 0; i < galleries.length; i++) {
+      var mode = galleries[i].getAttribute('data-nav-control');
+      if (hasClass(galleries[i], 'gallery') &&
+          (mode === 'pager' || mode === 'auto') &&
+          !hasClass(galleries[i], 'archive-slideshow-ready')) {
+        setup(galleries[i], mode);
+      }
+    }
+  }
+
+  /*
+   * Every control this archive cannot honour is rendered without an href, so a
+   * click on one already goes nowhere. Silence reads as a broken page, so a
+   * single delegated listener answers the click with a short shake instead.
+   */
+  function initInertControls() {
+    var SHAKE_CLASS = 'archive-inert-shake';
+    var SHAKE_MS = 420;
+
+    function isInert(el) {
+      if (el.nodeType !== 1) {
+        return false;
+      }
+      if (el.id === 'archive-random-link') {
+        return false;
+      }
+      if (el.getAttribute('aria-disabled') === 'true') {
+        return true;
+      }
+      var inert = el.getAttribute('data-archive-inert');
+      if (inert) {
+        return true;
+      }
+      var behavior = el.getAttribute('data-archive-link-behavior');
+      return behavior === 'disable' || behavior === 'unresolved';
+    }
+
+    function nearestInert(node) {
+      while (node && node !== document.body && node !== document) {
+        if (node.getAttribute && isInert(node)) {
+          return node;
+        }
+        node = node.parentNode;
+      }
+      return null;
+    }
+
+    on(document, 'click', function (e) {
+      e = e || window.event;
+      var target = nearestInert(e.target || e.srcElement);
+      if (!target) {
+        return;
+      }
+      preventDefault(e);
+      if (hasClass(target, SHAKE_CLASS)) {
+        return;
+      }
+      addClass(target, SHAKE_CLASS);
+      window.setTimeout(function () {
+        removeClass(target, SHAKE_CLASS);
+      }, SHAKE_MS);
+    });
+  }
+
   function init() {
     initMobileNavigation();
+    initSlideshows();
+    initInertControls();
 
     var input = document.getElementById('searchInput');
     if (!input) {

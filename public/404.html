@@ -121,30 +121,32 @@ h1.firstHeading {
 }
 </style>
 <script defer src="/assets/archive.js"></script>
+<link rel="stylesheet" href="/assets/mobile.css" />
 </head>
 <body>
-<div class="josiekins-archive-banner"><span><strong>PsychonautWiki static archive.</strong></span> <span>Pages scraped from <a href="https://web.archive.org/web/2017/https://psychonautwiki.org/">Internet Archive captures</a> no later than 2017.</span></div>
+<div class="josiekins-archive-banner"><span><strong>PsychonautWiki static archive.</strong></span> <span>Pages use captures closest to January 1, 2017 under the archive selection policy.</span></div>
 
 <div class="mw-body" role="main">
-	<a href="/"><img class="pw-404-logo" src="/assets/w/images/9/96/XEw24K0.gif" alt="PsychonautWiki logo" width="135" height="169"></a>
+	<a href="/"><span class="archive-unavailable-media" role="note" title="Archived media unavailable in the static archive">Archived media unavailable in this static archive.</span></a>
 
 	<h1 class="firstHeading">Page not archived</h1>
 	<div id="siteSub">From PsychonautWiki</div>
 
 	<div class="pw-404-body">
-		<p>The page you followed isn&rsquo;t part of this archive. This site is a frozen snapshot of PsychonautWiki as it existed in 2016&ndash;2017, rebuilt from Internet Archive captures &mdash; and the Wayback Machine&rsquo;s crawler never saved a copy of this particular page before the cutoff.</p>
+		<p class="pw-unavailable-policy">The classification ledger records 14,436 unavailable internal targets. The archive keeps these links local and preserves their full historical identity for review.</p>
+		<p>The page you followed isn&rsquo;t part of this archive. This mirror targets January 1, 2017 and uses the closest eligible historical capture for each page.</p>
 		<p>That usually means one of these things:</p>
 		<ul>
 			<li>The page existed on the wiki, but the crawler simply never visited it in time.</li>
-			<li>It was live wiki machinery &mdash; editing, page histories, user pages, special pages &mdash; that a static archive can&rsquo;t serve.</li>
-			<li>It was created after 2017, so it falls outside what this archive preserves.</li>
+			<li>It was live wiki machinery that a static archive can&rsquo;t serve.</li>
+			<li>Its historical identity needs review before it can receive a local route.</li>
 		</ul>
-		<p>You can return to the <a href="/">Main Page</a>, or try your luck with this address on the <a id="pw-404-wayback" href="https://web.archive.org/web/2017/https://psychonautwiki.org/">Wayback Machine</a> itself.</p>
+		<p>You can return to the <a href="/">Main Page</a>.</p>
 	</div>
 
 	<div class="pw-404-search">
-		<label for="searchInput">Or search the 535 archived pages:</label>
-		<form action="/" onsubmit="return false;">
+		<label for="searchInput">Or search the 2,869 archived pages:</label>
+		<form action="#" onsubmit="return false;" aria-disabled="true">
 			<input type="search" id="searchInput" name="search" placeholder="Search PsychonautWiki archive" autocomplete="off">
 			<input type="button" id="searchButton" value="Search">
 		</form>
@@ -153,13 +155,5 @@ h1.firstHeading {
 	<div class="printfooter">This archive is served entirely from static files &mdash; nothing here talks to the original servers. Content preserved under Creative Commons Attribution-ShareAlike 4.0.</div>
 </div>
 
-<script>
-(function () {
-	var wb = document.getElementById("pw-404-wayback");
-	if (wb && location.pathname && location.pathname !== "/404.html") {
-		wb.href = "https://web.archive.org/web/2017/https://psychonautwiki.org" + location.pathname.replace(/\/$/, "");
-	}
-})();
-</script>
 </body>
 </html>

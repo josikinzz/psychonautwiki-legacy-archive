@@ -1,0 +1,853 @@
+/* Shared compatibility repairs for the preserved 2016 PsychonautWiki Vector skin. */
+body.skin-vector .mw-wiki-logo,
+body.skin-vector #p-logo > a.mw-wiki-logo {
+  background-image: url("/assets/w/images/9/96/XEw24K0.gif") !important;
+}
+
+/*
+ * Every control this archive cannot honour reads as dead: captured MediaWiki
+ * widgets with no backend (`data-archive-inert="control"`), off-site pages the
+ * archive does not host (`data-archive-inert="external"`), the classifier's
+ * disabled and unresolved links, and the captured `aria-disabled` states that
+ * shipped inside the pages themselves.
+ */
+body.skin-vector a[aria-disabled="true"],
+body.skin-vector span[aria-disabled="true"],
+body.skin-vector a[data-archive-link-behavior="disable"],
+body.skin-vector a[data-archive-inert] {
+  color: #ba0000 !important;
+  cursor: not-allowed;
+  text-decoration: none;
+}
+
+/* An inert image link (the homepage Facebook badge) has to look dead too. */
+body.skin-vector a[data-archive-inert] img {
+  filter: grayscale(1);
+  opacity: 0.55;
+}
+
+/*
+ * The captured sidebar stylesheet paints its portal links with
+ * `div#p-Navigation ul li a, div#p-Development ul li a, div#p-Community ul li a
+ * { color: #158cba !important }`, and that id-plus-element specificity outranks
+ * the shared inert rule above even though both are `!important`. A control the
+ * archive cannot honour must never keep a live link colour, so the same inert
+ * states are restated for the navigation panel with enough specificity to win.
+ */
+body.skin-vector div#mw-panel a[aria-disabled="true"],
+body.skin-vector div#mw-panel span[aria-disabled="true"],
+body.skin-vector div#mw-panel a[data-archive-link-behavior="disable"],
+body.skin-vector div#mw-panel a[data-archive-link-behavior="unresolved"],
+body.skin-vector div#mw-panel a[data-archive-inert] {
+  color: #ba0000 !important;
+}
+
+/*
+ * Clicking a dead control gives feedback instead of silence. `left` is animated
+ * rather than `transform` so inline anchors keep wrapping normally: transforms
+ * are ignored on non-replaced inline boxes and forcing `inline-block` would
+ * change how a mid-sentence link breaks across lines.
+ */
+@keyframes archive-inert-shake {
+  0%,
+  100% {
+    left: 0;
+  }
+
+  15% {
+    left: -3px;
+  }
+
+  35% {
+    left: 3px;
+  }
+
+  55% {
+    left: -2px;
+  }
+
+  75% {
+    left: 2px;
+  }
+}
+
+.archive-inert-shake {
+  animation: archive-inert-shake 0.42s ease-in-out;
+  position: relative;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .archive-inert-shake {
+    animation: none;
+  }
+}
+
+/*
+ * Media and embeds that no capture preserved are marked in place with a small
+ * icon-only placeholder, so a missing avatar or figure costs one glyph of
+ * inline width instead of a sentence of apology text.
+ */
+body.skin-vector .archive-unavailable-media,
+body.skin-vector .archive-unavailable-embed {
+  color: #8a8a8a;
+  display: inline-block;
+  line-height: 1;
+  vertical-align: middle;
+}
+
+body.skin-vector .archive-unavailable-icon {
+  display: block;
+  height: 1em;
+  width: 1em;
+}
+
+/*
+ * A gallery cell has no image to give it height, so the marker carries the cell
+ * on its own. Two ems keeps the empty slot findable next to its caption without
+ * reserving space the archive cannot fill.
+ */
+body.skin-vector ul.gallery .archive-unavailable-icon {
+  height: 2em;
+  width: 2em;
+}
+
+/*
+ * The banner's own stylesheet is inline in <head>, so a captured bundle's
+ * `a:link { color: #158cba }` beats `.josiekins-archive-banner a` on source
+ * order at equal specificity and drags the header's links down to a mid blue
+ * that barely reads on the near-black gradient. Restate the intended colours
+ * with enough specificity to settle it here, where this layer loads last.
+ */
+body.skin-vector .josiekins-archive-banner a:link,
+body.skin-vector .josiekins-archive-banner a:visited {
+  color: #92d7ff;
+}
+
+body.skin-vector .josiekins-archive-banner a:hover,
+body.skin-vector .josiekins-archive-banner a:focus {
+  color: #c4ebff;
+}
+
+@media screen and (min-width: 768px) {
+  body.skin-vector #p-views.vectorTabs {
+    --archive-vector-tab-inert: #ba0000;
+  }
+
+  /*
+   * Keep the Vector tab geometry for "View source" / "View history" while the
+   * label itself carries the inert colour and cursor.
+   */
+  body.skin-vector #p-views.vectorTabs li > span > span[aria-disabled="true"] {
+    background-image: none;
+    color: var(--archive-vector-tab-inert);
+    cursor: not-allowed;
+    display: block;
+    float: left;
+    font-size: 0.8em;
+    height: 1.9em;
+    padding: 1.25em 0.5em 0;
+  }
+}
+
+/*
+ * SocialProfile pages keep their captured extension markup, but rechroming can
+ * replace a page-specific ResourceLoader bundle with the shared Vector head.
+ * Restore the archived SocialProfile layout only on pages marked by the
+ * enhancer; current-origin stylesheets remain ineligible archive assets.
+ */
+body.skin-vector.mw-social-profile-page .cleared,
+body.skin-vector.mw-social-profile-page .visualClear {
+  clear: both;
+}
+
+body.skin-vector.mw-social-profile-page .clearfix {
+  display: block;
+}
+
+body.skin-vector.mw-social-profile-page .clearfix::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+
+body.skin-vector.mw-social-profile-page .firstHeading {
+  border-bottom: 0;
+  display: none;
+  margin: 0 !important;
+}
+
+body.skin-vector.mw-social-profile-page .pagetitle {
+  display: inline !important;
+}
+
+body.skin-vector.mw-social-profile-page #user-page-left {
+  float: left;
+  width: 35%;
+}
+
+body.skin-vector.mw-social-profile-page #user-page-right {
+  float: right;
+  width: 60%;
+}
+
+body.skin-vector.mw-social-profile-page #user-page-left h2,
+body.skin-vector.mw-social-profile-page #user-page-right h2 {
+  border-bottom: 1px solid #dcdcdc;
+  color: #333;
+  font-size: 17px;
+  letter-spacing: -1px;
+  margin: 0 0 5px;
+  padding: 0 0 3px;
+}
+
+body.skin-vector.mw-social-profile-page .no-info-container {
+  background: #f2f4f7;
+  color: #777;
+  margin: 10px 0 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+body.skin-vector.mw-social-profile-page .item-small {
+  color: #999;
+  font-size: 9px;
+  margin-left: 6px;
+}
+
+body.skin-vector.mw-social-profile-page .user-section-heading {
+  border-bottom: 1px solid #dcdcdc;
+  line-height: 22px;
+  margin: 0 0 8px;
+  width: 100%;
+}
+
+body.skin-vector.mw-social-profile-page .user-section-title {
+  float: left;
+  font-size: 20px;
+  letter-spacing: -1px;
+  padding-right: 10px;
+}
+
+body.skin-vector.mw-social-profile-page .user-section-actions {
+  position: relative;
+  right: 0;
+  top: -2px;
+}
+
+body.skin-vector.mw-social-profile-page .action-right {
+  float: right;
+  font-size: 10px;
+  padding-right: 5px;
+}
+
+body.skin-vector.mw-social-profile-page .action-left {
+  float: left;
+  font-size: 10px;
+}
+
+body.skin-vector.mw-social-profile-page .user-section-actions a {
+  text-decoration: none;
+}
+
+body.skin-vector.mw-social-profile-page #profile-top {
+  border-bottom: 1px solid #d4dfd7;
+  margin: 0 0 10px;
+  padding: 10px 0;
+  position: relative;
+}
+
+body.skin-vector.mw-social-profile-page #profile-title-container {
+  padding: 0 0 6px 6px;
+}
+
+body.skin-vector.mw-social-profile-page #profile-title {
+  float: left;
+  font-size: 2em;
+  font-weight: 700;
+  line-height: 26px;
+  margin-right: 15px;
+}
+
+body.skin-vector.mw-social-profile-page #points-level {
+  background: #c00;
+  float: left;
+  font-size: 11px;
+  margin: 4px 8px 0 0;
+  padding: 1px 5px;
+  text-align: center;
+}
+
+body.skin-vector.mw-social-profile-page #points-level a,
+body.skin-vector.mw-social-profile-page #points-level a[data-archive-link-behavior="unresolved"] {
+  color: #fff !important;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+body.skin-vector.mw-social-profile-page #honorific-level {
+  float: left;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+body.skin-vector.mw-social-profile-page #honorific-level a {
+  text-decoration: none;
+}
+
+body.skin-vector.mw-social-profile-page #profile-image {
+  float: left;
+  margin-right: 8px;
+  position: relative;
+}
+
+body.skin-vector.mw-social-profile-page #profile-image img,
+body.skin-vector.mw-social-profile-page .user-relationship-container img,
+body.skin-vector.mw-social-profile-page .user-gift-container img,
+body.skin-vector.mw-social-profile-page .picture-container img {
+  background: #fff;
+  border: 1px solid #dcdcdc;
+  padding: 3px;
+}
+
+body.skin-vector.mw-social-profile-page #profile-image p {
+  font-size: 75%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+body.skin-vector.mw-social-profile-page #profile-right {
+  float: left;
+  position: relative;
+}
+
+body.skin-vector.mw-social-profile-page .profile-actions a {
+  font-weight: 700;
+  margin: 0 6px;
+  text-decoration: none;
+}
+
+body.skin-vector.mw-social-profile-page .user-relationship-container,
+body.skin-vector.mw-social-profile-page .user-gift-container,
+body.skin-vector.mw-social-profile-page .user-fanbox-container {
+  padding-bottom: 25px;
+}
+
+body.skin-vector.mw-social-profile-page .user-relationship-container a,
+body.skin-vector.mw-social-profile-page .user-gift-container a {
+  display: block;
+  float: left;
+  margin: 5px 10px 0 0;
+  text-decoration: none;
+}
+
+body.skin-vector.mw-social-profile-page .activity-item {
+  border-bottom: 1px solid #dcdcdc;
+  padding: 7px 0;
+}
+
+body.skin-vector.mw-social-profile-page .activity-item-bottom {
+  padding-top: 7px;
+}
+
+body.skin-vector.mw-social-profile-page .activity-item img,
+body.skin-vector.mw-social-profile-page .activity-item-bottom img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+body.skin-vector.mw-social-profile-page .activity-item a,
+body.skin-vector.mw-social-profile-page .activity-item-bottom a {
+  text-decoration: none;
+}
+
+body.skin-vector.mw-social-profile-page .item {
+  color: #666;
+  margin: 5px 25px;
+}
+
+body.skin-vector.mw-social-profile-page .item a {
+  font-weight: 700;
+}
+
+body.skin-vector.mw-social-profile-page #recent-all {
+  padding-bottom: 25px;
+}
+
+body.skin-vector.mw-social-profile-page #user-page-board {
+  margin: 5px 0 10px;
+}
+
+body.skin-vector.mw-social-profile-page .user-page-message-form {
+  font-weight: 700;
+  margin: 5px 0 15px;
+}
+
+body.skin-vector.mw-social-profile-page .user-board-message {
+  border: 1px solid #e2e2e2;
+  margin-bottom: 15px;
+}
+
+body.skin-vector.mw-social-profile-page .user-board-message-from {
+  background: #f8f5f5;
+  padding: 3px 0 5px 5px;
+}
+
+body.skin-vector.mw-social-profile-page .user-board-message-from a {
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+body.skin-vector.mw-social-profile-page .user-board-message-content {
+  padding: 5px;
+}
+
+body.skin-vector.mw-social-profile-page .user-board-message-time {
+  color: #797979;
+  font-size: 11px;
+  margin: 2px 0 0 5px;
+}
+
+body.skin-vector.mw-social-profile-page .user-board-message-image {
+  float: left;
+  padding: 0 10px 5px 0;
+}
+
+body.skin-vector.mw-social-profile-page .user-board-message-image img {
+  border: 1px solid #dcdcdc;
+}
+
+body.skin-vector.mw-social-profile-page .user-board-message-body {
+  margin-right: 10px;
+}
+
+body.skin-vector.mw-social-profile-page .user-board-message-body p {
+  margin: 0 !important;
+}
+
+body.skin-vector.mw-social-profile-page .user-board-message-links {
+  padding: 0 0 5px 5px;
+}
+
+body.skin-vector.mw-social-profile-page .user-board-message-links a {
+  font-size: 11px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+body.skin-vector.mw-social-profile-page .user-board-red a {
+  color: #f00;
+}
+
+body.skin-vector.mw-social-profile-page .profile-info-container {
+  padding-bottom: 17px;
+}
+
+body.skin-vector.mw-social-profile-page .profile-info-container b {
+  color: #555;
+  margin-right: 10px;
+}
+
+body.skin-vector.mw-social-profile-page .profile-info-container div {
+  color: #666;
+  margin-bottom: 8px;
+}
+
+body.skin-vector.mw-social-profile-page .user-articles-container {
+  padding-bottom: 23px;
+}
+
+body.skin-vector.mw-social-profile-page .article-item {
+  border-top: 1px solid #dcdcdc;
+  margin: 0;
+  padding: 7px 0 2px;
+}
+
+body.skin-vector.mw-social-profile-page .article-item-top {
+  border: 0;
+  margin: 0;
+  padding: 7px 0 2px;
+}
+
+body.skin-vector.mw-social-profile-page .user-articles-container a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+body.skin-vector.mw-social-profile-page .picture-container .mini-image {
+  float: left;
+  margin: 5px 10px 0 0;
+}
+
+body.skin-vector.mw-social-profile-page .picture-container a {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 767px) {
+  body.skin-vector.mw-social-profile-page #firstHeading.mp_header {
+    display: none !important;
+    margin: 0 !important;
+  }
+
+  body.skin-vector.mw-social-profile-page #profile-top {
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  body.skin-vector.mw-social-profile-page #profile-top > .cleared {
+    display: none;
+  }
+
+  body.skin-vector.mw-social-profile-page #profile-image,
+  body.skin-vector.mw-social-profile-page #profile-right {
+    float: none;
+  }
+
+  body.skin-vector.mw-social-profile-page #profile-image {
+    flex: 0 0 auto;
+    margin-right: 0;
+  }
+
+  body.skin-vector.mw-social-profile-page #profile-right {
+    flex: 1 1 12rem;
+    min-width: 0;
+  }
+
+  body.skin-vector.mw-social-profile-page #profile-title-container {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+  }
+
+  body.skin-vector.mw-social-profile-page #user-page-left,
+  body.skin-vector.mw-social-profile-page #user-page-right {
+    float: none;
+    width: 100%;
+  }
+
+  body.skin-vector.mw-social-profile-page #user-page-left {
+    margin-bottom: 16px;
+  }
+
+  body.skin-vector.mw-social-profile-page #profile-image img,
+  body.skin-vector.mw-social-profile-page .user-board-message-image img,
+  body.skin-vector.mw-social-profile-page .picture-container img {
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+/*
+ * Special:TopUsers keeps its captured SocialProfile high-score markup, but
+ * rechroming replaced the page-specific ResourceLoader bundle that styled it.
+ * These declarations come from the archived bundle stored at
+ * public/assets/css/cd2540afec35.css and are applied only on pages the
+ * enhancer marks, the same way the profile layout above is restored. The one
+ * departure from the archived values is noted at `.top-fan-num`.
+ */
+body.skin-vector.mw-social-toplist-page .top-users {
+  float: left;
+  margin: 15px 0 0;
+}
+
+body.skin-vector.mw-social-toplist-page .top-title {
+  margin-top: 15px !important;
+}
+
+body.skin-vector.mw-social-toplist-page .top-fan-row {
+  clear: both;
+  margin: 0 0 10px;
+}
+
+body.skin-vector.mw-social-toplist-page .top-fan-level {
+  color: #797979;
+  font-size: 16px;
+  font-weight: 800;
+  margin: 0 0 10px;
+}
+
+body.skin-vector.mw-social-toplist-page .top-fan-num {
+  /* Archived value was #dcdcdc, which is unreadable on the Vector page background. */
+  color: #797979;
+  float: left;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 0 5px;
+  padding: 5px 0 0;
+  width: 45px;
+}
+
+body.skin-vector.mw-social-toplist-page .top-fan {
+  float: left;
+  font-size: 90%;
+  font-weight: 700;
+  padding-right: 10px;
+  width: 250px;
+}
+
+body.skin-vector.mw-social-toplist-page span.top-fan {
+  max-width: 14em;
+}
+
+body.skin-vector.mw-social-toplist-page .top-fan a {
+  font-size: 13px;
+  text-decoration: none;
+}
+
+body.skin-vector.mw-social-toplist-page .top-fan img {
+  padding-right: 4px;
+  vertical-align: middle;
+}
+
+/*
+ * A rank whose avatar was never captured keeps the avatar's 30px footprint, so
+ * the name column stays aligned down the whole board.
+ */
+body.skin-vector.mw-social-toplist-page .top-fan .archive-unavailable-media {
+  height: 30px;
+  padding-right: 4px;
+  vertical-align: middle;
+  width: 30px;
+}
+
+body.skin-vector.mw-social-toplist-page .top-fan .archive-unavailable-icon {
+  height: 20px;
+  margin: 5px auto;
+  width: 20px;
+}
+
+body.skin-vector.mw-social-toplist-page .top-fan-points {
+  color: #797979;
+  float: left;
+  font-size: 13px;
+  height: 30px;
+  padding-top: 5px;
+}
+
+body.skin-vector.mw-social-toplist-page .top-fan-nav {
+  float: right;
+  margin: 10px 0 0;
+  padding: 5px;
+  width: 200px;
+}
+
+body.skin-vector.mw-social-toplist-page .top-fan-nav h1 {
+  border-bottom: 1px solid #dcdcdc;
+  color: #333;
+  font-size: 16px;
+  margin: 0 0 10px !important;
+  padding: 0 0 3px;
+}
+
+body.skin-vector.mw-social-toplist-page .top-fan-nav a {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+body.skin-vector.mw-social-toplist-page .cleared,
+body.skin-vector.mw-social-toplist-page .visualClear {
+  clear: both;
+}
+
+/*
+ * Below the Vector breakpoint the three fixed-width float columns cannot fit,
+ * so each rank becomes one flexible row: rank, avatar and name, then points
+ * pushed to the trailing edge so the scores still line up as a board.
+ */
+@media screen and (max-width: 767px) {
+  body.skin-vector.mw-social-toplist-page .top-users,
+  body.skin-vector.mw-social-toplist-page .top-fan-nav {
+    box-sizing: border-box;
+    float: none;
+    width: 100%;
+  }
+
+  body.skin-vector.mw-social-toplist-page .top-fan-nav {
+    margin: 0;
+    padding: 0;
+  }
+
+  body.skin-vector.mw-social-toplist-page .top-fan-row {
+    align-items: baseline;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 6px;
+  }
+
+  body.skin-vector.mw-social-toplist-page .top-fan-row > .cleared {
+    display: none;
+  }
+
+  body.skin-vector.mw-social-toplist-page .top-fan-num {
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: 2.2em;
+  }
+
+  body.skin-vector.mw-social-toplist-page .top-fan,
+  body.skin-vector.mw-social-toplist-page span.top-fan {
+    flex: 1 1 auto;
+    max-width: none;
+    min-width: 0;
+    overflow: hidden;
+    padding-right: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  body.skin-vector.mw-social-toplist-page .top-fan-points {
+    flex: 0 0 auto;
+    height: auto;
+    padding-top: 0;
+    white-space: nowrap;
+  }
+
+  body.skin-vector.mw-social-toplist-page .top-fan-level {
+    margin: 14px 0 6px;
+  }
+
+  body.skin-vector.mw-social-toplist-page .top-fan img {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+body.skin-vector ul.gallery {
+  display: block;
+  list-style: none;
+  margin: 2px;
+  padding: 2px;
+}
+
+body.skin-vector ul.gallery > li.gallerybox {
+  display: inline-block;
+  list-style: none;
+  vertical-align: top;
+}
+
+body.skin-vector .archive-slideshow {
+  --archive-slideshow-background: #f8f9fa;
+  --archive-slideshow-background-hover: #eaecf0;
+  --archive-slideshow-border: #a2a9b1;
+  --archive-slideshow-focus: #36c;
+  --archive-slideshow-ink: #202122;
+  --archive-slideshow-muted: #54595d;
+  --archive-slideshow-space-xs: 4px;
+  --archive-slideshow-space-sm: 8px;
+  --archive-slideshow-space-md: 12px;
+  --archive-slideshow-control-height: 32px;
+  --archive-slideshow-control-height-touch: 44px;
+  --archive-slideshow-disabled-opacity: 0.55;
+  --archive-slideshow-focus-width: 2px;
+  --archive-slideshow-font-size: 0.8125rem;
+  --archive-slideshow-line-height: 1.25;
+  --archive-slideshow-radius: 2px;
+}
+
+body.skin-vector .archive-slideshow > ul.gallery.archive-slideshow-ready {
+  display: block !important;
+}
+
+body.skin-vector .archive-slideshow > ul.gallery.archive-slideshow-ready > li {
+  display: none;
+}
+
+body.skin-vector .archive-slideshow > ul.gallery.archive-slideshow-ready > li.archive-slideshow-visible {
+  display: inline-block;
+}
+
+body.skin-vector .archive-slideshow > .archive-slideshow-controls {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--archive-slideshow-space-sm);
+  justify-content: center;
+  margin-top: var(--archive-slideshow-space-sm);
+  max-width: 100%;
+  text-align: center;
+}
+
+body.skin-vector .archive-slideshow .archive-slideshow-button {
+  appearance: none;
+  background: var(--archive-slideshow-background);
+  border: 1px solid var(--archive-slideshow-border);
+  border-radius: var(--archive-slideshow-radius);
+  box-sizing: border-box;
+  color: var(--archive-slideshow-ink);
+  cursor: pointer;
+  font: 600 var(--archive-slideshow-font-size)/var(--archive-slideshow-line-height) sans-serif;
+  min-height: var(--archive-slideshow-control-height);
+  padding: var(--archive-slideshow-space-xs) var(--archive-slideshow-space-md);
+}
+
+body.skin-vector .archive-slideshow .archive-slideshow-button:hover {
+  background: var(--archive-slideshow-background-hover);
+}
+
+body.skin-vector .archive-slideshow .archive-slideshow-button:focus {
+  outline: var(--archive-slideshow-focus-width) solid var(--archive-slideshow-focus);
+  outline-offset: var(--archive-slideshow-focus-width);
+}
+
+body.skin-vector .archive-slideshow .archive-slideshow-button:disabled {
+  background: var(--archive-slideshow-background);
+  cursor: default;
+  opacity: var(--archive-slideshow-disabled-opacity);
+}
+
+body.skin-vector .archive-slideshow .archive-slideshow-status {
+  color: var(--archive-slideshow-muted);
+  font: var(--archive-slideshow-font-size)/var(--archive-slideshow-line-height) sans-serif;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 767px) {
+  body.skin-vector .archive-slideshow,
+  body.skin-vector .archive-slideshow > ul.gallery.archive-slideshow-ready {
+    box-sizing: border-box;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  body.skin-vector .archive-slideshow > ul.gallery.archive-slideshow-ready > li.archive-slideshow-visible,
+  body.skin-vector .archive-slideshow > ul.gallery.archive-slideshow-ready > li.gallerybox > div,
+  body.skin-vector .archive-slideshow > ul.gallery.archive-slideshow-ready > li.gallerybox .thumb {
+    box-sizing: border-box;
+    max-width: 100% !important;
+  }
+
+  body.skin-vector .archive-slideshow > ul.gallery.archive-slideshow-ready img {
+    height: auto;
+    max-width: 100%;
+  }
+
+  body.skin-vector .archive-slideshow > .archive-slideshow-controls {
+    padding-inline: var(--archive-slideshow-space-xs);
+  }
+
+  body.skin-vector .archive-slideshow .archive-slideshow-button {
+    min-height: var(--archive-slideshow-control-height-touch);
+    padding: var(--archive-slideshow-space-sm) var(--archive-slideshow-space-md);
+  }
+
+  body.skin-vector .archive-slideshow .archive-slideshow-status {
+    flex-basis: 100%;
+  }
+}
+
+/*
+ * The captured Main Page keeps its title in an `mp_header` table together with
+ * its own divider rule, which duplicates the site name the header already shows
+ * and pushes the welcome layout down. Hiding the table lets the two-column
+ * content start directly under the tab bar.
+ */
+body.skin-vector.page-Main_Page #firstHeading.mp_header {
+  display: none;
+}
