@@ -115,17 +115,17 @@ body.skin-vector ul.gallery .archive-unavailable-icon {
  * The banner's own stylesheet is inline in <head>, so a captured bundle's
  * `a:link { color: #158cba }` beats `.josiekins-archive-banner a` on source
  * order at equal specificity and drags the header's links down to a mid blue
- * that barely reads on the near-black gradient. Restate the intended colours
- * with enough specificity to settle it here, where this layer loads last.
+ * that barely reads on the near-black bar. Restate the intended colours with
+ * enough specificity to settle it here, where this layer loads last.
  */
 body.skin-vector .josiekins-archive-banner a:link,
 body.skin-vector .josiekins-archive-banner a:visited {
-  color: #92d7ff;
+  color: #e6b877;
 }
 
 body.skin-vector .josiekins-archive-banner a:hover,
 body.skin-vector .josiekins-archive-banner a:focus {
-  color: #c4ebff;
+  color: #f5d5a4;
 }
 
 @media screen and (min-width: 768px) {
