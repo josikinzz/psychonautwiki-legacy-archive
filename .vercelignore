@@ -8,7 +8,6 @@ cleanup/
 config/
 content/
 docs/
-scripts/
 tests/
 output/
 playwright/
@@ -40,3 +39,6 @@ public/assets/static-dependency-failures.json
 # Repository housekeeping that ended up inside the output directory.
 public/AGENTS.md
 public/.gitignore
+
+# Preparation originals are kept in git only.
+hidden/

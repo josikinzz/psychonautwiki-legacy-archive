@@ -1,4 +1,4 @@
-# This repository publishes the browsable archive and nothing else.
+# Only public/ is deployed. Hidden originals and the hiding policy are tracked.
 #
 # The scrape and build pipeline, its scratch trees, its reviewed configuration
 # and the preservation evidence it produces all stay on disk and out of version
@@ -9,6 +9,9 @@
 !/.vercelignore
 !/vercel.json
 !/public/
+!/hidden/
+!/scripts/
+!/hide-prep-config.json
 
 # Audit artifacts that live in the output directory because the checkers read
 # them from there. No published page or client script references any of them.
