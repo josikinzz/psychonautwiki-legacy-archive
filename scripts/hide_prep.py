@@ -139,11 +139,12 @@ def apply():
             file.write_text(json.dumps(after, ensure_ascii=False, indent=None if compact else 2)+'\n')
     print(f'hiding: {moved} pages removed from output; {changed} public HTML files sanitized')
 
-def check():
+def check(require_originals=True):
     errors = []; pages = links = 0
     for route in ROUTES:
         if (DIST / route.strip('/') / 'index.html').exists(): errors.append('public hidden route: '+route)
-        if not (HIDDEN / 'pages' / route.strip('/') / 'index.html').is_file(): errors.append('missing original: '+route)
+        if require_originals and not (HIDDEN / 'pages' / route.strip('/') / 'index.html').is_file():
+            errors.append('missing original: '+route)
     for page in DIST.rglob('*.html'):
         pages += 1
         route = '/' + page.parent.relative_to(DIST).as_posix() + '/'
@@ -159,6 +160,12 @@ def check():
     print(f'hiding check: PASS — {len(ROUTES)} absent routes, {pages} HTML pages, {links} URL attributes, zero hidden links')
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser(); parser.add_argument('--check', action='store_true'); args = parser.parse_args()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--check', action='store_true')
+    parser.add_argument('--build', action='store_true',
+                        help='Check publication safety without requiring originals excluded by .vercelignore')
+    args = parser.parse_args()
     if not args.check: apply()
-    check()
+    # Originals stay in git, but Vercel removes hidden/ before running the build.
+    # Publication checks always run; preservation checks remain strict locally.
+    check(require_originals=not args.build)

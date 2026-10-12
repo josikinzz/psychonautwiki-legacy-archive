@@ -5,3 +5,5 @@ hide-prep-config.json lists all hidden article, alias, index and metadata routes
 The Vercel build runs scripts/hide_prep.py to enforce absence and remove links.
 Check locally: python3 scripts/hide_prep.py --check
 Effects, law, dosage and harm-reduction pages remain public.
+Vercel uses --build: publication checks run without the git-only originals.
+Local --check still requires all preserved originals.

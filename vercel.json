@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "buildCommand": "python3 scripts/hide_prep.py",
+  "buildCommand": "python3 scripts/hide_prep.py --build",
   "outputDirectory": "public",
   "rewrites": [
     {
